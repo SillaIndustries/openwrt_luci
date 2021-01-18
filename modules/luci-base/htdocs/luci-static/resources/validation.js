@@ -105,12 +105,12 @@ var ValidatorFactory = baseclass.extend({
 
 			switch (code.charCodeAt(i))
 			{
-			case 92:
+			case 92: // 0x5c '\'
 				esc = true;
 				break;
 
-			case 40:
-			case 44:
+			case 40: // 0x28 '('
+			case 44: // 0x2c ','
 				if (depth <= 0) {
 					if (pos < i) {
 						var label = code.substring(pos, i);
@@ -139,7 +139,7 @@ var ValidatorFactory = baseclass.extend({
 				depth += (code.charCodeAt(i) == 40);
 				break;
 
-			case 41:
+			case 41: // 0x29 ')'
 				if (--depth <= 0) {
 					if (typeof stack[stack.length-2] != 'function')
 						L.raise('SyntaxError', 'Argument list follows non-function');

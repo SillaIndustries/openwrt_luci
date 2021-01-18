@@ -816,7 +816,7 @@ var CBIJSONMap = CBIMap.extend(/** @lends LuCI.form.JSONMap.prototype */ {
  * This class is private and not directly accessible by user code.
  */
 var CBIAbstractSection = CBIAbstractElement.extend(/** @lends LuCI.form.AbstractSection.prototype */ {
-	__init__: function(map, sectionType /*, ... */) {
+	__init__: function(map, sectionType /*, title, description */) {
 		this.super('__init__', this.varargs(arguments, 2));
 
 		this.sectiontype = sectionType;
@@ -1045,7 +1045,7 @@ var CBIAbstractSection = CBIAbstractElement.extend(/** @lends LuCI.form.Abstract
 	 * @returns {LuCI.form.AbstractValue}
 	 * Returns the instantiated option class instance.
 	 */
-	taboption: function(tabName /*, ... */) {
+	taboption: function(tabName /*, cbiClass, ... */) {
 		if (!this.tabs || !this.tabs[tabName])
 			throw L.error('ReferenceError', 'Associated tab not declared');
 
@@ -1293,7 +1293,7 @@ var CBIAbstractValue = CBIAbstractElement.extend(/** @lends LuCI.form.AbstractVa
 	 * By default, the section ID is inherited from the parent section element.
 	 * By setting this property, a deviating section may be specified.
 	 *
-	 * The default is null, means inheriting from the parent section.
+	 * The default is null, meaning to inherit from the parent section.
 	 *
 	 * @name LuCI.form.AbstractValue.prototype#ucisection
 	 * @type string
@@ -1307,7 +1307,7 @@ var CBIAbstractValue = CBIAbstractElement.extend(/** @lends LuCI.form.AbstractVa
 	 * the constructor, is used as UCI option name. By setting this property,
 	 * a deviating UCI option may be specified.
 	 *
-	 * The default is null, means using the option element name.
+	 * The default is null, meaning to inherit from the parent section.
 	 *
 	 * @name LuCI.form.AbstractValue.prototype#ucioption
 	 * @type string
@@ -2131,8 +2131,8 @@ var CBITypedSection = CBIAbstractSection.extend(/** @lends LuCI.form.TypedSectio
  * @hideconstructor
  * @classdesc
  *
- * The `TableSection` class maps all or - if `filter()` is overwritten - a
- * subset of the underlying UCI configuration sections of a given type.
+ * The `TableSection` class maps all or some, if `filter()` is overwritten,
+ * of the underlying UCI configuration sections of a given type.
  *
  * Layout wise, the configuration section instances mapped by the section
  * element (sometimes referred to as "section nodes") are rendered as rows
