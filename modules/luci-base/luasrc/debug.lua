@@ -34,4 +34,3 @@ function trap_memtrace(flags, dest)
 		tracefile:close()
 	end
 end
-
