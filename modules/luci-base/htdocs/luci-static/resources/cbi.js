@@ -385,7 +385,7 @@ function cbi_validate_field(cbid, optional, type)
 		var cbiValidator = L.validation.create(field, type, optional);
 		validatorFn = cbiValidator.validate.bind(cbiValidator);
 	}
-	catch(e) {
+	catch (e) {
 		validatorFn = null;
 	};
 

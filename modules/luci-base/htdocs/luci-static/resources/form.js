@@ -69,8 +69,9 @@ var CBIJSONConfig = baseclass.extend({
 			return (a > b);
 		}, this));
 
-		for (var i = 0; i < section_ids.length; i++)
+		for (var i = 0; i < section_ids.length; i++) {
 			this.data[section_ids[i]]['.index'] = i;
+		}
 	},
 
 	load: function() {
@@ -130,9 +131,11 @@ var CBIJSONConfig = baseclass.extend({
 
 		rv.sort(function(a, b) { return a['.index'] - b['.index'] });
 
-		if (typeof(callback) == 'function')
-			for (var i = 0; i < rv.length; i++)
+		if (typeof(callback) == 'function') {
+			for (var i = 0; i < rv.length; i++) {
 				callback.call(this, rv[i], rv[i]['.name']);
+			}
+		}
 
 		return rv;
 	},
@@ -243,10 +246,12 @@ var CBIAbstractElement = baseclass.extend(/** @lends LuCI.form.AbstractElement.p
 	loadChildren: function(/* ... */) {
 		var tasks = [];
 
-		if (Array.isArray(this.children))
-			for (var i = 0; i < this.children.length; i++)
+		if (Array.isArray(this.children)) {
+			for (var i = 0; i < this.children.length; i++) {
 				if (!this.children[i].disable)
 					tasks.push(this.children[i].load.apply(this.children[i], arguments));
+			}
+		}
 
 		return Promise.all(tasks);
 	},
@@ -256,12 +261,14 @@ var CBIAbstractElement = baseclass.extend(/** @lends LuCI.form.AbstractElement.p
 		var tasks = [],
 		    index = 0;
 
-		if (Array.isArray(this.children))
-			for (var i = 0; i < this.children.length; i++)
+		if (Array.isArray(this.children)) {
+			for (var i = 0; i < this.children.length; i++) {
 				if (tab_name === null || this.children[i].tab === tab_name)
 					if (!this.children[i].disable)
 						tasks.push(this.children[i].render.apply(
 							this.children[i], this.varargs(arguments, 1, index++)));
+			}
+		}
 
 		return Promise.all(tasks);
 	},
@@ -548,9 +555,11 @@ var CBIMap = CBIAbstractElement.extend(/** @lends LuCI.form.Map.prototype */ {
 	parse: function() {
 		var tasks = [];
 
-		if (Array.isArray(this.children))
-			for (var i = 0; i < this.children.length; i++)
+		if (Array.isArray(this.children)) {
+			for (var i = 0; i < this.children.length; i++) {
 				tasks.push(this.children[i].parse());
+			}
+		}
 
 		return Promise.all(tasks);
 	},
@@ -658,8 +667,9 @@ var CBIMap = CBIAbstractElement.extend(/** @lends LuCI.form.Map.prototype */ {
 
 			var tabGroups = mapEl.querySelectorAll('.cbi-map-tabbed, .cbi-section-node-tabbed');
 
-			for (var i = 0; i < tabGroups.length; i++)
+			for (var i = 0; i < tabGroups.length; i++) {
 				ui.tabs.initTabGroup(tabGroups[i].childNodes);
+			}
 
 			return mapEl;
 		}, this));
@@ -703,9 +713,10 @@ var CBIMap = CBIAbstractElement.extend(/** @lends LuCI.form.Map.prototype */ {
 	checkDepends: function(ev, n) {
 		var changed = false;
 
-		for (var i = 0, s = this.children[0]; (s = this.children[i]) != null; i++)
+		for (var i = 0, s = this.children[0]; (s = this.children[i]) != null; i++) {
 			if (s.checkDepends(ev, n))
 				changed = true;
+		}
 
 		if (changed && (n || 0) < 10)
 			this.checkDepends(ev, (n || 10) + 1);
@@ -883,13 +894,15 @@ var CBIAbstractSection = CBIAbstractElement.extend(/** @lends LuCI.form.Abstract
 		var section_ids = this.cfgsections(),
 		    tasks = [];
 
-		if (Array.isArray(this.children))
-			for (var i = 0; i < section_ids.length; i++)
+		if (Array.isArray(this.children)) {
+			for (var i = 0; i < section_ids.length; i++) {
 				tasks.push(this.loadChildren(section_ids[i])
 					.then(Function.prototype.bind.call(function(section_id, set_values) {
 						for (var i = 0; i < set_values.length; i++)
 							this.children[i].cfgvalue(section_id, set_values[i]);
 					}, this, section_ids[i])));
+			}
+		}
 
 		return Promise.all(tasks);
 	},
@@ -912,10 +925,13 @@ var CBIAbstractSection = CBIAbstractElement.extend(/** @lends LuCI.form.Abstract
 		var section_ids = this.cfgsections(),
 		    tasks = [];
 
-		if (Array.isArray(this.children))
-			for (var i = 0; i < section_ids.length; i++)
-				for (var j = 0; j < this.children.length; j++)
+		if (Array.isArray(this.children)) {
+			for (var i = 0; i < section_ids.length; i++) {
+				for (var j = 0; j < this.children.length; j++) {
 					tasks.push(this.children[j].parse(section_ids[i]));
+				}
+			}
+		}
 
 		return Promise.all(tasks);
 	},
@@ -1046,8 +1062,9 @@ var CBIAbstractSection = CBIAbstractElement.extend(/** @lends LuCI.form.Abstract
 		if (!this.tabs)
 			return this.renderOptions(null, section_id);
 
-		for (var i = 0; i < this.tab_names.length; i++)
+		for (var i = 0; i < this.tab_names.length; i++) {
 			renderTasks.push(this.renderOptions(this.tab_names[i], section_id));
+		}
 
 		return Promise.all(renderTasks)
 			.then(this.renderTabContainers.bind(this, section_id));
@@ -1084,8 +1101,9 @@ var CBIAbstractSection = CBIAbstractElement.extend(/** @lends LuCI.form.Abstract
 		var in_table = (this instanceof CBITableSection);
 		return this.renderChildren(tab_name, section_id, in_table).then(function(nodes) {
 			var optionEls = E([]);
-			for (var i = 0; i < nodes.length; i++)
+			for (var i = 0; i < nodes.length; i++) {
 				optionEls.appendChild(nodes[i]);
+			}
 			return optionEls;
 		});
 	},
@@ -1127,9 +1145,10 @@ var isEqual = function(x, y) {
 		if (x.length != y.length)
 			return false;
 
-		for (var i = 0; i < x.length; i++)
+		for (var i = 0; i < x.length; i++) {
 			if (!isEqual(x[i], y[i]))
 				return false;
+		}
 	}
 	else if (typeof(x) == 'object') {
 		for (var k in x) {
@@ -1140,9 +1159,10 @@ var isEqual = function(x, y) {
 				return false;
 		}
 
-		for (var k in y)
+		for (var k in y) {
 			if (y.hasOwnProperty(k) && !x.hasOwnProperty(k))
 				return false;
+		}
 	}
 	else if (x != y) {
 		return false;
@@ -1153,9 +1173,10 @@ var isEqual = function(x, y) {
 
 var isContained = function(x, y) {
 	if (Array.isArray(x)) {
-		for (var i = 0; i < x.length; i++)
+		for (var i = 0; i < x.length; i++) {
 			if (x[i] == y)
 				return true;
+		}
 	}
 	else if (L.isObject(x)) {
 		if (x.hasOwnProperty(y) && x[y] != null)
@@ -1497,8 +1518,9 @@ var CBIAbstractValue = CBIAbstractElement.extend(/** @lends LuCI.form.AbstractVa
 
 		var choices = {};
 
-		for (var i = 0; i < this.keylist.length; i++)
+		for (var i = 0; i < this.keylist.length; i++) {
 			choices[this.keylist[i]] = this.vallist[i];
+		}
 
 		return choices;
 	},
@@ -2097,8 +2119,9 @@ var CBITypedSection = CBIAbstractSection.extend(/** @lends LuCI.form.TypedSectio
 		var cfgsections = this.cfgsections(),
 		    renderTasks = [];
 
-		for (var i = 0; i < cfgsections.length; i++)
+		for (var i = 0; i < cfgsections.length; i++) {
 			renderTasks.push(this.renderUCISection(cfgsections[i]));
+		}
 
 		return Promise.all(renderTasks).then(this.renderContents.bind(this, cfgsections));
 	}

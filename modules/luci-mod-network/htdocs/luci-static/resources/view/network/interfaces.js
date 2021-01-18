@@ -164,7 +164,7 @@ function iface_updown(up, id, ev, force) {
 
 	if (!up) {
 		L.resolveDefault(fs.exec_direct('/usr/libexec/luci-peeraddr')).then(function(res) {
-			var info = null; try { info = JSON.parse(res); } catch(e) {}
+			var info = null; try { info = JSON.parse(res); } catch (e) {}
 
 			if (L.isObject(info) &&
 			    Array.isArray(info.inbound_interfaces) &&

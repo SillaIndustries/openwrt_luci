@@ -46,8 +46,8 @@
 //]]></script>
 
 <%
-local uci  = require "luci.model.uci".cursor()
-local fs  = require "nixio.fs"
+local uci = require "luci.model.uci".cursor()
+local fs = require "nixio.fs"
 local https_key = uci:get("uhttpd", "main", "key")
 local https_port = uci:get("uhttpd", "main", "listen_https")
 if type(https_port) == "table" then
@@ -61,11 +61,11 @@ if https_port and fs.access(https_key) then
 <script type="text/javascript">//<![CDATA[
 	if (document.location.protocol != 'https:') {
 		var url = 'https://' + window.location.hostname + ':' + '<%=https_port%>' + window.location.pathname;
-		var img=new Image;
-		img.onload=function(){window.location = url};
-		img.src='https://' + window.location.hostname + ':' + '<%=https_port%>' + '<%=resource%>/cbi/up.gif?' + Math.random();;
-		setTimeout(function(){
-			img.src=''
+		var img = new Image;
+		img.onload = function() { window.location = url };
+		img.src = 'https://' + window.location.hostname + ':' + '<%=https_port%>' + '<%=resource%>/cbi/up.gif?' + Math.random();
+		setTimeout(function() {
+			img.src = ''
 		}, 5000);
 	}
 //]]></script>

@@ -4221,7 +4221,7 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 				query: { sid: L.env.sessionid, token: L.env.token }
 			}).then(function(r) {
 				if (r.status === (checked ? 200 : 204)) {
-					var tok = null; try { tok = r.json(); } catch(e) {}
+					var tok = null; try { tok = r.json(); } catch (e) {}
 					if (checked && tok !== null && typeof(tok) === 'object' && typeof(tok.token) === 'string')
 						UI.prototype.changes.confirm_auth = tok;
 
