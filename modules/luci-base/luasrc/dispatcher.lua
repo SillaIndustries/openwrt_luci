@@ -892,8 +892,8 @@ function dispatch(request)
 				return tpl.render("sysauth", scope)
 			end
 
-			http.header("Set-Cookie", 'sysauth=%s; path=%s; SameSite=Strict; HttpOnly%s' %{
-				sid, build_url(), http.getenv("HTTPS") == "on" and "; secure" or ""
+			http.header("Set-Cookie", '%s=%s; path=%s; SameSite=Strict; HttpOnly%s' %{
+				'sysauth', sid, build_url(), http.getenv("HTTPS") == "on" and "; secure" or ""
 			})
 
 			http.redirect(build_url(unpack(ctx.requestpath)))
