@@ -1871,7 +1871,7 @@
 		getLocalData: function(key) {
 			try {
 				var sid = this.getID(),
-				    item = 'luci-session-store',
+				    item = 'prism-luci-1',
 				    data = JSON.parse(window.sessionStorage.getItem(item));
 
 				if (!LuCI.prototype.isObject(data) || !data.hasOwnProperty(sid)) {
@@ -1908,7 +1908,7 @@
 
 			try {
 				var sid = this.getID(),
-				    item = 'luci-session-store',
+				    item = 'prism-luci-1',
 				    data = JSON.parse(window.sessionStorage.getItem(item));
 
 				if (!LuCI.prototype.isObject(data) || !data.hasOwnProperty(sid)) {

@@ -12,7 +12,7 @@ function action_logout()
 		utl.ubus("session", "destroy", { ubus_rpc_session = sid })
 
 		luci.http.header("Set-Cookie", "%s=%s; expires=%s; path=%s" %{
-			'sysauth', '', 'Thu, 01 Jan 1970 01:00:00 GMT', dsp.build_url()
+			'prism_sysauth_1', '', 'Thu, 01 Jan 1970 01:00:00 GMT', dsp.build_url()
 		})
 	end
 
@@ -188,7 +188,7 @@ function action_menu()
 	local utl = require "luci.util"
 	local http = require "luci.http"
 
-	local acls = utl.ubus("session", "access", { ubus_rpc_session = http.getcookie("sysauth") })
+	local acls = utl.ubus("session", "access", { ubus_rpc_session = http.getcookie("prism_sysauth_1") })
 	local menu = dsp.menu_json(acls or {}) or {}
 
 	http.prepare_content("application/json")
