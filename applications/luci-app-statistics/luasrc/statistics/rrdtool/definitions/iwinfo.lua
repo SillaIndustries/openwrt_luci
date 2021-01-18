@@ -59,8 +59,8 @@ function rrdargs( graph, plugin, plugin_instance )
 	--
 	local bitrate = {
 		title = "%H: Average phy rate on %pi",
-		vlabel = "MBit/s",
-		number_format = "%5.1lf%sBit/s",
+		vlabel = "Mbit/s",
+		number_format = "%5.1lf%sbit/s",
 		data = {
 			types = { "bitrate" },
 			options = {
