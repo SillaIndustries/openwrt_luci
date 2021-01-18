@@ -1180,6 +1180,7 @@
 				if ((Poll.tick % e.i) != 0)
 					continue;
 
+				// Skip this tick if the previous is not finished
 				if (!e.r)
 					continue;
 
