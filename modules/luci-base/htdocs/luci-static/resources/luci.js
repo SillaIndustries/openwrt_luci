@@ -586,7 +586,7 @@
 			var json = null, req = null;
 
 			try { json = reply.json() }
-			catch(e) { }
+			catch (e) { }
 
 			while ((req = batch.shift()) != null)
 				if (Array.isArray(json) && json.length)
@@ -672,12 +672,12 @@
 		 * if it is an object, it will be converted to JSON, in all other
 		 * cases it is converted to a string.
 		 *
-	     * @property {Object<string, string>} [header]
-	     * Specifies HTTP headers to set for the request.
-	     *
-	     * @property {function} [progress]
-	     * An optional request callback function which receives ProgressEvent
-	     * instances as sole argument during the HTTP request transfer.
+		 * @property {Object<string, string>} [header]
+		 * Specifies HTTP headers to set for the request.
+		 *
+		 * @property {function} [progress]
+		 * An optional request callback function which receives ProgressEvent
+		 * instances as sole argument during the HTTP request transfer.
 		 */
 
 		/**
@@ -1253,7 +1253,7 @@
 				domParser = domParser || new DOMParser();
 				elem = domParser.parseFromString(s, 'text/html').body.firstChild;
 			}
-			catch(e) {}
+			catch (e) {}
 
 			if (!elem) {
 				try {
@@ -3143,7 +3143,7 @@
 					.then(function(res) {
 						var json = null;
 						if (/^application\/json\b/.test(res.headers.get('Content-Type')))
-							try { json = res.json() } catch(e) {}
+							try { json = res.json() } catch (e) {}
 						cb(res.xhr, json, res.duration);
 					});
 		},

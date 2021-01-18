@@ -25,7 +25,7 @@ var SSHPubkeyDecoder = L.Class.singleton({
 			return null;
 
 		var key = null;
-		try { key = atob(parts[3]); } catch(e) {}
+		try { key = atob(parts[3]); } catch (e) {}
 		if (!key)
 			return null;
 
