@@ -102,6 +102,32 @@ return view.extend({
 		ui.awaitReconnect('192.168.1.1', 'openwrt.lan');
 	},
 
+	handleReboot: function(ev) {
+		if (!confirm(_('Do you really want to reboot your device?')))
+			return;
+
+		return fs.exec('/sbin/reboot').then(function(res) {
+			if (res.code != 0) {
+				L.ui.addNotification(null, E('p', _('The reboot command failed with code %d').format(res.code)));
+				L.raise('Error', 'Reboot failed');
+			}
+
+			L.ui.showModal(_('Rebooting…'), [
+				E('p', { 'class': 'spinning' }, _('Waiting for device...'))
+			]);
+
+			window.setTimeout(function() {
+				L.ui.showModal(_('Rebooting…'), [
+					E('p', { 'class': 'spinning alert-message warning' },
+						_('Device unreachable! Still waiting for device...'))
+				]);
+			}, 150000);
+
+			L.ui.awaitReconnect();
+		})
+		.catch(function(e) { L.ui.addNotification(null, E('p', e.message)) });
+	},
+
 	handleRestore: function(ev) {
 		return ui.uploadFile('/tmp/backup.tar.gz', ev.target)
 			.then(L.bind(function(btn, res) {
@@ -217,6 +243,7 @@ return view.extend({
 					res[0].sha256sum ? E('li', {}, '%s: %s'.format(_('SHA256'), res[0].sha256sum)) : ''
 				]));
 
+				(is_valid && !is_too_big && allow_backup) &&
 				body.push(E('p', {}, E('label', { 'class': 'btn' }, [
 					keep, ' ', _('Keep settings and retain the current configuration')
 				])));
@@ -247,7 +274,7 @@ return view.extend({
 				else
 					keep.disabled = true;
 
-
+				is_forceable = false;
 				if ((!is_valid || is_too_big) && is_forceable)
 					body.push(E('p', {}, E('label', { 'class': 'btn alert-message danger' }, [
 						force, ' ', _('Force upgrade'),
@@ -294,7 +321,7 @@ return view.extend({
 		if (!keep.checked)
 			opts.push('-n');
 
-		if (force.checked)
+		if (false && force.checked)
 			opts.push('--force');
 
 		opts.push('/tmp/firmware.bin');
@@ -351,12 +378,14 @@ return view.extend({
 		    storage_size = findStorageSize(procmtd, procpart),
 		    m, s, o, ss;
 
-		m = new form.JSONMap(mapdata, _('Flash operations'));
-		m.tabbed = true;
+		/* prism:was */ _("Flash operations");
+		m = new form.JSONMap(mapdata, _("Firmware operations"));
+		// m.tabbed = true;
 
 		s = m.section(form.NamedSection, 'actions', _('Actions'));
 
 
+if (__PRISM_DEV__) { // -- prism:remove:start --
 		o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions', _('Backup'), _('Click "Generate archive" to download a tar archive of the current configuration files.'));
 		ss = o.subsection;
 
@@ -364,18 +393,37 @@ return view.extend({
 		o.inputstyle = 'action important';
 		o.inputtitle = _('Generate archive');
 		o.onclick = this.handleBackup;
+} // -- prism:remove:end --
 
 
-		o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions', _('Restore'), _('To restore configuration files, you can upload a previously generated backup archive here. To reset the firmware to its initial state, click "Perform reset" (only possible with squashfs images).'));
+		o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions',
+				_("System reboot"),
+				_("Reboots the operating system of your device."));
+		ss = o.subsection;
+
+		o = ss.option(form.Button, 'reset',
+				_("Perform reboot"));
+		o.inputstyle = 'action important';
+		o.inputtitle = _("Reboot");
+		o.onclick = this.handleReboot;
+
+
+		/* prism:was */ _("Restore");
+		/* prism:was */ _("To restore configuration files, you can upload a previously generated backup archive here. To reset the firmware to its initial state, click \"Perform reset\" (only possible with squashfs images).");
+		o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions',
+				_("Factory defaults"),
+				_("Attention! Restoring factory defaults will delete all your settings!"));
 		ss = o.subsection;
 
 		if (has_rootfs_data) {
-			o = ss.option(form.Button, 'reset', _('Reset to defaults'));
-			o.inputstyle = 'negative important';
-			o.inputtitle = _('Perform reset');
+			o = ss.option(form.Button, 'reset',
+					_("Perform factory restore")); /* prism:was */ _("Reset to defaults");
+			o.inputstyle = 'action important';
+			o.inputtitle = _("Restore"); /* prism:was */ _("Perform reset");
 			o.onclick = this.handleFirstboot;
 		}
 
+if (__PRISM_DEV__) { // -- prism:remove:start --
 		o = ss.option(form.Button, 'restore', _('Restore backup'), _('Custom files (certificates, scripts) may remain on the system. To prevent this, perform a factory-reset first.'));
 		o.inputstyle = 'action important';
 		o.inputtitle = _('Upload archive...');
@@ -403,23 +451,29 @@ return view.extend({
 			o.inputtitle = _('Save mtdblock');
 			o.onclick = L.bind(this.handleBlock, this, hostname);
 		}
+} // -- prism:remove:end --
 
 
-		o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions', _('Flash new firmware image'),
+		/* prism:was */ _("Flash new firmware image");
+		/* prism:was */ _("Upload a sysupgrade-compatible image here to replace the running firmware.");
+		o = s.option(form.SectionValue, 'actions', form.NamedSection, 'actions', 'actions',
+				_("Firmware update"),
 			has_sysupgrade
-				? _('Upload a sysupgrade-compatible image here to replace the running firmware.')
+				? _("You can only upload official Prism firmware supplied by Silla Industries.")
 				: _('Sorry, there is no sysupgrade support present; a new firmware image must be flashed manually. Please refer to the wiki for device specific install instructions.'));
 
 		ss = o.subsection;
 
 		if (has_sysupgrade) {
-			o = ss.option(form.Button, 'sysupgrade', _('Image'));
+			o = ss.option(form.Button, 'sysupgrade',
+					_("Firmware")); /* prism:was */ _("Image");
 			o.inputstyle = 'action important';
-			o.inputtitle = _('Flash image...');
+			o.inputtitle = _("Select…"); /* prism:was */ _('Flash image...');
 			o.onclick = L.bind(this.handleSysupgrade, this, storage_size);
 		}
 
 
+if (__PRISM_DEV__) { // -- prism:remove:start --
 		s = m.section(form.NamedSection, 'config', 'config', _('Configuration'), _('This is a list of shell glob patterns for matching files and directories to include during sysupgrade. Modified files in /etc/config/ and certain other configurations are automatically preserved.'));
 		s.render = L.bind(function(view /*, ... */) {
 			return form.NamedSection.prototype.render.apply(this, this.varargs(arguments, 1))
@@ -446,6 +500,7 @@ return view.extend({
 		o.load = function(section_id) {
 			return L.resolveDefault(fs.read('/etc/sysupgrade.conf'), '');
 		};
+} // -- prism:remove:end --
 
 
 		return m.render();

@@ -159,8 +159,10 @@ return view.extend({
 		s.addremove = false;
 
 		s.tab('general', _('General Settings'));
+if (__PRISM_DEV__) { // -- prism:remove:start --
 		s.tab('files', _('Resolv and Hosts Files'));
 		s.tab('tftp', _('TFTP Settings'));
+} // -- prism:remove:end --
 		s.tab('advanced', _('Advanced Settings'));
 		s.tab('leases', _('Static Leases'));
 
@@ -173,6 +175,7 @@ return view.extend({
 			_('This is the only <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr> in the local network'));
 
 
+if (__PRISM_DEV__) { // -- prism:remove:start --
 		s.taboption('files', form.Flag, 'readethers',
 			_('Use <code>/etc/ethers</code>'),
 			_('Read <code>/etc/ethers</code> to configure the <abbr title="Dynamic Host Configuration Protocol">DHCP</abbr>-Server'));
@@ -198,6 +201,7 @@ return view.extend({
 
 		s.taboption('files', form.DynamicList, 'addnhosts',
 			_('Additional Hosts files')).optional = true;
+} // -- prism:remove:end --
 
 		o = s.taboption('advanced', form.Flag, 'quietdhcp',
 			_('Suppress logging'),
@@ -213,6 +217,7 @@ return view.extend({
 			_('Filter private'),
 			_('Do not forward reverse lookups for local networks'));
 		o.default = o.enabled;
+		o.rmempty = false;
 
 		s.taboption('advanced', form.Flag, 'filterwin2k',
 			_('Filter useless'),
@@ -357,6 +362,7 @@ return view.extend({
 		o.datatype = 'range(0,10000)';
 		o.placeholder = 150;
 
+if (__PRISM_DEV__) { // -- prism:remove:start --
 		s.taboption('tftp', form.Flag, 'enable_tftp',
 			_('Enable TFTP server')).optional = true;
 
@@ -376,6 +382,7 @@ return view.extend({
 		o.optional = true;
 		o.depends('enable_tftp', '1');
 		o.placeholder = 'pxelinux.0';
+} // -- prism:remove:end --
 
 		o = s.taboption('general', form.Flag, 'localservice',
 			_('Local Service Only'),
