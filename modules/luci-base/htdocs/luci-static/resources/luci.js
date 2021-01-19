@@ -3394,6 +3394,8 @@
 		send_form: function() { LuCI.prototype.error('InternalError', 'Not implemented') },
 	});
 
+	window.__PRISM_DEV__ = false;
+
 	XHR.get = function() { return LuCI.prototype.get.apply(LuCI.prototype, arguments) };
 	XHR.post = function() { return LuCI.prototype.post.apply(LuCI.prototype, arguments) };
 	XHR.poll = function() { return LuCI.prototype.poll.apply(LuCI.prototype, arguments) };

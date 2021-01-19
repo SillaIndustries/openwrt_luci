@@ -17,6 +17,8 @@ function index()
 	entry({"admin", "network", "firewall", "snats"},
 		view("firewall/snats"), _("NAT Rules"), 40)
 
+if (false) then -- prism:remove:start
 	entry({"admin", "network", "firewall", "custom"},
 		view("firewall/custom"), _("Custom Rules"), 50).leaf = true
+end -- prism:remove:end
 end

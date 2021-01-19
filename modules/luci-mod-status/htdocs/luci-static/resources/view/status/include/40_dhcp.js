@@ -88,11 +88,12 @@ return baseclass.extend({
 			];
 		}), E('em', _('There are no active leases')));
 
+		_("Active DHCPv6 Leases"); // prism:noop
 		return E([
 			E('h3', _('Active DHCP Leases')),
-			table,
-			E('h3', _('Active DHCPv6 Leases')),
-			table6
+			table
+			// E('h3', _('Active DHCPv6 Leases')),
+			// table6
 		]);
 	},
 
