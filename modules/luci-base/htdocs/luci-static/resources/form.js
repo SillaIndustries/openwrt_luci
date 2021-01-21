@@ -3365,7 +3365,7 @@ var CBIListValue = CBIValue.extend(/** @lends LuCI.form.ListValue.prototype */ {
 	 * @default horizontal
 	 */
 
-	 /** @private */
+	/** @private */
 	renderWidget: function(section_id, option_index, cfgvalue) {
 		var choices = this.transformChoices();
 		var widget = new ui.Select((cfgvalue != null) ? cfgvalue : this.default, choices, {

@@ -93,7 +93,7 @@ var ValidatorFactory = baseclass.extend({
 		var pos = 0;
 		var esc = false;
 		var depth = 0;
-		var stack = [ ];
+		var stack = [];
 
 		code += ',';
 
@@ -133,7 +133,7 @@ var ValidatorFactory = baseclass.extend({
 						}
 					}
 
-					pos = i+1;
+					pos = i + 1;
 				}
 
 				depth += (code.charCodeAt(i) == 40);
@@ -145,7 +145,7 @@ var ValidatorFactory = baseclass.extend({
 						L.raise('SyntaxError', 'Argument list follows non-function');
 
 					stack[stack.length-1] = this.compile(code.substring(pos, i));
-					pos = i+1;
+					pos = i + 1;
 				}
 
 				break;
@@ -455,7 +455,7 @@ var ValidatorFactory = baseclass.extend({
 					errors.push('"%s"'.format(arguments[i]));
 					i--;
 				}
-				else if (arguments[i].apply(this, arguments[i+1])) {
+				else if (arguments[i].apply(this, arguments[i + 1])) {
 					return this.assert(true);
 				}
 				else {
@@ -475,7 +475,7 @@ var ValidatorFactory = baseclass.extend({
 						return this.assert(false, '"%s"'.format(arguments[i]));
 					i--;
 				}
-				else if (!arguments[i].apply(this, arguments[i+1])) {
+				else if (!arguments[i].apply(this, arguments[i + 1])) {
 					return this.assert(false, this.error);
 				}
 			}

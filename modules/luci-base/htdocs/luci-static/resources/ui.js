@@ -4189,7 +4189,8 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 			tick();
 
 			/* wait a few seconds for the settings to become effective */
-			window.setTimeout(call, Math.max(L.env.apply_holdoff * 1000 - ((ts + L.env.apply_rollback * 1000) - deadline), 1));
+			window.setTimeout(call, Math.max(
+				(L.env.apply_holdoff * 1000) - ((ts + L.env.apply_rollback * 1000) - deadline), 1));
 		},
 
 		/**

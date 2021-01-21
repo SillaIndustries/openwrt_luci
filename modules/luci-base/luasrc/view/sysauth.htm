@@ -63,10 +63,12 @@ if https_port and fs.access(https_key) then
 	if (document.location.protocol != 'https:') {
 		var url = 'https://' + window.location.hostname + ':' + '<%=https_port%>' + window.location.pathname;
 		var img = new Image;
-		img.onload = function() { window.location = url };
+		img.onload = function() {
+			window.location = url;
+		};
 		img.src = 'https://' + window.location.hostname + ':' + '<%=https_port%>' + '<%=resource%>/cbi/up.gif?' + Math.random();
 		setTimeout(function() {
-			img.src = ''
+			img.src = '';
 		}, 5000);
 	}
 //]]></script>
