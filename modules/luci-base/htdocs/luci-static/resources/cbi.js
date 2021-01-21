@@ -560,7 +560,7 @@ String.prototype.format = function()
 
 				var subst = param;
 
-				switch(pType) {
+				switch (pType) {
 					case 'b':
 						subst = Math.floor(+param || 0).toString(2);
 						break;
