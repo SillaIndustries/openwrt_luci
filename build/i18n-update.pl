@@ -71,8 +71,8 @@ foreach my $dir (@dirs)
 			{
 				my $head = read_header($file);
 
-				printf "Updating %-40s", $file;
-				system("msgmerge", "-U", "-N", $file, "$dir/templates/$basename.pot");
+				printf "Merging %-40s", $file;
+				system("msgmerge", "-o", $file, "-N", "-s", $file, "$dir/templates/$basename.pot");
 
 				write_header($file, $head);
 			}

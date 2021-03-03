@@ -12,6 +12,7 @@ find . -name '*.pot' -and -not -name base.pot | \
 		dir="${path%/po/templates/*}"
 		echo -n "Updating ${path#./} ... "
 		./build/i18n-scan.pl "$dir" > "$path"
+		./build/i18n-scan-postprocess.php "$path"
 		echo "done"
 	done
 

@@ -13,4 +13,6 @@ echo -n "Updating modules/luci-base/po/templates/base.pot ... "
 	protocols/ themes/ \
 > modules/luci-base/po/templates/base.pot
 
+./build/i18n-scan-postprocess.php modules/luci-base/po/templates/base.pot
+
 echo "done"
