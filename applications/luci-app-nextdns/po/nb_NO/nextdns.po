@@ -10,83 +10,83 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:34
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid ""
 "Available locations are: Switzerland, Iceland, Finland, Panama and Hong Kong."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:21
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Configuration ID"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:18
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Enable NextDNS."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:17
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Enabled"
 msgstr "Aktivert"
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:28
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Expose LAN clients information in NextDNS analytics."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:6
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid ""
 "For further information, go to <a href=\"https://nextdns.io\" target=\"_blank"
 "\">nextdns.io</a>"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:14
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "General"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:24
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Go to nextdns.io to create a configuration."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:31
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Hardened Privacy"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:37
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Log Queries"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:38
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Log individual queries to system log."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/controller/nextdns.lua:18
+#: applications/luci-app-nextdns/luasrc/controller/nextdns.lua
 msgid "Logs"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/controller/nextdns.lua:16
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:3
+#: applications/luci-app-nextdns/luasrc/controller/nextdns.lua
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "NextDNS"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:4
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "NextDNS Configuration."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/controller/nextdns.lua:17
+#: applications/luci-app-nextdns/luasrc/controller/nextdns.lua
 msgid "Overview"
 msgstr "Oversikt"
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:27
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "Report Client Info"
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:22
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid "The ID of your NextDNS configuration."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/view/nextdns/logread.htm:41
+#: applications/luci-app-nextdns/luasrc/view/nextdns/logread.htm
 msgid "The syslog output, pre-filtered for nextdns related messages only."
 msgstr ""
 
-#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua:32
+#: applications/luci-app-nextdns/luasrc/model/cbi/overview.lua
 msgid ""
 "When enabled, use DNS servers located in jurisdictions with strong privacy "
 "laws."

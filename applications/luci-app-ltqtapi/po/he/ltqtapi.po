@@ -11,81 +11,81 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Weblate 4.3.1-dev\n"
 
-#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua:16
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:7
+#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Account"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:28
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Collecting data..."
 msgstr "נאספים נתונים…"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:7
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Contact"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua:17
+#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua
 msgid "Contacts"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:20
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Current Telephony State"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:14
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Dial"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:14
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Disabled"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:7
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Here You can specify the SIP account that you want to use."
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:7
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Here You can specify the SIP contacts that you want to use."
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:12
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Name"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:13
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Password"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:24
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Port1"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:25
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Port2"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:11
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Realm"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:13
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Shortdial"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:16
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Type"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:23
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Uplink"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:12
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Username"
 msgstr ""
 
-#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua:13
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:4
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:4
+#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "VoIP"
 msgstr ""

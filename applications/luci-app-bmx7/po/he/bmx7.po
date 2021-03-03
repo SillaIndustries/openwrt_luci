@@ -11,210 +11,209 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:33
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Announcements"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:27
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "BMX7 revision"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:41
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Bandwith"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:3
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
 msgid "Bmx7 mesh nodes"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:44
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "CPU usage"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:12
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:79
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Device"
 msgstr "מכשיר"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:57
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Interface"
 msgstr "מנשק"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:81
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Last Desc"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:14
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:82
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Last Ref"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:77
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Link key"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:61
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "LinkLocal Ipv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:71
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Links"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:42
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Local net"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:60
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Max rate"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:45
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Memory usage"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:13
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:80
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Metric"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:7
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:75
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:76
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:38
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Name"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:40
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Neighbours"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:40
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Network"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:53
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Network interfaces"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:39
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Node"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:18
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node configuration"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:25
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node key"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:23
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node name"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:35
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node status"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:39
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Nodes seen"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:70
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Originators"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:43
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Path Metric"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:10
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:78
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Primary IPv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:24
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Primary IPv6 address"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:62
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "RX BpP"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:80
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "RX rate"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:45
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Rating"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:78
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Remote linklocal IPv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:82
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Routes"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:9
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:77
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "S/s/T/t"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:26
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Short DHash"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:8
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:76
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:22
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:75
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Short ID"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:58
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "State"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:37
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Status"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:63
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "TX BpP"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:81
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "TX rate"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:44
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Tun Metric"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:42
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tunnelled IPv4 address"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:41
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tunnelled IPv6 address"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:46
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tx queue"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:59
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Type"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:43
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Uptime"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:11
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:79
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Via Neighbour"
 msgstr ""

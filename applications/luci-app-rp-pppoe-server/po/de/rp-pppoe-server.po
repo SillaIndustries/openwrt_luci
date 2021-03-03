@@ -12,93 +12,93 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.2-dev\n"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:19
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Access Concentrator Name"
 msgstr "Access-Concentrator-Name"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:32
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "First remote IP"
 msgstr "Erste IP der Gegenstelle"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:29
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "IP of listening side"
 msgstr "IP der Serverseite"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:44
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid ""
 "Instead of starting at beginning and going to end, randomize session number"
 msgstr ""
 "Randomisiere Session-Nummer, anstatt sukzessive von Anfang bis Ende zu "
 "inkrementieren"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:15
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Interface"
 msgstr "Schnittstelle"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:15
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Interface on which to listen."
 msgstr "Schnittstelle auf der gelauscht werden soll."
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:62
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "MSS"
 msgstr "MSS"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:35
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Maximum sessions"
 msgstr "Maximale Anzahl an Sessions"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:25
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Maximum sessions per peer"
 msgstr "Maximale Sessions pro Gegenstelle"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:52
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Offset"
 msgstr "Offset"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:40
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Options file"
 msgstr "Konfigurationsdatei"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:52
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPP offset"
 msgstr "PPP-Offset"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:47
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPP unit number"
 msgstr "PPP-Unit-Nummer"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:9
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPPoE Server Configuration"
 msgstr "PPPoE-Serverkonfiguration"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/controller/rp-pppoe-server.lua:11
+#: applications/luci-app-rp-pppoe-server/luasrc/controller/rp-pppoe-server.lua
 msgid "RP PPPoE Server"
 msgstr "RP-PPPoE-Server"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:44
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Random session selection"
 msgstr "Zufällige Sessionauswahl"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:8
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Roaring Penguin PPPoE Server"
 msgstr "Roaring Penguin PPPoE-Server"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:11
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Server Configuration"
 msgstr "Serverkonfiguration"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:22
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Service Name"
 msgstr "Service-Name"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:68
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Sync"
 msgstr "Sync"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:57
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Timeout"
 msgstr "Timeout"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:47
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Unit"
 msgstr "Einheit"

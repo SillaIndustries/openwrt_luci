@@ -12,15 +12,15 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:21
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Forced reboot delay"
 msgstr "強制再起動遅延時間"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:40
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Host address to ping"
 msgstr "ping するホスト・アドレス"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:47
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "How often to check internet connection. Default unit is seconds, you can you "
 "use the suffix 'm' for minutes, 'h' for hours or 'd' for days"
@@ -28,7 +28,7 @@ msgstr ""
 "インターネット接続を確認する頻度。 デフォルトの単位は秒です。分には 'm'、時間"
 "には 'h' 、日には 'd' という接尾辞を使用できます"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:31
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "In periodic mode, it defines the reboot period. In internet mode, it defines "
 "the longest period of time without internet access before a reboot is "
@@ -40,28 +40,28 @@ msgstr ""
 "位は秒ですが、'm'を接尾に付けると分、'h'を付けると時、'd'を付けると日数に設定"
 "されます"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:15
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Operating mode"
 msgstr "動作モード"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:30
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Period"
 msgstr "周期"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:39
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Ping host"
 msgstr "Ping 宛先ホスト"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:46
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Ping period"
 msgstr "Ping 間隔"
 
-#: applications/luci-app-watchcat/luasrc/controller/watchcat.lua:10
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:5
+#: applications/luci-app-watchcat/luasrc/controller/watchcat.lua
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Watchcat"
 msgstr "Watchcat"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:6
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "Watchcat allows configuring a periodic reboot when the Internet connection "
 "has been lost for a certain period of time."
@@ -69,7 +69,7 @@ msgstr ""
 "Watchcat を使用すると、インターネット接続が一定期間失われた場合に、定期的な再"
 "起動を構成できます。"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:22
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "When rebooting the system, the watchcat will trigger a soft reboot. Entering "
 "a non zero value here will trigger a delayed hard reboot if the soft reboot "

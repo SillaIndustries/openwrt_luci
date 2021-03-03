@@ -10,589 +10,557 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:236
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "A URL to be displayed in the error page that users will see if access to an "
 "untrusted page is denied."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:226
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "A URL to documentation about the local Privoxy setup, configuration or "
 "policies."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:325
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "A directory where Privoxy can create temporary files."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:84
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:87
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Access Control"
 msgstr "アクセス制御"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:337
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Actions that are applied to all sites and maybe overruled later on."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:308
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "An alternative directory where the templates are loaded from."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:206
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "An email address to reach the Privoxy administrator."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:691
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Assumed server-side keep-alive timeout (in seconds) if not specified by the "
 "server."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:151
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Boot delay"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:869
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "CGI user interface"
 msgstr "CGIユーザーインターフェイス"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:857
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Common Log Format"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:92
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Configure here the routing of HTTP requests through a chain of multiple "
 "proxies. Note that parent proxies can severely decrease your privacy level. "
 "Also specified here are SOCKS proxies."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:851
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Debug GIF de-animation"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:833
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Debug force feature"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:845
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Debug redirects"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:839
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Debug regular expression filters"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:152
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Delay (in seconds) during system boot before Privoxy start"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:261
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:298
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:315
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Directory does not exist!"
 msgstr "ディレクトリが存在しません"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:557
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Disabled == Transparent Proxy Mode"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:66
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:71
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Documentation"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:154
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "During delay ifup-events are not monitored !"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:599
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Enable proxy authentication forwarding"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:135
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Enable/Disable autostart of Privoxy on system startup and interface events"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:555
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Enable/Disable filtering when Privoxy starts."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:134
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Enabled"
 msgstr "有効"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:602
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Enabling this option is NOT recommended if there is no parent proxy that "
 "requires authentication!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:368
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:404
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:442
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "File '%s' not found inside Configuration Directory"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:915
-#: applications/luci-app-privoxy/luasrc/view/privoxy/detail_logview.htm:12
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
+#: applications/luci-app-privoxy/luasrc/view/privoxy/detail_logview.htm
 msgid "File not found or empty"
 msgstr "ファイルが見つからないか空です"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:75
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:80
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Files and Directories"
 msgstr "ファイルとディレクトリ"
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:36
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "For help use link at the relevant option"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:91
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Forwarding"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:589
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "If enabled, Privoxy hides the 'go there anyway' link. The user obviously "
 "should not be able to bypass any blocks."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:67
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "If you intend to operate Privoxy for more users than just yourself, it might "
 "be a good idea to let them know how to reach you, what you block and why you "
 "do that, your policies, etc."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:215
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Invalid email address"
 msgstr "無効なメール アドレス"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:416
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "It is NOT recommended for the casual user."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:194
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Location of the Privoxy User Manual."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:108
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Log File Viewer"
 msgstr "ログファイル・ビューア"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:895
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Log all data read from the network"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:827
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Log all data written to the network"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:901
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Log the applying actions"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:803
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Log the destination for each request Privoxy let through. See also 'Debug "
 "1024'."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:863
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Log the destination for requests Privoxy didn't let through, and the reason "
 "why."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:104
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Logging"
 msgstr "ロギング"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:339
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Main actions file"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:461
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No Data given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:259
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:296
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No Directory given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:279
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No File given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:479
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No Port given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:345
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:381
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No files given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:482
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No valid IPv4 address or host given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:470
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No valid IPv6 address given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:472
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:484
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Mandatory Input: No valid Port given!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:733
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Maximum number of client connections that will be served."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:535
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Maximum size (in KB) of the buffer for content filtering."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:97
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:100
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Miscellaneous"
 msgstr "詳細設定"
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:51
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "NOT installed"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:254
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:291
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:310
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "No trailing '/', please."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:881
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Non-fatal errors - *we highly recommended enabling this*"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:714
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Number of seconds after which a socket times out if no data is received."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:668
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Number of seconds after which an open connection will no longer be reused."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:327
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Only when using 'external filters', Privoxy has to create temporary files."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:81
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Please install current version !"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:913
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Please press [Read] button"
 msgstr "[読込] ボタンを押してください"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:518
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:527
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Please read Privoxy manual for details!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:92
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Please update to the current version!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:24
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Privoxy WEB proxy"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:76
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Privoxy can (and normally does) use a number of other files for additional "
 "configuration, help and logging. This section of the configuration file "
 "tells Privoxy where to find those other files."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:32
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid ""
 "Privoxy is a non-caching web proxy with advanced filtering capabilities for "
 "enhancing privacy, modifying web page data and HTTP headers, controlling "
 "access, and removing ads and other obnoxious Internet junk."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:908
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Read / Reread log file"
 msgstr "ログファイルの読み込み/再読み込み"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:815
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Show I/O status"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:809
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Show each connection status"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:821
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Show header parsing"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:76
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Software package '%s' is not installed."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:85
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Software package '%s' is outdated."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:125
-#: applications/luci-app-privoxy/luasrc/view/privoxy/detail_startstop.htm:10
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
+#: applications/luci-app-privoxy/luasrc/view/privoxy/detail_startstop.htm
 msgid "Start"
 msgstr "開始"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:115
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Start / Stop"
 msgstr "開始 / 停止"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:116
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Start/Stop Privoxy WEB Proxy"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:875
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Startup banner and warnings."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:455
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Syntax:"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:786
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Syntax: Client header names delimited by spaces."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:612
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Syntax: target_pattern http_parent[:port]"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:620
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Syntax: target_pattern socks_proxy[:port] http_parent[:port]"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:59
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:62
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "System"
 msgstr "システム"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:335
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The actions file(s) to use. Multiple actionsfile lines are permitted, and "
 "are in fact recommended!"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:453
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The address and TCP port on which Privoxy will listen for client requests."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:766
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The compression level that is passed to the zlib library when compressing "
 "buffered content."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:252
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The directory where all logging takes place (i.e. where the logfile is "
 "located)."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:289
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "The directory where the other configuration files are located."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:377
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The filter files contain content modification rules that use regular "
 "expressions."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:183
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "The hostname shown on the CGI pages."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:274
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "The log file to use. File name, relative to log directory."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:784
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "The order in which client headers are sorted before forwarding them."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:751
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The status code Privoxy returns for pages blocked with +handle-as-empty-"
 "document."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:413
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The trust mechanism is an experimental feature for building white-lists and "
 "should be used with care."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:238
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "The value of this option only matters if the experimental trust mechanism "
 "has been activated."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:796
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "This option is only there for debugging purposes. It will drastically reduce "
 "performance."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:574
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "This option will be removed in future releases as it has been obsoleted by "
 "the more general header taggers."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:85
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "This tab controls the security-relevant aspects of Privoxy's configuration."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:618
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Through which SOCKS proxy (and optionally to which parent HTTP proxy) "
 "specific requests should be routed."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:610
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "To which parent HTTP proxy specific requests should be routed."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:341
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "User customizations"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:166
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:543
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:673
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:696
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:720
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:739
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:772
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Value is not a number"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:168
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Value not between 0 and 300"
 msgstr "0 から 300 の間の値ではありません"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:774
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Value not between 0 and 9"
 msgstr "0 から 9 の間の値ではありません"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:545
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Value not between 1 and 4096"
 msgstr "1 から 4096 の間の値ではありません"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:675
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:698
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:722
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:741
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Value not greater 0 or empty"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:537
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Value range 1 to 4096, no entry defaults to 4096"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:45
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:47
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:50
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Version"
 msgstr "バージョン"
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:43
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "Version Information"
 msgstr "バージョン情報"
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:646
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether intercepted requests should be treated as valid."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:572
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Whether or not Privoxy recognizes special HTTP headers to change toggle "
 "state."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:758
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether or not buffered content is compressed before delivery."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:706
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Whether or not outgoing connections that have been kept alive should be "
 "shared between different incoming connections."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:683
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether or not pipelined requests should be served."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:600
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether or not proxy authentication through Privoxy should work."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:582
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether or not the web-based actions file editor may be used."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:565
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether or not the web-based toggle feature may be used."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:653
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether requests to Privoxy's CGI pages can be blocked or redirected."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:660
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid ""
 "Whether the CGI interface should stay compatible with broken HTTP clients."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:794
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Whether to run only one server thread."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:516
-#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua:525
+#: applications/luci-app-privoxy/luasrc/model/cbi/privoxy.lua
 msgid "Who can access what."
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:49
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:87
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "installed"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:48
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:78
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:89
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "or higher"
 msgstr ""
 
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:46
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:78
-#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua:89
+#: applications/luci-app-privoxy/luasrc/controller/privoxy.lua
 msgid "required"
 msgstr ""

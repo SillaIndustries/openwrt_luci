@@ -13,74 +13,74 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:64
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow guests"
 msgstr "Permite oaspeți"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:17
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow system users to reach their home directories via network shares"
 msgstr ""
 "Permite utilizatorilor acestui sistem să ajungă la directoarele lor de "
 "domiciliu prin intermediul partajărilor de rețea"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:51
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allowed users"
 msgstr "Utilizatori permiși"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:58
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Browseable"
 msgstr "Navigabil"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:69
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Create mask"
 msgstr "Creaza masca"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:14
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Description"
 msgstr "Descriere"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:74
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Directory mask"
 msgstr "Masca director"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:11
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit Template"
 msgstr "Editare sablon"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:22
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit the template that is used for generating the samba configuration."
 msgstr "Editati sablonul utilizat pentru generarea configuratiei samba."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:10
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "General Settings"
 msgstr "Setări generale"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:13
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Hostname"
 msgstr "Numele gazdei ( hostname )"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:75
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new directories"
 msgstr "Masca pentru directoare noi"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:70
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new files"
 msgstr "Masca pentru fisiere noi"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:45
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Name"
 msgstr "Nume"
 
-#: applications/luci-app-samba/luasrc/controller/samba.lua:14
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:5
+#: applications/luci-app-samba/luasrc/controller/samba.lua
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Network Shares"
 msgstr "Rețea, partajări"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:46
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Path"
 msgstr "Calea"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:40
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "Please add directories to share. Each directory refers to a folder on a "
 "mounted device."
@@ -88,19 +88,19 @@ msgstr ""
 "Vă rugăm să adăugați directoare pentru a partaja. Fiecare director se referă "
 "la un folder de pe un dispozitiv montat."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:53
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Read-only"
 msgstr "Doar citire"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:16
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Share home-directories"
 msgstr "Partajați directoarele rădăcină personale ( home-directories)"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:39
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Shared Directories"
 msgstr "Directoare partajate"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:23
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "This is the content of the file '/etc/samba/smb.conf.template' from which "
 "your samba configuration will be generated. Values enclosed by pipe symbols "
@@ -112,6 +112,6 @@ msgstr ""
 "verticala ('|') nu trebuie modificate, ele își iau valorile direct din tab-"
 "ul de \"Setări generale\"."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:15
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Workgroup"
 msgstr "Workgroup"

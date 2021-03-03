@@ -16,77 +16,77 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:23
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 #, fuzzy
 msgid "Calculate overhead"
 msgstr "Tính toán tổng quát"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:33
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification Rules"
 msgstr "Quy tắc phân loại"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:19
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification group"
 msgstr "Nhóm phân loại"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:79
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Comment"
 msgstr "Bình luận"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:61
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Destination host"
 msgstr "Máy chủ"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:27
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Download speed (kbit/s)"
 msgstr "Tốc độ tải xuống (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:16
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Enable"
 msgstr "Kích hoạt"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:25
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 #, fuzzy
 msgid "Half-duplex"
 msgstr "Half-Duplex"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:12
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Interfaces"
 msgstr "Giao diện"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:77
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Number of bytes"
 msgstr "Kích cỡ"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:73
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Ports"
 msgstr "Cổng"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:66
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Protocol"
 msgstr "Giao thức"
 
-#: applications/luci-app-qos/luasrc/controller/qos.lua:13
+#: applications/luci-app-qos/luasrc/controller/qos.lua
 msgid "QoS"
 msgstr "Kiểm soát băng thông"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:7
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Quality of Service"
 msgstr "Kiểm soát băng thông"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:56
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Source host"
 msgstr "Địa chỉ nguồn"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:39
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Target"
 msgstr "Mục tiêu"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:30
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Upload speed (kbit/s)"
 msgstr "Tốc độ tải lên (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:8
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid ""
 "With <abbr title=\"Quality of Service\">QoS</abbr> you can prioritize "
 "network traffic selected by addresses, ports or services."
@@ -94,29 +94,26 @@ msgstr ""
 "Với <abbr title=\"Quality of Service\">QoS</abbr>, bạn có thể ưu tiên cho "
 "băng thông cho địa chỉ, cổng hay dịch vụ."
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:58
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:63
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:67
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:75
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "all"
 msgstr "Tất cả"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:20
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "default"
 msgstr "Mặc định"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:41
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "express"
 msgstr "cấp tốc"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:43
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "low"
 msgstr "thấp"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:42
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "normal"
 msgstr "bình thường"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:40
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "priority"
 msgstr "ưu tiên"

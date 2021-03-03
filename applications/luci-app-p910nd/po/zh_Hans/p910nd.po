@@ -17,45 +17,45 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:47
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Bidirectional mode"
 msgstr "双向模式"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:20
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Device"
 msgstr "设备"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:10
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid ""
 "First you have to install the packages to get support for USB (kmod-usb-"
 "printer) or parallel port (kmod-lp)."
 msgstr "必须安装 USB 打印机驱动（kmod-usb-printer）或者并口驱动（kmod-lp）。"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:22
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Interface"
 msgstr "接口"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:41
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Port"
 msgstr "端口"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:14
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Settings"
 msgstr "设置"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:22
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Specifies the interface to listen on."
 msgstr "指定监听端口。"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:41
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "TCP listener port."
 msgstr "TCP 监听端口。"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:18
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "enable"
 msgstr "启用"
 
-#: applications/luci-app-p910nd/luasrc/controller/p910nd.lua:13
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:9
+#: applications/luci-app-p910nd/luasrc/controller/p910nd.lua
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "p910nd - Printer server"
 msgstr "p910nd - 打印服务器"

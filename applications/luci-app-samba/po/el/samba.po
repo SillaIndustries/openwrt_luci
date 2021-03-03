@@ -14,90 +14,90 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.10-dev\n"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:64
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow guests"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:17
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow system users to reach their home directories via network shares"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:51
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allowed users"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:58
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Browseable"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:69
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Create mask"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:14
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:74
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Directory mask"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:11
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit Template"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:22
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit the template that is used for generating the samba configuration."
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:10
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "General Settings"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:13
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Hostname"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:75
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new directories"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:70
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new files"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:45
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Name"
 msgstr "Όνομα"
 
-#: applications/luci-app-samba/luasrc/controller/samba.lua:14
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:5
+#: applications/luci-app-samba/luasrc/controller/samba.lua
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Network Shares"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:46
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Path"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:40
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "Please add directories to share. Each directory refers to a folder on a "
 "mounted device."
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:53
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Read-only"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:16
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Share home-directories"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:39
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Shared Directories"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:23
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "This is the content of the file '/etc/samba/smb.conf.template' from which "
 "your samba configuration will be generated. Values enclosed by pipe symbols "
@@ -105,6 +105,6 @@ msgid ""
 "Settings' tab."
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:15
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Workgroup"
 msgstr ""

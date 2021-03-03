@@ -12,76 +12,76 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.10-dev\n"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:64
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow guests"
 msgstr "Povolení hosté"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:17
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow system users to reach their home directories via network shares"
 msgstr ""
 "Povoluje systémovým uživatelům přístup do jejich domácích adresářů skrze "
 "sdílení přes síť."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:51
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allowed users"
 msgstr "Povolení uživatelé"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:58
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Browseable"
 msgstr "Prohledávatelný"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:69
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Create mask"
 msgstr "Vytvořit masku"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:14
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Description"
 msgstr "Popis"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:74
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Directory mask"
 msgstr "Maska adresáře"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:11
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit Template"
 msgstr "Editovat šablonu"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:22
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit the template that is used for generating the samba configuration."
 msgstr ""
 "Editovat šablonu, která je použita pro generování konfiguračního souboru pro "
 "sambu."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:10
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "General Settings"
 msgstr "Obecné nastavení"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:13
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Hostname"
 msgstr "Název počítače"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:75
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new directories"
 msgstr "Maska pro nové adresáře"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:70
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new files"
 msgstr "Maska pro nové soubory"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:45
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Name"
 msgstr "Název"
 
-#: applications/luci-app-samba/luasrc/controller/samba.lua:14
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:5
+#: applications/luci-app-samba/luasrc/controller/samba.lua
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Network Shares"
 msgstr "Síťová sdílení"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:46
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Path"
 msgstr "Cesta"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:40
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "Please add directories to share. Each directory refers to a folder on a "
 "mounted device."
@@ -89,19 +89,19 @@ msgstr ""
 "Přidejte adresáře, které chcete sdílet. Každý adresář odkazuje na složku na "
 "připojeném zařízení."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:53
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Read-only"
 msgstr "Pouze pro čtení"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:16
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Share home-directories"
 msgstr "Sdílet domácí adresáře"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:39
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Shared Directories"
 msgstr "Sdílené adresáře"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:23
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "This is the content of the file '/etc/samba/smb.conf.template' from which "
 "your samba configuration will be generated. Values enclosed by pipe symbols "
@@ -112,6 +112,6 @@ msgstr ""
 "konfigurace samby generována. Hodnoty uzavřené rourou (\"|\"), by se neměly "
 "měnit. Tyto hodnoty jsou brány ze záložky \"Obecná nastavení\"."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:15
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Workgroup"
 msgstr "Skupina"

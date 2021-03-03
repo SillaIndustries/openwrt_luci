@@ -10,110 +10,108 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:216
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Additional Shutdown Time(s)"
 msgstr "Additional Shutdown Time(s)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:37
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Addresses on which to listen"
 msgstr "Addresses on which to listen"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:23
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Allowed actions"
 msgstr "Allowed actions"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:20
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:188
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:217
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "As configured by NUT"
 msgstr "As configured by NUT"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:150
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Bytes to read from interrupt pipe"
 msgstr "Bytes to read from interrupt pipe"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:174
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "CA Certificate path"
 msgstr "CA Certificate path"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:73
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Certificate file (SSL)"
 msgstr "Certificate file (SSL)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:63
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Communications lost message"
 msgstr "Communications lost message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:60
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Communications restored message"
 msgstr "Communications restored message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:35
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Control UPS via CGI"
 msgstr "Control UPS via CGI"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:43
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Deadtime"
 msgstr "Deadtime"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:87
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Default for UPSes without this field."
 msgstr "Default for UPSes without this field."
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:177
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Delay for kill power command"
 msgstr "Delay for kill power command"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:181
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Delay to power on UPS if power returns after kill power"
 msgstr "Delay to power on UPS if power returns after kill power"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:129
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Description (Display)"
 msgstr "Description (Display)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:32
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Display name"
 msgstr "Display name"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:169
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Don't lock port when starting driver"
 msgstr "Don't lock port when starting driver"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:132
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Driver"
 msgstr "Driver"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:114
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Driver Configuration"
 msgstr "Driver Configuration"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:77
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Driver Global Settings"
 msgstr "Driver Global Settings"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:83
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Driver Path"
 msgstr "Driver Path"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:212
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Driver Shutdown Order"
 msgstr "Driver Shutdown Order"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:106
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:244
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Driver waits for data to be consumed by upsd before publishing more."
 msgstr "Driver waits for data to be consumed by upsd before publishing more."
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:59
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Drop privileges to this user"
 msgstr "Drop privileges to this user"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:40
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Enable"
 msgstr "Enable"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:138
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid ""
 "Enables a hotplug script that makes all ttyUSB devices (e.g. serial USB) "
 "group read-write as user 'nut'"
@@ -121,433 +119,406 @@ msgstr ""
 "Enables a hotplug script that makes all ttyUSB devices (e.g. serial USB) "
 "group read-write as user 'nut'"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:93
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:102
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:110
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:118
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:126
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:134
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:142
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:150
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:158
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:166
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Execute notify command"
 msgstr "Execute notify command"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:26
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Forced Shutdown"
 msgstr "Forced Shutdown"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:57
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Forced shutdown message"
 msgstr "Forced shutdown message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:10
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Global Settings"
 msgstr "Global Settings"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:13
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Go to NUT CGI"
 msgstr "Go to NUT CGI"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:16
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Host"
 msgstr "Host"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:23
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Hostname or IP address"
 msgstr "Hostname or IP address"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:191
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:220
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Hostname or address of UPS"
 msgstr "Hostname or address of UPS"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:39
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Hot Sync"
 msgstr "Hot Sync"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:41
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "IP Address"
 msgstr "IP Address"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:95
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:104
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:112
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:120
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:128
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:136
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:144
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:152
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:160
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:168
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Ignore"
 msgstr "Ignore"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:142
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Ignore Low Battery"
 msgstr "Ignore Low Battery"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:29
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Instant commands"
 msgstr "Instant commands"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:146
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Interrupt Only"
 msgstr "Interrupt Only"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:150
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Interrupt Size"
 msgstr "Interrupt Size"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:54
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Low battery message"
 msgstr "Low battery message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:163
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Manufacturer (Display)"
 msgstr "Manufacturer (Display)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:34
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Master"
 msgstr "Master"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:154
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Max USB HID Length Reported"
 msgstr "Max USB HID Length Reported"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:54
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maximum Age of Data"
 msgstr "Maximum Age of Data"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:87
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maximum Start Delay"
 msgstr "Maximum Start Delay"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:67
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maximum connections"
 msgstr "Maximum connections"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:91
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maximum number of times to try starting a driver."
 msgstr "Maximum number of times to try starting a driver."
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:101
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maximum time in seconds between refresh of UPS status"
 msgstr "Maximum time in seconds between refresh of UPS status"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:91
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maxium Retries"
 msgstr "Maxium Retries"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:158
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Maxium Start Delay"
 msgstr "Maxium Start Delay"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:17
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Minimum required number or power supplies"
 msgstr "Minimum required number or power supplies"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:166
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Model (Display)"
 msgstr "Model (Display)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:9
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "NUT CGI Access"
 msgstr "NUT CGI Access"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:12
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "NUT Users"
 msgstr "NUT Users"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:188
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:217
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Name of UPS"
 msgstr "Name of UPS"
 
-#: applications/luci-app-nut/luasrc/controller/nut.lua:11
+#: applications/luci-app-nut/luasrc/controller/nut.lua
 msgid "Network UPS Tools"
 msgstr "Network UPS Tools"
 
-#: applications/luci-app-nut/luasrc/controller/nut.lua:22
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:6
+#: applications/luci-app-nut/luasrc/controller/nut.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Network UPS Tools (CGI)"
 msgstr "Network UPS Tools (CGI)"
 
-#: applications/luci-app-nut/luasrc/controller/nut.lua:18
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:7
+#: applications/luci-app-nut/luasrc/controller/nut.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Network UPS Tools (Monitor)"
 msgstr "Network UPS Tools (Monitor)"
 
-#: applications/luci-app-nut/luasrc/controller/nut.lua:14
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:9
+#: applications/luci-app-nut/luasrc/controller/nut.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Network UPS Tools (Server)"
 msgstr "Network UPS Tools (Server)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:7
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "Network UPS Tools CGI Configuration"
 msgstr "Network UPS Tools CGI Configuration"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:8
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Network UPS Tools Monitoring Configuration"
 msgstr "Network UPS Tools Monitoring Configuration"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:10
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Network UPS Tools Server Configuration"
 msgstr "Network UPS Tools Server Configuration"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:169
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "No Lock"
 msgstr "No Lock"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:72
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "No communications message"
 msgstr "No communications message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:173
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "No low/high voltage transfer OIDs"
 msgstr "No low/high voltage transfer OIDs"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:75
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "No parent message"
 msgstr "No parent message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:90
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notification defaults"
 msgstr "Notification defaults"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:26
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify command"
 msgstr "Notify command"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:99
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when back online"
 msgstr "Notify when back online"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:163
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when battery needs replacing"
 msgstr "Notify when battery needs replacing"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:147
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when communications lost"
 msgstr "Notify when communications lost"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:139
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when communications restored"
 msgstr "Notify when communications restored"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:131
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when force shutdown"
 msgstr "Notify when force shutdown"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:115
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:123
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when low battery"
 msgstr "Notify when low battery"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:107
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when on battery"
 msgstr "Notify when on battery"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:155
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Notify when shutting down"
 msgstr "Notify when shutting down"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:177
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Off Delay(s)"
 msgstr "Off Delay(s)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:181
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "On Delay(s)"
 msgstr "On Delay(s)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:51
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "On battery message"
 msgstr "On battery message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:48
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Online message"
 msgstr "Online message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:208
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:237
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:19
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Password"
 msgstr "Password"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:174
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Path containing ca certificates to match against host certificate"
 msgstr "Path containing ca certificates to match against host certificate"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:83
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Path to drivers (instead of default)"
 msgstr "Path to drivers (instead of default)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:63
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Path to state file"
 msgstr "Path to state file"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:54
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Period after which data is considered stale"
 msgstr "Period after which data is considered stale"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:101
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Poll Interval"
 msgstr "Poll Interval"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:29
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Poll frequency"
 msgstr "Poll frequency"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:34
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Poll frequency alert"
 msgstr "Poll frequency alert"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:197
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Polling Frequency(s)"
 msgstr "Polling Frequency(s)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:27
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:195
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:224
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:46
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:202
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:200
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:229
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Power value"
 msgstr "Power value"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:206
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Product (regex)"
 msgstr "Product (regex)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:69
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Replace battery message"
 msgstr "Replace battery message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:178
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Require SSL and make sure server CN matches hostname"
 msgstr "Require SSL and make sure server CN matches hostname"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:96
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Retry Delay"
 msgstr "Retry Delay"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:32
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Role"
 msgstr "Role"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:80
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Run drivers in a chroot(2) environment"
 msgstr "Run drivers in a chroot(2) environment"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:14
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:59
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:110
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "RunAs User"
 msgstr "RunAs User"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:125
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMP Community"
 msgstr "SNMP Community"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:222
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMP retries"
 msgstr "SNMP retries"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:226
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMP timeout(s)"
 msgstr "SNMP timeout(s)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:230
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMP version"
 msgstr "SNMP version"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:232
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMPv1"
 msgstr "SNMPv1"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:233
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMPv2c"
 msgstr "SNMPv2c"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:234
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "SNMPv3"
 msgstr "SNMPv3"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:219
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Serial Number"
 msgstr "Serial Number"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:138
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Set USB serial port permissions"
 msgstr "Set USB serial port permissions"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:25
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Set variables"
 msgstr "Set variables"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:22
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Shutdown command"
 msgstr "Shutdown command"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:66
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Shutdown message"
 msgstr "Shutdown message"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:33
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Slave"
 msgstr "Slave"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:106
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:244
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Synchronous Communication"
 msgstr "Synchronous Communication"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:115
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "The name of this section will be used as UPS name elsewhere"
 msgstr "The name of this section will be used as UPS name elsewhere"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:96
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Time in seconds between driver start retry attempts."
 msgstr "Time in seconds between driver start retry attempts."
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:158
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Time in seconds that upsdrvctl will wait for driver to finish starting"
 msgstr "Time in seconds that upsdrvctl will wait for driver to finish starting"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:183
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "UPS Master"
 msgstr "UPS Master"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:51
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "UPS Server Global Settings"
 msgstr "UPS Server Global Settings"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:212
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "UPS Slave"
 msgstr "UPS Slave"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua:20
+#: applications/luci-app-nut/luasrc/model/cbi/nut_cgi.lua
 msgid "UPS name"
 msgstr "UPS name"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:121
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "USB Bus(es) (regex)"
 msgstr "USB Bus(es) (regex)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:209
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "USB Product Id"
 msgstr "USB Product Id"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:241
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "USB Vendor Id"
 msgstr "USB Vendor Id"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:29
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid ""
 "Use upscmd -l to see full list which the commands your UPS supports "
 "(requires upscmd package)"
@@ -555,7 +526,7 @@ msgstr ""
 "Use upscmd -l to see full list which the commands your UPS supports "
 "(requires upscmd package)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:110
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid ""
 "User as which to execute driver; requires device file accessed by driver to "
 "be read-write for that user."
@@ -563,41 +534,31 @@ msgstr ""
 "User as which to execute driver; requires device file accessed by driver to "
 "be read-write for that user."
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:205
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:234
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:16
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Username"
 msgstr "Username"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:238
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Vendor (regex)"
 msgstr "Vendor (regex)"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:178
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Verify all connection with SSL"
 msgstr "Verify all connection with SSL"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:154
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "Workaround for buggy firmware"
 msgstr "Workaround for buggy firmware"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:94
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:103
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:111
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:119
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:127
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:135
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:143
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:151
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:159
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:167
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "Write to syslog"
 msgstr "Write to syslog"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua:80
+#: applications/luci-app-nut/luasrc/model/cbi/nut_server.lua
 msgid "chroot"
 msgstr "chroot"
 
-#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua:14
+#: applications/luci-app-nut/luasrc/model/cbi/nut_monitor.lua
 msgid "upsmon drops privileges to this user"
 msgstr "upsmon drops privileges to this user"

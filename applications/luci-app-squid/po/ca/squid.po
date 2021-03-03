@@ -10,27 +10,27 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.10.1\n"
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:42
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Advanced Settings"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:38
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Coredump files directory"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:28
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "General Settings"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:30
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-squid/luasrc/controller/squid.lua:20
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:21
+#: applications/luci-app-squid/luasrc/controller/squid.lua
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Squid"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:34
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Visible Hostname"
 msgstr ""

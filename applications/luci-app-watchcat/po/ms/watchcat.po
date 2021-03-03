@@ -8,21 +8,21 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:21
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Forced reboot delay"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:40
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Host address to ping"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:47
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "How often to check internet connection. Default unit is seconds, you can you "
 "use the suffix 'm' for minutes, 'h' for hours or 'd' for days"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:31
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "In periodic mode, it defines the reboot period. In internet mode, it defines "
 "the longest period of time without internet access before a reboot is "
@@ -30,34 +30,34 @@ msgid ""
 "for hours or 'd' for days"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:15
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Operating mode"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:30
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Period"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:39
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Ping host"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:46
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Ping period"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/controller/watchcat.lua:10
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:5
+#: applications/luci-app-watchcat/luasrc/controller/watchcat.lua
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid "Watchcat"
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:6
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "Watchcat allows configuring a periodic reboot when the Internet connection "
 "has been lost for a certain period of time."
 msgstr ""
 
-#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua:22
+#: applications/luci-app-watchcat/luasrc/model/cbi/watchcat/watchcat.lua
 msgid ""
 "When rebooting the system, the watchcat will trigger a soft reboot. Entering "
 "a non zero value here will trigger a delayed hard reboot if the soft reboot "

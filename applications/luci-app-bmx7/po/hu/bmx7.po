@@ -10,210 +10,209 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.10\n"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:33
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Announcements"
 msgstr "Közlemények"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:27
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "BMX7 revision"
 msgstr "BMX7 revíziók"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:41
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Bandwith"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:3
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
 msgid "Bmx7 mesh nodes"
 msgstr "Bmx7 hálócsomópontok"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:44
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "CPU usage"
 msgstr "Processzorhasználat"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:12
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:79
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Device"
 msgstr "Eszköz"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:57
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Interface"
 msgstr "Csatoló"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:81
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Last Desc"
 msgstr "Utolsó leírás"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:14
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:82
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Last Ref"
 msgstr "Utolsó hivatkozás"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:77
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Link key"
 msgstr "Hivatkozás kulcsa"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:61
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "LinkLocal Ipv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:71
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Links"
 msgstr "Kapcsolatok"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:42
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Local net"
 msgstr "Helyi hálózat"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:60
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Max rate"
 msgstr "Legnagyobb sebesség"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:45
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Memory usage"
 msgstr "Memóriahasználat"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:13
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:80
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Metric"
 msgstr "Mérőszám"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:7
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:75
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:76
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:38
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Name"
 msgstr "Név"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:40
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Neighbours"
 msgstr "Szomszédok"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:40
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Network"
 msgstr "Hálózat"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:53
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Network interfaces"
 msgstr "Hálózati csatolók"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:39
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Node"
 msgstr "Csomópont"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:18
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node configuration"
 msgstr "Csomópont beállítása"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:25
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node key"
 msgstr "Csomópont kulcsa"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:23
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node name"
 msgstr "Csomópont neve"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:35
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node status"
 msgstr "Csomópont állapota"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:39
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Nodes seen"
 msgstr "Látott csomópontok"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:70
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Originators"
 msgstr "Kezdeményezők"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:43
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Path Metric"
 msgstr "Útvonal mérőszám"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:10
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:78
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Primary IPv6"
 msgstr "Elsődleges IPv6"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:24
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Primary IPv6 address"
 msgstr "Elsődleges IPv6-cím"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:62
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "RX BpP"
 msgstr "RX BpP"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:80
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "RX rate"
 msgstr "RX sebesség"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:45
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Rating"
 msgstr "Értékelés"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:78
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Remote linklocal IPv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:82
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Routes"
 msgstr "Útvonalak"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:9
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:77
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "S/s/T/t"
 msgstr "S/s/T/t"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:26
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Short DHash"
 msgstr "Rövid DHash"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:8
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:76
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:22
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:75
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Short ID"
 msgstr "Rövid azonosító"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:58
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "State"
 msgstr "Állapot"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:37
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Status"
 msgstr "Állapot"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:63
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "TX BpP"
 msgstr "TX BpP"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:81
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "TX rate"
 msgstr "TX sebesség"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:44
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Tun Metric"
 msgstr "Alagút mérőszám"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:42
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tunnelled IPv4 address"
 msgstr "Alagutazott IPv4-cím"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:41
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tunnelled IPv6 address"
 msgstr "Alagutazott IPv6-cím"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:46
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tx queue"
 msgstr "Tx sor"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:59
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Type"
 msgstr "Típus"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:43
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Uptime"
 msgstr "Működési idő"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:11
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:79
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Via Neighbour"
 msgstr "Szomszédon keresztül"

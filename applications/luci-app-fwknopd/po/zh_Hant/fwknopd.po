@@ -13,21 +13,21 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:48
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Allow SPA clients to request access to services through an iptables firewall "
 "instead of just to it."
 msgstr "容許 SPA 客戶端請求通過 iptables 防火牆存取服務，而不僅僅是被攔截。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:49
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Allow SPA clients to request forwarding destination by DNS name."
 msgstr "允許 SPA 客戶端用 DNS 名稱請求轉發目標。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:22
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Base 64 key"
 msgstr "Base64 金鑰"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:33
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Define a set of ports and protocols (tcp or udp) that will be opened if a "
 "valid knock sequence is seen. If this entry is not set, fwknopd will attempt "
@@ -38,7 +38,7 @@ msgstr ""
 "和協議。如果未設定此條目，fwknopd 將嘗試遵守 SPA 資料中指定的任何協議/端口請"
 "求（除非匹配到了任何“RESTRICT_PORTS”條目）。多個條目以逗號分隔。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:36
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Define the length of time access will be granted by fwknopd through the "
 "firewall after a valid knock sequence from a source IP address. If "
@@ -48,31 +48,30 @@ msgstr ""
 "定義在取得源 IP 位址的有效敲門序列後，fwknopd 允許通過防火牆存取的「時間長"
 "度」。如果未設定 “FW_ACCESS_TIMEOUT”，將自動設定逾時 30 秒為預設值。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:18
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:20
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Define the symmetric key used for decrypting an incoming SPA packet that is "
 "encrypted by the fwknop client with Rijndael."
 msgstr ""
 "定義 Rijndael 對稱金鑰，將用於解密由 fwknop 客戶端傳入的加密 SPA 資料包。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:6
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Enable Uci/Luci control"
 msgstr "啟用 Uci/Luci 控制元件"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:8
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Enable config overwrite"
 msgstr "啟用配置覆蓋"
 
-#: applications/luci-app-fwknopd/luasrc/controller/fwknopd.lua:13
+#: applications/luci-app-fwknopd/luasrc/controller/fwknopd.lua
 msgid "Firewall Knock Daemon"
 msgstr "Firewall Knock 守護程式"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:4
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Firewall Knock Operator"
 msgstr "Firewall Knock 操作者"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:39
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Force all SPA packets to contain a real IP address within the encrypted "
 "data. This makes it impossible to use the -s command line argument on the "
@@ -84,39 +83,39 @@ msgstr ""
 "令行上使用 -s 指令列引數，因此 -R 必須用於自動解析外部位址（如果 NAT 後面的客"
 "戶端）,或客戶端必須通過 -a 引數知道外部 IP。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:46
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Maximum age in seconds that an SPA packet will be accepted. defaults to 120 "
 "seconds"
 msgstr "SPA 資料包的最大可接受年齡（秒）。預設為 120 秒"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:19
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Normal Key"
 msgstr "普通金鑰"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:47
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Specify the ethernet interface on which fwknopd will sniff packets."
 msgstr "指定 fwknopd 將要嗅探資料包的乙太網介面。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:28
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "The base64 hmac key"
 msgstr "base64 hmac 金鑰"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:17
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Use ANY for any source ip"
 msgstr "對任何源 IP 使用 ANY"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:8
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "When unchecked, the config files in /etc/fwknopd will be used as is, "
 "ignoring any settings here."
 msgstr ""
 "取消選中時，/etc/fwknopd 中的配置檔案將按原樣使用，忽略此處的任何設定。"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:10
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "access.conf stanzas"
 msgstr "access.conf 節"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:44
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "fwknopd.conf config options"
 msgstr "fwknopd.conf 配置選項"

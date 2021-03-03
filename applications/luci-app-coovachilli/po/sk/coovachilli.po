@@ -9,18 +9,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:9
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "CoovaChilli"
 msgstr ""
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:12
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "Network Configuration"
 msgstr ""
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:13
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "RADIUS configuration"
 msgstr ""
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:14
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "UAM and MAC Authentication"
 msgstr ""

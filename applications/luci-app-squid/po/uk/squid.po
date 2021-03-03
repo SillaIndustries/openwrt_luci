@@ -11,27 +11,27 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.3.2-dev\n"
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:42
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Advanced Settings"
 msgstr "Розширені налаштування"
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:38
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Coredump files directory"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:28
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "General Settings"
 msgstr "Головні налаштування"
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:30
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Port"
 msgstr "Порт"
 
-#: applications/luci-app-squid/luasrc/controller/squid.lua:20
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:21
+#: applications/luci-app-squid/luasrc/controller/squid.lua
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Squid"
 msgstr "Squid"
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:34
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Visible Hostname"
 msgstr ""

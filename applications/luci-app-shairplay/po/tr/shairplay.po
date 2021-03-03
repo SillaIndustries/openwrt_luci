@@ -10,52 +10,51 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:47
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "AO Device ID"
 msgstr "AO Aygıt Kimliği"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:44
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "AO Device Name"
 msgstr "AO Aygıt Adı"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:33
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "AO Driver"
 msgstr "AO Sürücüsü"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:18
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "Airport Name"
 msgstr "Airport Adı"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:34
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:49
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "Default"
 msgstr "Öntanımlı"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:10
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "Enabled"
 msgstr "Etkin"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:29
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "HW Address"
 msgstr "HW Adresi"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:25
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "Password"
 msgstr "Parola"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:21
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "Port"
 msgstr "Bağlantı noktası"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:15
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid "Respawn"
 msgstr "Tekrar başlat"
 
-#: applications/luci-app-shairplay/luasrc/controller/shairplay.lua:11
+#: applications/luci-app-shairplay/luasrc/controller/shairplay.lua
 msgid "Shairplay"
 msgstr "Shairplay"
 
-#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua:4
+#: applications/luci-app-shairplay/luasrc/model/cbi/shairplay.lua
 msgid ""
 "Shairplay is a simple AirPlay server implementation, here you can configure "
 "the settings."

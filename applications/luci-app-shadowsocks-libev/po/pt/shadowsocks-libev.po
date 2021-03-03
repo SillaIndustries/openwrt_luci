@@ -10,31 +10,31 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.3.2-dev\n"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:176
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "<hidden>"
 msgstr "<oculto>"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/view/shadowsocks-libev/add_instance.htm:14
+#: applications/luci-app-shadowsocks-libev/luasrc/view/shadowsocks-libev/add_instance.htm
 msgid "Add"
 msgstr "Adicionar"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:24
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
 msgid "Advanced Settings"
 msgstr "Definições Avançadas"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:32
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
 msgid "Bind address"
 msgstr "Endereço de ligação"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:73
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Bypass ss-redir for packets with dst address in this list"
 msgstr "Contornar ss-redir para pacotes com endereço dst nesta lista"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:59
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Bypass ss-redir for packets with src address in this list"
 msgstr "Contornar ss-redir para pacotes com endereço src nesta lista"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:65
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "Continue to have dst address checked for packets with src address in this "
 "list"
@@ -42,11 +42,11 @@ msgstr ""
 "Continuar a ter o endereço dst verificado para pacotes com endereço src "
 "nesta lista"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:47
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Default action for locally generated TCP packets"
 msgstr "Ação padrão para pacotes TCP gerados localmente"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:88
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "Default action for packets whose dst address do not match any of the dst ip "
 "list"
@@ -54,7 +54,7 @@ msgstr ""
 "Ação padrão para pacotes cujo endereço dst não corresponde com nenhum da "
 "lista dst ip"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:68
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "Default action for packets whose src address do not match any of the src ip/"
 "net list"
@@ -62,7 +62,7 @@ msgstr ""
 "Ação padrão para pacotes cujo endereço src não corresponde a nenhum da lista "
 "src ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/servers.lua:11
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/servers.lua
 msgid ""
 "Definition of remote shadowsocks servers. Disable any of them will also "
 "disable instances referring to it."
@@ -70,120 +70,120 @@ msgstr ""
 "Definição de servidores shadowsocks remotos. Desativar qualquer um deles "
 "também desativará instâncias referentes a ele."
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:33
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Destination Settings"
 msgstr "Configurações de Destino"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:25
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:35
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/servers.lua:33
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/servers.lua
 msgid "Disable"
 msgstr "Desativar"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:86
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid "Disabled"
 msgstr "Desativado"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:87
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Dst default"
 msgstr "Dst padrão"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:72
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Dst ip/net bypass"
 msgstr "Contorno dst ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:79
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Dst ip/net bypass file"
 msgstr "Ficheiro de contorno dst ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:75
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Dst ip/net forward"
 msgstr "Forward de dst ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:83
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Dst ip/net forward file"
 msgstr "Ficheiro de forward dst ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:132
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Enable SO_REUSEPORT"
 msgstr "Ativar SO_REUSEPORT"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:130
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Enable TCP Fast Open"
 msgstr "Ativar TCP Fast Open"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:131
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Enable TCP_NODELAY"
 msgstr "Ativar TCP_NODELAY"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:83
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid "Enable/Disable"
 msgstr "Ativar/Desativar"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:89
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid "Enabled"
 msgstr "Ativado"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:54
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Extra arguments"
 msgstr "Argumentos adicionais"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:80
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "File containing ip/net for the purposes as with <em>Dst ip/net bypass</em>"
 msgstr ""
 "Ficheiro contendo ip/net para propósitos como com <em>Contorno de dst ip/"
 "net</em>"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:84
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "File containing ip/net for the purposes as with <em>Dst ip/net forward</em>"
 msgstr ""
 "Ficheiro contendo ip/net para propósitos como com <em>Forward dst ip/net</em>"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:106
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Forward recentrst"
 msgstr "Forward recentrst"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:107
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "Forward those packets whose dst have recently sent to us multiple tcp-rst"
 msgstr ""
 "Encaminhar os pacotes cujos dst enviaram recentemente tcp-rst para múltiplos "
 "nós"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:76
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Forward through ss-redir for packets with dst address in this list"
 msgstr ""
 "Encaminhar através do ss-redir para pacotes com endereço dst nesta lista"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:62
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Forward through ss-redir for packets with src address in this list"
 msgstr ""
 "Encaminhar através do ss-redir para pacotes com endereço src nesta lista"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:23
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:31
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "General Settings"
 msgstr "Configurações gerais"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:129
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "IPv6 First"
 msgstr "Primeiro o IPv6"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:50
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Ingress interfaces"
 msgstr "Interfaces de ingresso"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:203
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Install package %q"
 msgstr ""
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:97
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Install package iptables-mod-conntrack-extra"
 msgstr "Instalar o pacote iptables-mod-conntrack-extra"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:11
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid ""
 "Instances of shadowsocks-libev components, e.g. ss-local, ss-redir, ss-"
 "tunnel, ss-server, etc. To enable an instance it is required to enable both "
@@ -194,45 +194,45 @@ msgstr ""
 "ativar tanto a própria instância quanto o servidor remoto ao qual ela se "
 "refere."
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:105
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Key (base64)"
 msgstr "Chave (base64)"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua:13
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:10
+#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid "Local Instances"
 msgstr "Instâncias Locais"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:71
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Local address"
 msgstr "Endereço local"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:75
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Local port"
 msgstr "Porta local"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:46
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Local-out default"
 msgstr "Padrão de saída local"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:122
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "MTU"
 msgstr "MTU"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:97
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Method"
 msgstr "Método"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:117
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Mode of operation"
 msgstr "Modo de operação"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:76
-#: applications/luci-app-shadowsocks-libev/luasrc/view/shadowsocks-libev/add_instance.htm:12
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/view/shadowsocks-libev/add_instance.htm
 msgid "Name"
 msgstr "Nome"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:10
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid ""
 "On this page you can configure how traffics are to be forwarded to ss-redir "
 "instances. If enabled, packets will first have their src ip addresses "
@@ -249,116 +249,116 @@ msgstr ""
 "resultar em ação <em>checkdst</em>, os pacotes continuarão a ter os seus "
 "endereços dst verificados."
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:51
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Only apply rules on packets from these network interfaces"
 msgstr "Aplicar apenas regras em pacotes destas interfaces de rede"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:78
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid "Overview"
 msgstr "Visão Geral"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:202
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Package is not installed"
 msgstr "O pacote não está instalado"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:55
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Passes additional arguments to iptables. Use with care!"
 msgstr "Passa argumentos adicionais para o iptables. Usar com cuidado!"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:101
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Password"
 msgstr "Palavra-passe"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:109
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Plugin"
 msgstr "Plugin"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:110
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Plugin Options"
 msgstr "Opções de Plugin"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:129
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Prefer IPv6 addresses when resolving names"
 msgstr "Preferir endereços IPv6 ao resolver nomes"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua:21
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:9
+#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Redir Rules"
 msgstr "Regras de Redir"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua:17
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/servers.lua:10
+#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/servers.lua
 msgid "Remote Servers"
 msgstr "Servidores Remotos"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:69
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Remote server"
 msgstr "Servidor remoto"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:126
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Run as"
 msgstr "Executar como"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua:81
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instances.lua
 msgid "Running"
 msgstr "Executando"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:91
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Server"
 msgstr "Servidor"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:94
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Server port"
 msgstr "Porta do servidor"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua:9
+#: applications/luci-app-shadowsocks-libev/luasrc/controller/shadowsocks-libev.lua
 msgid "Shadowsocks-libev"
 msgstr "Shadowsocks-libev"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:32
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Source Settings"
 msgstr "Configurações de Origem"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:67
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Src default"
 msgstr "Src padrão"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:58
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Src ip/net bypass"
 msgstr "Contorno src ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:64
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Src ip/net checkdst"
 msgstr "Checkdst src ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:61
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "Src ip/net forward"
 msgstr "Forward src ip/net"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:33
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
 msgid "The address ss-server will initiate connection from"
 msgstr "O endereço ss-server irá iniciar a conexão de"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:42
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
 msgid "The address ss-tunnel will forward traffic to"
 msgstr "O endereço ss-túnel encaminhará o tráfego para"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:124
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Timeout (sec)"
 msgstr "Tempo limite (s)"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua:41
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/instance-details.lua
 msgid "Tunnel address"
 msgstr "Endereço do túnel"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua:128
+#: applications/luci-app-shadowsocks-libev/luasrc/model/shadowsocks-libev.lua
 msgid "Verbose"
 msgstr "Verbose"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:39
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "ss-redir for TCP"
 msgstr "ss-redir para TCP"
 
-#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua:42
+#: applications/luci-app-shadowsocks-libev/luasrc/model/cbi/shadowsocks-libev/rules.lua
 msgid "ss-redir for UDP"
 msgstr "ss-redir para UDP"

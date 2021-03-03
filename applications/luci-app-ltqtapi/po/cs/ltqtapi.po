@@ -10,81 +10,81 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.11-dev\n"
 
-#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua:16
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:7
+#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Account"
 msgstr "Účet"
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:28
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Collecting data..."
 msgstr "Shromažďování údajů…"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:7
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Contact"
 msgstr "Kontakt"
 
-#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua:17
+#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua
 msgid "Contacts"
 msgstr "Kontakty"
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:20
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Current Telephony State"
 msgstr "Stávající stav telefonie"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:14
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Dial"
 msgstr "Vytočit"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:14
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Disabled"
 msgstr "Zakázáno"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:7
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Here You can specify the SIP account that you want to use."
 msgstr "Zde je možné zadat SIP účet, který chcete použít."
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:7
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Here You can specify the SIP contacts that you want to use."
 msgstr "Zde je možné zadat SIP kontakty, které chcete použít."
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:12
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Name"
 msgstr "Název"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:13
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Password"
 msgstr "Heslo"
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:24
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Port1"
 msgstr "Port 1"
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:25
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Port2"
 msgstr "Port 2"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:11
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Realm"
 msgstr "Oblast"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:13
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Shortdial"
 msgstr "Zkrácená forma vytáčení"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:16
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "Type"
 msgstr "Typ"
 
-#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm:23
+#: applications/luci-app-ltqtapi/luasrc/view/telephony_status.htm
 msgid "Uplink"
 msgstr "Uplink"
 
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:12
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
 msgid "Username"
 msgstr "Uživatelské jméno"
 
-#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua:13
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua:4
-#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua:4
+#: applications/luci-app-ltqtapi/luasrc/controller/ltqtapi.lua
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/account.lua
+#: applications/luci-app-ltqtapi/luasrc/model/cbi/luci_ltqtapi/contact.lua
 msgid "VoIP"
 msgstr "VoIP"

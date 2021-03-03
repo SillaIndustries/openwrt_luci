@@ -12,132 +12,132 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:16
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "A short textual description of the configured command"
 msgstr "Krátky textový popis nakonfigurovaného príkazu"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:25
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid ""
 "Allow executing the command and downloading its output without prior "
 "authentication"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:22
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Allow the user to provide additional command line arguments"
 msgstr "Umožniť používateľovi poskytnúť dodatočné parametre príkazového riadku"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:146
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Arguments:"
 msgstr "Parametre:"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:66
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Binary data not displayed, download instead."
 msgstr "Binárne údaje neboli zobrazené, ale môžu byť prevzaté."
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:71
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Code:"
 msgstr "Kód:"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:164
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Collecting data..."
 msgstr "Zbierajú sa údaje..."
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:18
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Command"
 msgstr "Príkaz"
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:30
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Command executed successfully."
 msgstr "Príkaz úspešne spustený."
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:32
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Command exited with status code"
 msgstr "Príkaz skončil so stavovým kódom"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:73
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Command failed"
 msgstr "Príkaz zlyhal"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:19
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Command line to execute"
 msgstr "Príkazový riadok na spustenie"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:73
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Command successful"
 msgstr "Príkaz úspešný"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:144
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Command:"
 msgstr "Príkaz:"
 
-#: applications/luci-app-commands/luasrc/controller/commands.lua:9
+#: applications/luci-app-commands/luasrc/controller/commands.lua
 msgid "Configure"
 msgstr "Konfigurovať"
 
-#: applications/luci-app-commands/luasrc/controller/commands.lua:7
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:6
-#: applications/luci-app-commands/luasrc/view/commands.htm:138
+#: applications/luci-app-commands/luasrc/controller/commands.lua
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Custom Commands"
 msgstr "Vlastné príkazy"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:21
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Custom arguments"
 msgstr "Vlastné parametre"
 
-#: applications/luci-app-commands/luasrc/controller/commands.lua:8
+#: applications/luci-app-commands/luasrc/controller/commands.lua
 msgid "Dashboard"
 msgstr "Nástenka"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:15
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Description"
 msgstr "Popis"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:150
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Download"
 msgstr "Prevziať"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:119
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Download execution result"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:79
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Failed to execute command!"
 msgstr "Zlyhalo spustenie príkazu!"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:152
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Link"
 msgstr "Odkaz"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:53
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Loading"
 msgstr "Načítava sa"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:119
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Or display result"
 msgstr "Alebo zobraziť výsledok"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:24
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Public access"
 msgstr "Verejný prístup"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:149
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Run"
 msgstr "Spustiť"
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:41
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Standard Error"
 msgstr "Štandardná chyba"
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:36
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Standard Output"
 msgstr "Štandardný výstup"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:7
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid ""
 "This page allows you to configure custom shell commands which can be easily "
 "invoked from the web interface."
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:54
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Waiting for command to complete..."
 msgstr "Čaká sa na dokončenie príkazu..."

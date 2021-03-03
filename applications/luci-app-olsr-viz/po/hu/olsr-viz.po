@@ -10,11 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.10\n"
 
-#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua:4
+#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua
 msgid "OLSR-Viz"
 msgstr "OLSR-Viz"
 
-#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm:4
+#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm
 msgid "You need to allow javascript in your browser to show this page."
 msgstr ""
 "Engedélyeznie kell a JavaScriptet a böngészőben az oldal megjelenítéséhez."

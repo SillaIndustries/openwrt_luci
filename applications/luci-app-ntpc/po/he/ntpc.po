@@ -17,65 +17,64 @@ msgstr ""
 "X-Generator: Weblate 4.5-dev\n"
 
 # התאמת שעון?
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:21
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Clock Adjustment"
 msgstr "כוונון שעון"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 #, fuzzy
 msgid "Count of time measurements"
 msgstr "ספירת יחידות זמן"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:11
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:12
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Current system time"
 msgstr "זמן מערכת נוכחי"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:7
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:8
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "General"
 msgstr "כללי"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:34
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:23
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Hostname"
 msgstr "שם מארח"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:25
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 #, fuzzy
 msgid "Offset frequency"
 msgstr "תדירות סטייה"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:35
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:24
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Port"
 msgstr "פתחה"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Synchronizes the system time"
 msgstr "מסנכרן את זמן המערכת"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:18
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Server"
 msgstr ""
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:29
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Time Servers"
 msgstr "שרתי זמן"
 
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:14
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:17
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Synchronisation"
 msgstr "סנכרון זמן"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:13
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:14
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Update interval (in seconds)"
 msgstr "מרווח בין עדכונים (בשניות)"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "empty = infinite"
 msgstr "ריק = אינסופי"

@@ -14,7 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:81
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid ""
 "ACLs specify which external ports may be redirected to which internal "
 "addresses and ports"
@@ -22,163 +22,163 @@ msgstr ""
 "Le ACL specificano quali porte esterne possono essere redirezionate a quali "
 "indirizzi e porte interni"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:102
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Action"
 msgstr "Action"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:39
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Active UPnP Redirects"
 msgstr "Attiva reindirizzamento UPnP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:13
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Advanced Settings"
 msgstr "Impostazioni Avanzate"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:39
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Advertise as IGDv1 device instead of IGDv2"
 msgstr "Pubblicizza come dispositivo IGDv1 anziché IGDv2"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:36
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Allow adding forwards only to requesting ip addresses"
 msgstr "Permetti l'aggiunta della mappatura solo agli indirizzi IP richiedenti"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:59
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Announced model number"
 msgstr "Numero modello annunciato"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:58
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Announced serial number"
 msgstr "Numero seriale annunciato"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:69
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Clean rules interval"
 msgstr "Cancella le regole"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:65
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Clean rules threshold"
 msgstr "Pulisci le regole degli eventi"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:44
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Client Address"
 msgstr "Indirizzo IP"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:46
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Client Port"
 msgstr "Porta"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:51
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Collecting data..."
 msgstr "Raccolgo i dati..."
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:88
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Comment"
 msgstr "Commento"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:29
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Delete"
 msgstr "Elimina"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:47
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Description"
 msgstr "Descrizione"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:57
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Device UUID"
 msgstr "UUID del dispositivo"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:44
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Downlink"
 msgstr "Downlink"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:38
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Enable IGDv1 mode"
 msgstr "Abilita modalità IGDv1"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:33
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Enable NAT-PMP functionality"
 msgstr "Abilita il protocollo NAT-PMP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:32
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Enable UPnP functionality"
 msgstr "Abilita il protocollo UPnP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:41
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Enable additional logging"
 msgstr "Abilita log addizionale"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:35
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Enable secure mode"
 msgstr "Abilita la modalità sicura"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:43
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "External Port"
 msgstr "Porta Esterna"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:90
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "External ports"
 msgstr "Porte Esterne"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:12
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "General Settings"
 msgstr "Impostazioni generali"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:45
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Host"
 msgstr "Host"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:94
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Internal addresses"
 msgstr "Indirizzi Interni"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:98
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Internal ports"
 msgstr "Porte Interne"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:80
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "MiniUPnP ACLs"
 msgstr "ACL MiniUPnP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:10
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "MiniUPnP settings"
 msgstr "Opzioni di MiniUPnP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:61
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Notify interval"
 msgstr "Intervallo di notifica"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:50
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:73
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Presentation URL"
 msgstr "URL di presentazione"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:42
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Protocol"
 msgstr "Protocollo"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:42
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Puts extra debugging information into the system log"
 msgstr "Scrivi nel log di sistema le informazioni di extra debugging"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:55
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Report system instead of daemon uptime"
 msgstr "Mostra l'uptime del sistema invece del demone"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:15
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Start UPnP and NAT-PMP service"
 msgstr "Avvia il servizo UPnP e NAT-PMP"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:32
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "There are no active redirects."
 msgstr "Non ci sono mappature attive."
 
-#: applications/luci-app-upnp/luasrc/controller/upnp.lua:14
+#: applications/luci-app-upnp/luasrc/controller/upnp.lua
 msgid "UPnP"
 msgstr "UPnP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:6
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid ""
 "UPnP allows clients in the local network to automatically configure the "
 "router."
@@ -186,23 +186,22 @@ msgstr ""
 "UPnP permette ai dispositivi nella rete locale di configurare "
 "automaticamente il router."
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:76
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "UPnP lease file"
 msgstr "File di leasing UPnP"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:5
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Universal Plug & Play"
 msgstr "Universal Plug & Play"
 
-#: applications/luci-app-upnp/luasrc/view/upnp_status.htm:26
+#: applications/luci-app-upnp/luasrc/view/upnp_status.htm
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:47
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Uplink"
 msgstr "Uplink"
 
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:45
-#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua:48
+#: applications/luci-app-upnp/luasrc/model/cbi/upnp/upnp.lua
 msgid "Value in KByte/s, informational only"
 msgstr "Valori in KByte/s, (informativo)"

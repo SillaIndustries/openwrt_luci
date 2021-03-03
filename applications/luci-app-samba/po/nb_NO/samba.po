@@ -4,90 +4,90 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:64
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow guests"
 msgstr "Tillat gjester"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:17
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow system users to reach their home directories via network shares"
 msgstr "Tillat systembrukere å nå sine hjemmekataloger via nettverks mapper."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:51
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allowed users"
 msgstr "Tillatte brukere"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:58
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Browseable"
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:69
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Create mask"
 msgstr "Opprett Maske"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:14
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:74
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Directory mask"
 msgstr "Katalog maske"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:11
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit Template"
 msgstr "Rediger Mal"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:22
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit the template that is used for generating the samba configuration."
 msgstr "Rediger malen som brukes til å generere samba konfigurasjonen."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:10
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "General Settings"
 msgstr "Generelle Innstillinger"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:13
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Hostname"
 msgstr "Vertsnavn"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:75
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new directories"
 msgstr "Maske for nye kataloger"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:70
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new files"
 msgstr "Maske for nye filer"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:45
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Name"
 msgstr "Navn"
 
-#: applications/luci-app-samba/luasrc/controller/samba.lua:14
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:5
+#: applications/luci-app-samba/luasrc/controller/samba.lua
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Network Shares"
 msgstr "Nettverks Mapper"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:46
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Path"
 msgstr "Fysisk bane"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:40
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "Please add directories to share. Each directory refers to a folder on a "
 "mounted device."
 msgstr ""
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:53
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Read-only"
 msgstr "Skrivebeskyttet"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:16
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Share home-directories"
 msgstr "Del Hjemmekataloger"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:39
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Shared Directories"
 msgstr "Delte Kataloger"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:23
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "This is the content of the file '/etc/samba/smb.conf.template' from which "
 "your samba configuration will be generated. Values enclosed by pipe symbols "
@@ -98,6 +98,6 @@ msgstr ""
 "konfigurasjon vil bli generert fra. Verdier omsluttet av ('|') bør ikke "
 "endres. De får sine verdier fra 'Generelle Innstillinger' fanen."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:15
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Workgroup"
 msgstr "Arbeidsgruppe"

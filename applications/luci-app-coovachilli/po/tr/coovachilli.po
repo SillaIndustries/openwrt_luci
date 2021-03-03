@@ -14,18 +14,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.2-dev\n"
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:9
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "CoovaChilli"
 msgstr "CoovaChilli"
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:12
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "Network Configuration"
 msgstr "Network Yapılandırması"
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:13
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "RADIUS configuration"
 msgstr "RADIUS Yapılandırması"
 
-#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua:14
+#: applications/luci-app-coovachilli/luasrc/controller/coovachilli.lua
 msgid "UAM and MAC Authentication"
 msgstr "UAM ve MAC Kimlik Doğrulaması"

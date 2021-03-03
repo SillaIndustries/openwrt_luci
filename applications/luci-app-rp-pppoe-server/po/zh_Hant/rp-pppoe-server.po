@@ -12,91 +12,91 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:19
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Access Concentrator Name"
 msgstr "存取集訊器名稱"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:32
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "First remote IP"
 msgstr "第一個遠端 IP"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:29
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "IP of listening side"
 msgstr "監聽側 IP"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:44
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid ""
 "Instead of starting at beginning and going to end, randomize session number"
 msgstr "隨機分配工作階段號碼，而不是按順序分配"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:15
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Interface"
 msgstr "介面"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:15
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Interface on which to listen."
 msgstr "要監聽的介面。"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:62
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "MSS"
 msgstr "MSS"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:35
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Maximum sessions"
 msgstr "最大工作階段數"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:25
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Maximum sessions per peer"
 msgstr "每個 peer 的最大工作階段數"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:52
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Offset"
 msgstr "位移"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:40
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Options file"
 msgstr "設定檔案"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:52
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPP offset"
 msgstr "PPP 位移"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:47
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPP unit number"
 msgstr "PPP 單元編號"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:9
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPPoE Server Configuration"
 msgstr "PPPoE 伺服器設定"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/controller/rp-pppoe-server.lua:11
+#: applications/luci-app-rp-pppoe-server/luasrc/controller/rp-pppoe-server.lua
 msgid "RP PPPoE Server"
 msgstr "RP PPPoE 伺服器"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:44
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Random session selection"
 msgstr "隨機工作階段選擇"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:8
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Roaring Penguin PPPoE Server"
 msgstr "Roaring Penguin PPPoE 伺服器"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:11
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Server Configuration"
 msgstr "伺服器設定"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:22
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Service Name"
 msgstr "服務名稱"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:68
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Sync"
 msgstr "同步"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:57
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Timeout"
 msgstr "逾時值"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:47
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Unit"
 msgstr "單元"

@@ -16,65 +16,64 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1-dev\n"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:21
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Clock Adjustment"
 msgstr "Ajustament de rellotge"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 #, fuzzy
 msgid "Count of time measurements"
 msgstr "Compte de mesures d'horari"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:11
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:12
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Current system time"
 msgstr "Horari del sistema actual"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:7
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:8
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "General"
 msgstr "General"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:34
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:23
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Hostname"
 msgstr "Nom de l’amfitrió"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:25
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 #, fuzzy
 msgid "Offset frequency"
 msgstr "Compensació de freqüència"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:35
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:24
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Synchronizes the system time"
 msgstr "Sincronitza l'hora del sistema"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:18
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Server"
 msgstr "Servidor d'horari"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:29
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Time Servers"
 msgstr "Servidors d'horari"
 
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:14
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:17
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Synchronisation"
 msgstr "Sincronització d'horari"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:13
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:14
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Update interval (in seconds)"
 msgstr "Interval d'actualització (en segons)"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "empty = infinite"
 msgstr "buit = infinit"

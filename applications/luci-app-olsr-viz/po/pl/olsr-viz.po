@@ -11,11 +11,11 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 3.10-dev\n"
 
-#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua:4
+#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua
 msgid "OLSR-Viz"
 msgstr "OLSR-Viz"
 
-#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm:4
+#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm
 msgid "You need to allow javascript in your browser to show this page."
 msgstr ""
 "Musisz zezwolić na obsługę JavaScript w przeglądarce, aby wyświetlić tę "

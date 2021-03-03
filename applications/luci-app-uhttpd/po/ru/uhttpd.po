@@ -16,132 +16,131 @@ msgstr ""
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:135
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid ""
 "(/old/path=/new/path) or (just /old/path which becomes /cgi-prefix/old/path)"
 msgstr ""
 "(/старый/путь=/новый/путь) или (просто /старый/путь становится /cgi-prefix/"
 "старый/путь)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:145
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "404 Error"
 msgstr "Ошибка 404"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:7
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "A lightweight single-threaded HTTP(S) server"
 msgstr "Легкий однопоточный HTTP(S) сервер"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:20
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Advanced Settings"
 msgstr "Дополнительные настройки"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:135
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Aliases"
 msgstr "Псевдонимы (Aliases)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:149
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Base directory for files to be served"
 msgstr "Основная папка для файлов, которые будут обслуживаться сервером"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:22
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:50
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Bind to specific interface:port (by specifying interface address"
 msgstr ""
 "Привязка к конкретному интерфейсу:порту (путем указания адреса интерфейса)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:126
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "CGI filetype handler"
 msgstr "Обработчик<br />типа файла CGI"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:153
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "CGI is disabled if not present."
 msgstr "CGI отключается, если он отсутствует."
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:142
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Config file (e.g. for credentials for Basic Auth)"
 msgstr "Config файл"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:187
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Connection reuse"
 msgstr "Повторное использование соединения"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:221
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Country"
 msgstr "Страна"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:173
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Disable JSON-RPC authorization via ubus session API"
 msgstr "Отключение авторизации<br />JSON-RPC через API<br />в систему ubus"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:129
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Do not follow symlinks outside document root"
 msgstr ""
 "Не следовать по символическим ссылкам<br />вне корневого каталога документов"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:132
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Do not generate directory listings."
 msgstr "Не создавать списки папок."
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:148
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Document root"
 msgstr "Основная папка"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:122
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "E.g specify with index.html and index.php when using PHP"
 msgstr "Например, укажите index.html и index.php если используется PHP"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:160
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Embedded Lua interpreter is disabled if not present."
 msgstr ""
 "Встроенный обработчик скриптов Lua отключается, если скрипт отсутствует."
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:169
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Enable JSON-RPC Cross-Origin Resource Support"
 msgstr "Включение поддержки JSON-RPC разных источников"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:19
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "For settings primarily geared to serving more than the web UI"
 msgstr ""
 "Страница в основном предназначена для настройки параметров обслуживания "
 "сервера, а не веб-интерфейса"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:19
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Full Web Server Settings"
 msgstr "Полные настройки web сервера"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:160
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Full real path to handler for Lua scripts"
 msgstr "Полный путь<br />к обработчику<br />скриптов Lua"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:18
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "General Settings"
 msgstr "Основные настройки"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:22
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "HTTP listeners (address:port)"
 msgstr "Входящие HTTP<br />(адрес:порт)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:94
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "HTTPS Certificate (DER Encoded)"
 msgstr "Сертификат HTTPS (кодировка DER)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:96
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "HTTPS Private Key (DER Encoded)"
 msgstr "Приватный ключ HTTPS (кодировка DER)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:50
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "HTTPS listener (address:port)"
 msgstr "Входящие HTTPS<br />(адрес:порт)"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:90
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Ignore private IPs on public interface"
 msgstr "Игнорировать приватные<br />IP-адреса на<br />публичном интерфейсе"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:122
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Index page(s)"
 msgstr "Страница(ы) индекса"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:126
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid ""
 "Interpreter to associate with file endings ('suffix=handler', e.g. '.php=/"
 "usr/bin/php-cgi')"
@@ -149,39 +148,39 @@ msgstr ""
 "Обработчик для сопоставления расширений файлов ('суффикс=обработчик', "
 "например: '.php=/usr/bin/php-cgi')"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:214
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Length of key in bits"
 msgstr "Длина ключа в битах"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:227
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Location"
 msgstr "Расположение"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:197
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Maximum number of connections"
 msgstr "Максимальное количество соединений"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:201
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Maximum number of script requests"
 msgstr "Максимальное количество запросов скрипта"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:177
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Maximum wait time for Lua, CGI, or ubus execution"
 msgstr "Максимальное время ожидания для Lua, CGI,<br />или выполнение ubus"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:182
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Maximum wait time for network activity"
 msgstr "Максимальное время ожидания сетевой активности"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:166
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Override path for ubus socket"
 msgstr "Переопределить<br />путь для сокета ubus"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:153
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Path prefix for CGI scripts"
 msgstr "Префикс пути<br />для CGI скриптов"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:90
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid ""
 "Prevent access from private (RFC1918) IPs on an interface if it has an "
 "public IP address"
@@ -189,50 +188,50 @@ msgstr ""
 "Запретить доступ к приватному интерфейсу IPS (RFC1918), если он имеет "
 "публичный IP-адрес"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:138
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Realm for Basic Auth"
 msgstr "Хост для аутентификации"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:86
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Redirect all HTTP to HTTPS"
 msgstr "Перенаправление всех<br />HTTP на HTTPS"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:109
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Remove configuration for certificate and key"
 msgstr "Удалить настройки для сертификата и ключа"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:98
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Remove old certificate and key"
 msgstr "Удалить старый сертификат и ключ"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:218
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Server Hostname"
 msgstr "Имя хоста"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:20
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid ""
 "Settings which are either rarely needed or which affect serving the WebUI"
 msgstr ""
 "Страница содержит параметры, которые редко используются или влияют на "
 "обслуживание веб-интерфейса"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:224
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "State"
 msgstr "Указывать"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:192
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "TCP Keepalive"
 msgstr "TCP активность"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:110
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "This permanently deletes the cert, key, and configuration to use same."
 msgstr "Полное удаление сертификата, ключа и настроек вкладки меню cнизу."
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:210
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Valid for # of Days"
 msgstr "Действителен в течение указанного кол-ва дней"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:145
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid ""
 "Virtual URL or CGI script to display on status '404 Not Found'. Must begin "
 "with '/'"
@@ -240,34 +239,34 @@ msgstr ""
 "Виртуальный URL-адрес или CGI скрипт для отображения статуса '404 не "
 "найдено'. Надо начинать с '/'"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:156
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Virtual path prefix for Lua scripts"
 msgstr "Виртуальный путь<br />префикса<br />для скриптов Lua"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:163
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Virtual path prefix for ubus via JSON-RPC integration"
 msgstr "Виртуальный префикс<br />пути для ubus через<br />интеграцию JSON-RPC"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:142
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "Will not use HTTP authentication if not present"
 msgstr ""
 "Например, учетные данные для основной авторизации.<br />Не будет "
 "использоваться проверка подлинности HTTP, если она отсутствует"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:218
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "a.k.a CommonName"
 msgstr "Имя хоста сервера, так называемое - 'CommonName'"
 
-#: applications/luci-app-uhttpd/luasrc/controller/uhttpd/uhttpd.lua:13
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:6
+#: applications/luci-app-uhttpd/luasrc/controller/uhttpd/uhttpd.lua
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "uHTTPd"
 msgstr "uHTTPd"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:205
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "uHTTPd Self-signed Certificate Parameters"
 msgstr "Параметры самозаверяющего сертификата uHTTPd"
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:99
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid ""
 "uHTTPd will generate a new self-signed certificate using the configuration "
 "shown below."
@@ -275,6 +274,6 @@ msgstr ""
 "uHTTPd создаст самозаверяющий сертификат используя вкладку расположенную "
 "ниже."
 
-#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua:163
+#: applications/luci-app-uhttpd/luasrc/model/cbi/uhttpd/uhttpd.lua
 msgid "ubus integration is disabled if not present"
 msgstr "Интеграция с ubus будет отключена, если она отсутствует"

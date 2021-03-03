@@ -16,75 +16,75 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:23
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Calculate overhead"
 msgstr "Ek yükünü hesaplayın"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:33
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification Rules"
 msgstr "Sınıflandırma Kuralları"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:19
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification group"
 msgstr "Sınıflandırma gurubu"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:79
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Comment"
 msgstr "Açıklama"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:61
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Destination host"
 msgstr "Hedef adres"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:27
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Download speed (kbit/s)"
 msgstr "Indirme hızı (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:16
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Enable"
 msgstr "Etkinleştir"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:25
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Half-duplex"
 msgstr "Half-duplex (Network)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:12
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Interfaces"
 msgstr "Arayüzler"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:77
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Number of bytes"
 msgstr "Bayt sayısı"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:73
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Ports"
 msgstr "Portlar"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:66
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Protocol"
 msgstr "Protokol"
 
-#: applications/luci-app-qos/luasrc/controller/qos.lua:13
+#: applications/luci-app-qos/luasrc/controller/qos.lua
 msgid "QoS"
 msgstr "QoS"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:7
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Quality of Service"
 msgstr "Servis Kalitesi"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:56
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Source host"
 msgstr "Kaynak adresi"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:39
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Target"
 msgstr "Hedef"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:30
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Upload speed (kbit/s)"
 msgstr "Yükleme hızı (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:8
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid ""
 "With <abbr title=\"Quality of Service\">QoS</abbr> you can prioritize "
 "network traffic selected by addresses, ports or services."
@@ -93,29 +93,26 @@ msgstr ""
 "noktaları veya hizmetler tarafından seçilen ağ trafiğine öncelik "
 "verebilirsiniz."
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:58
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:63
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:67
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:75
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "all"
 msgstr "Tümü"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:20
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "default"
 msgstr "varsayılan"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:41
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "express"
 msgstr "hizli"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:43
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "low"
 msgstr "düsük"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:42
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "normal"
 msgstr "normal"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:40
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "priority"
 msgstr "öncelikli"

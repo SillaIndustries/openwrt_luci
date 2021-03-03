@@ -12,11 +12,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:16
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "A short textual description of the configured command"
 msgstr "En kort tekstlig beskrivelse av den konfigurerte kommandoen"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:25
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid ""
 "Allow executing the command and downloading its output without prior "
 "authentication"
@@ -24,117 +24,117 @@ msgstr ""
 "Tillat å utføre kommandoen og laste ned resultatet uten forutgående "
 "godkjenning"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:22
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Allow the user to provide additional command line arguments"
 msgstr "Tillat brukeren å gi ytterligere kommandolinjeargumenter"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:146
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Arguments:"
 msgstr "Argumenter:"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:66
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Binary data not displayed, download instead."
 msgstr "Binære data vises ikke, last ned i stedet."
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:71
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Code:"
 msgstr "Kode:"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:164
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Collecting data..."
 msgstr "Samler inn data…"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:18
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Command"
 msgstr "Kommando"
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:30
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Command executed successfully."
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:32
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Command exited with status code"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:73
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Command failed"
 msgstr "Kommando feilet"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:19
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Command line to execute"
 msgstr "Kommandolinje å utføre"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:73
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Command successful"
 msgstr "Kommando vellykket"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:144
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Command:"
 msgstr "Kommando:"
 
-#: applications/luci-app-commands/luasrc/controller/commands.lua:9
+#: applications/luci-app-commands/luasrc/controller/commands.lua
 msgid "Configure"
 msgstr "Konfigurer"
 
-#: applications/luci-app-commands/luasrc/controller/commands.lua:7
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:6
-#: applications/luci-app-commands/luasrc/view/commands.htm:138
+#: applications/luci-app-commands/luasrc/controller/commands.lua
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Custom Commands"
 msgstr "Egendefinerte Kommandoer"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:21
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Custom arguments"
 msgstr "Egendefinerte argumenter"
 
-#: applications/luci-app-commands/luasrc/controller/commands.lua:8
+#: applications/luci-app-commands/luasrc/controller/commands.lua
 msgid "Dashboard"
 msgstr "Dashboard"
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:15
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Description"
 msgstr "Beskrivelse"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:150
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Download"
 msgstr "Nedlasting"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:119
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Download execution result"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:79
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Failed to execute command!"
 msgstr "Kunne ikke utføre kommandoen!"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:152
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Link"
 msgstr "Link"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:53
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Loading"
 msgstr "Laster"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:119
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Or display result"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:24
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid "Public access"
 msgstr "Tilgjengelig for alle"
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:149
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Run"
 msgstr "Kjør"
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:41
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Standard Error"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/view/commands_public.htm:36
+#: applications/luci-app-commands/luasrc/view/commands_public.htm
 msgid "Standard Output"
 msgstr ""
 
-#: applications/luci-app-commands/luasrc/model/cbi/commands.lua:7
+#: applications/luci-app-commands/luasrc/model/cbi/commands.lua
 msgid ""
 "This page allows you to configure custom shell commands which can be easily "
 "invoked from the web interface."
@@ -142,6 +142,6 @@ msgstr ""
 "Denne siden lar deg konfigurere egendefinerte shell-kommandoer som lett kan "
 "startes fra webgrensesnittet."
 
-#: applications/luci-app-commands/luasrc/view/commands.htm:54
+#: applications/luci-app-commands/luasrc/view/commands.htm
 msgid "Waiting for command to complete..."
 msgstr "Venter på at kommandoen fullføres..."

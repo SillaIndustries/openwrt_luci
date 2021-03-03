@@ -14,73 +14,73 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:64
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow guests"
 msgstr "Permitir invitados"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:17
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allow system users to reach their home directories via network shares"
 msgstr ""
 "Permitir a los usuarios acceder a sus carpetas personales a través de Samba4"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:51
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Allowed users"
 msgstr "Usuarios permitidos"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:58
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Browseable"
 msgstr "Navegable"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:69
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Create mask"
 msgstr "Crear máscara"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:14
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Description"
 msgstr "Descripción"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:74
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Directory mask"
 msgstr "Máscara de directorio"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:11
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit Template"
 msgstr "Editar plantilla"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:22
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Edit the template that is used for generating the samba configuration."
 msgstr "Editar la plantilla usada para generar la configuración de samba."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:10
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "General Settings"
 msgstr "Configuración general"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:13
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Hostname"
 msgstr "Nombre del host"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:75
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new directories"
 msgstr "Máscara para carpetas nuevas"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:70
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Mask for new files"
 msgstr "Máscara para archivos nuevos"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:45
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Name"
 msgstr "Nombre"
 
-#: applications/luci-app-samba/luasrc/controller/samba.lua:14
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:5
+#: applications/luci-app-samba/luasrc/controller/samba.lua
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Network Shares"
 msgstr "Recursos compartidos de red"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:46
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Path"
 msgstr "Ruta"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:40
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "Please add directories to share. Each directory refers to a folder on a "
 "mounted device."
@@ -88,19 +88,19 @@ msgstr ""
 "Por favor agregue directorios para compartir. Cada directorio hace "
 "referencia a una carpeta en un dispositivo montado."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:53
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Read-only"
 msgstr "Solo lectura"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:16
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Share home-directories"
 msgstr "Compartir carpetas personales"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:39
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Shared Directories"
 msgstr "Directorios compartidos"
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:23
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid ""
 "This is the content of the file '/etc/samba/smb.conf.template' from which "
 "your samba configuration will be generated. Values enclosed by pipe symbols "
@@ -112,6 +112,6 @@ msgstr ""
 "delimitados por plecas («|»); estos reciben sus valores de la pestaña "
 "«Configuración general»."
 
-#: applications/luci-app-samba/luasrc/model/cbi/samba.lua:15
+#: applications/luci-app-samba/luasrc/model/cbi/samba.lua
 msgid "Workgroup"
 msgstr "Grupo de trabajo"

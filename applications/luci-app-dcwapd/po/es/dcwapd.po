@@ -13,27 +13,25 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:72
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:121
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Bridge"
 msgstr "Puente"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:45
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Channel Sets"
 msgstr "Conjuntos de canales"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:89
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:102
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Data Channels"
 msgstr "Canales de datos"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:102
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Define data channels over which outbound filtered packets will flow."
 msgstr ""
 "Defina canales de datos sobre los cuales fluirán los paquetes filtrados "
 "salientes."
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:179
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid ""
 "Define filter rules to apply to outbound packets. Matching packets will flow "
 "over the data channel."
@@ -41,87 +39,84 @@ msgstr ""
 "Defina reglas de filtro para aplicar a los paquetes salientes. Los paquetes "
 "coincidentes fluirán sobre el canal de datos."
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:45
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Define primary channels and their corresponding data channels."
 msgstr "Defina canales primarios y sus canales de datos correspondientes."
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:213
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Destination port"
 msgstr "Puerto de destino"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:21
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Dual Channel Wi-Fi AP Daemon"
 msgstr "Demonio AP de Wi-Fi de doble canal"
 
-#: applications/luci-app-dcwapd/luasrc/controller/dcwapd.lua:11
+#: applications/luci-app-dcwapd/luasrc/controller/dcwapd.lua
 msgid "Dual Channel WiFi"
 msgstr "Wi-Fi de doble canal"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:34
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:52
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Enable"
 msgstr "Activar"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:154
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Filter Sets"
 msgstr "Conjuntos de filtros"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:166
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:179
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Filters"
 msgstr "Filtros"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:27
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "General"
 msgstr "General"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:27
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "General Settings"
 msgstr "Configuración general"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:138
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:161
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "MAC Address"
 msgstr "Dirección MAC"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:186
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Packet size"
 msgstr "Tamaño del paquete"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:204
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Protocol"
 msgstr "Protocolo"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:58
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:107
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "SSID"
 msgstr "SSID"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:154
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Select filters to apply to matching MAC addresses."
 msgstr "Seleccione filtros para aplicar a las direcciones MAC coincidentes."
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:192
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Source IP"
 msgstr "IP de origen"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:198
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Source port"
 msgstr "Puerto de origen"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:40
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Specify the temporary directory for dcwapd file storage."
 msgstr ""
 "Especifique el directorio temporal para el almacenamiento de archivos dcwapd."
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:40
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid "Temp Directory"
 msgstr "Directorio temporal"
 
-#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua:22
+#: applications/luci-app-dcwapd/luasrc/model/cbi/dcwapd/dcwapd.lua
 msgid ""
 "With <abbr title=\"Dual Channel Wi-Fi AP Daemon\">Dual Channel WiFi</abbr> "
 "you can use two simultaneous Wi-Fi connections to decrease wireless traffic "

@@ -10,210 +10,209 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:33
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Announcements"
 msgstr "公告内容"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:27
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "BMX7 revision"
 msgstr "BMX7版本号"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:41
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Bandwith"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:3
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
 msgid "Bmx7 mesh nodes"
 msgstr "Bmx7 网格节点"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:44
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "CPU usage"
 msgstr "CPU 使用率"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:12
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:79
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Device"
 msgstr "设备"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:57
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Interface"
 msgstr "接口"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:81
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Last Desc"
 msgstr "上次描述"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:14
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:82
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Last Ref"
 msgstr "上次参考"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:77
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Link key"
 msgstr "链接密钥"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:61
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "LinkLocal Ipv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:71
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Links"
 msgstr "链接"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:42
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Local net"
 msgstr "本地网络"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:60
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Max rate"
 msgstr "最大速率"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:45
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Memory usage"
 msgstr "内存使用率"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:13
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:80
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Metric"
 msgstr "跃点数"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:7
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:75
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:76
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:38
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Name"
 msgstr "名称"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:40
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Neighbours"
 msgstr "邻居"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:40
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Network"
 msgstr "网络"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:53
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Network interfaces"
 msgstr "网络接口"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:39
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Node"
 msgstr "节点"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:18
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node configuration"
 msgstr "节点配置"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:25
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node key"
 msgstr "节点密钥"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:23
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node name"
 msgstr "节点名称"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:35
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Node status"
 msgstr "节点状态"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:39
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Nodes seen"
 msgstr "看到的节点"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:70
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Originators"
 msgstr "发起人"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:43
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Path Metric"
 msgstr "路径指标"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:10
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:78
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Primary IPv6"
 msgstr "主IPv6"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:24
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Primary IPv6 address"
 msgstr "主IPv6地址"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:62
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "RX BpP"
 msgstr "每个包接收的字节数"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:80
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "RX rate"
 msgstr "接收率"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:45
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Rating"
 msgstr "评分"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:78
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Remote linklocal IPv6"
 msgstr ""
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:82
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Routes"
 msgstr "路由表"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:9
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:77
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "S/s/T/t"
 msgstr "S/s/T/t"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:26
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Short DHash"
 msgstr "短分布式哈希"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:8
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:76
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:22
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:75
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Short ID"
 msgstr "短 ID"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:58
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "State"
 msgstr "状态"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:37
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Status"
 msgstr "状态"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:63
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "TX BpP"
 msgstr "每个包发送的字节数"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:81
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "TX rate"
 msgstr "发射率"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm:44
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/tunnels_j.htm
 msgid "Tun Metric"
 msgstr "Tun 度量标准"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:42
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tunnelled IPv4 address"
 msgstr "隧道IPv4地址"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:41
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tunnelled IPv6 address"
 msgstr "隧道IPv6地址"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:46
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Tx queue"
 msgstr "发射队列"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:59
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Type"
 msgstr "类型"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm:43
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/status_j.htm
 msgid "Uptime"
 msgstr "运行时间"
 
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm:11
-#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm:79
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/admin_status/index/bmx7_nodes.htm
+#: applications/luci-app-bmx7/root/usr/lib/lua/luci/view/bmx7/nodes_j.htm
 msgid "Via Neighbour"
 msgstr "通过邻居"

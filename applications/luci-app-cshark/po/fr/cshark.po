@@ -10,102 +10,99 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:24
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Actions"
 msgstr "Actions"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:72
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Capture URL"
 msgstr "Capturer l'URL"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:68
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Capture links"
 msgstr "Capturer les liens"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:73
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Capture time"
 msgstr "Capturer le temps"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:284
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Clear list"
 msgstr "Vider la liste"
 
-#: applications/luci-app-cshark/luasrc/controller/cshark.lua:19
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:17
+#: applications/luci-app-cshark/luasrc/controller/cshark.lua
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "CloudShark"
 msgstr "CloudShark"
 
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:27
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "CloudShark API token"
 msgstr "Jeton d'API de CloudShark"
 
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:26
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "CloudShark URL"
 msgstr "URL de CloudShark"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:23
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:51
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Filter"
 msgstr "Filtrer"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:21
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:28
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Interface"
 msgstr "Interface"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:92
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Loading"
 msgstr "Chargement"
 
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:22
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "Options"
 msgstr "Options"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:54
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:196
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Start capture"
 msgstr "Démarrer la capture"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:17
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Start network capture"
 msgstr "Démarrer la capture du réseau"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:181
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Stop capture"
 msgstr "Arrêter la capture"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:93
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Waiting for capture to complete..."
 msgstr "En attente de la fin de la capture…"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:93
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Waiting for upload to complete..."
 msgstr "En attente de la fin du téléversement…"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:39
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "any"
 msgstr "tous"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:47
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "bytes"
 msgstr "octets"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:46
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "packets"
 msgstr "paquets"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:45
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "seconds"
 msgstr "secondes"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:22
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "seconds, packets, bytes"
 msgstr "secondes, paquets, octets"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:44
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "timeout, bytes, seconds"
 msgstr "délai d'attente, octets, secondes"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:151
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "value for [seconds, packets, bytes] must be Integer"
 msgstr "les valeurs pour [secondes, paquets, octets] doivent être entières"

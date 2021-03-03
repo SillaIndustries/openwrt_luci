@@ -10,515 +10,492 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:661
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "%d IPv4-only hosts"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:668
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "%d IPv6-only hosts"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:675
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "%d dual-stack hosts"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:71
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "%s and %s"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:69
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "%s, %s and %s"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:68
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "-1 - Restart every last day of month"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:69
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "-7 - Restart a week before end of month"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:67
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "1 - Restart every 1st of month"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:183
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "10m - frequent commits at the expense of flash wear"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:182
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "12h - compromise between risk of data loss and flash wear"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:181
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "24h - least flash wear at the expense of data loss risk"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:191
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "30s - refresh twice per minute for reasonably current stats"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:192
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "5m - rarely refresh to avoid frequently clearing conntrack counters"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:184
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "60s - commit minutely, useful for non-flash storage"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:40
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"conn-total\">0</big> connections"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:37
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"host-total\">0</big> hosts"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:114
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"ipv6-hosts\">0%</big> IPv6 support rate among hosts"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:116
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"ipv6-rx\">0B</big> total IPv6 download"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:115
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"ipv6-share\">0%</big> of the total traffic is IPv6"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:117
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"ipv6-tx\">0B</big> total IPv6 upload"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:79
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"layer7-most-conn\">0</big> cause the most connections"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:77
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"layer7-most-rx\">0</big> cause the most download"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:78
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"layer7-most-tx\">0</big> cause the most upload"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:76
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"layer7-total\">0</big> different application protocols"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:38
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"rx-total\">0</big> download"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:39
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "<big id=\"tx-total\">0</big> upload"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:25
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Accounting period"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:21
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Advanced Settings"
 msgstr "Avanserte innstillinger"
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:85
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Application"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:62
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Application Protocols"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:10
+#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua
 msgid "Backup"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:7
+#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua
 msgid "Bandwidth Monitor"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:142
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "CSV, grouped by IP"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:141
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "CSV, grouped by MAC"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:143
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "CSV, grouped by protocol"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:52
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Changing the accounting interval type will invalidate existing databases!"
 "<br /><strong><a href=\"%s\">Download backup</a></strong>."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:26
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Choose \"Day of month\" to restart the accounting period monthly on a "
 "specific date, e.g. every 3rd. Choose \"Fixed interval\" to restart the "
 "accounting period exactly every N days, beginning at a given date."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:56
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:94
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:133
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Collecting data..."
 msgstr "Samler inn data…"
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:177
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Commit interval"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:164
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Compress database"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:9
+#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua
 msgid "Configuration"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:302
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Conn."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:48
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:86
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Connections"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:31
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Connections / Host"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:195
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Database directory"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:196
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Database storage directory. One file per accounting period will be placed "
 "into this directory."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:28
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Day of month"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:63
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Day of month to restart the accounting period. Use negative values to count "
 "towards the end of month, e.g. \"-5\" to specify the 27th of July or the "
 "24th of February."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:8
+#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua
 msgid "Display"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:303
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Down. (Bytes)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:304
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Down. (Pkts.)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:285
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Download"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:49
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:87
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:126
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Download (Bytes)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:50
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:88
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:127
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Download (Packets)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:65
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Download / Application"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:25
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm
 msgid "Download Database Backup"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:108
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Dualstack enabled hosts"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:62
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Due date"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:139
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Export"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:125
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Family"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:29
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Fixed interval"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:476
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:534
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:639
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Force reload…"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:20
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "General Settings"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:28
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm
 msgid "Generate Backup"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:46
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:123
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Host"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:294
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Hostname: <big id=\"bubble-hostname\">example.org</big>"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:624
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "IPv4"
 msgstr "IPv4"
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:103
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "IPv4 vs. IPv6"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:625
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:100
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "IPv6"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:95
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Interval"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:178
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Interval at which the temporary in-memory database is committed to the "
 "persistent database directory."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:188
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Interval at which traffic counters of still established connections are "
 "refreshed from netlink information."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:197
+#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua
 msgid "Invalid or empty backup archive"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:144
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "JSON dump"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:96
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Length of accounting interval in days."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:110
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Local interfaces"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:134
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Local subnets"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:47
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:124
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "MAC"
 msgstr "MAC"
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:152
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Maximum entries"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:171
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Maximum number of accounting periods to keep, use zero to keep databases "
 "forever."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:13
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Netlink Bandwidth Monitor"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:9
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm
 msgid "Netlink Bandwidth Monitor - Backup / Restore"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:12
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Netlink Bandwidth Monitor - Configuration"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:475
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:533
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:638
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "No data recorded yet."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:111
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Only conntrack streams from or to any of these networks are counted."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:135
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Only conntrack streams from or to any of these subnets are counted."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:158
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Preallocate database"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:451
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Protocol"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:22
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Protocol Mapping"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:23
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Protocol mappings to distinguish traffic types per host, one mapping per "
 "line. The first value specifies the IP protocol, the second value the port "
 "number and the third column is the name of the mapped protocol."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:187
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Refresh interval"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:17
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm
 msgid "Restore"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm:12
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/backup.htm
 msgid "Restore Database Backup"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:16
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Select accounting period:"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:446
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Source IP"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:80
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Start date"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:81
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Start date of the first accounting period, e.g. begin of ISP contract."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:170
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Stored periods"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:13
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "The Netlink Bandwidth Monitor (nlbwmon) is a lightweight, efficient traffic "
 "accounting program keeping track of bandwidth usage per host and protocol."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua:216
+#: applications/luci-app-nlbwmon/luasrc/controller/nlbw.lua
 msgid "The following database files have been restored: %s"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:153
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "The maximum amount of entries that should be put into the database, setting "
 "the limit to 0 will allow databases to grow indefinitely."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:26
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Traffic / Host"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:23
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Traffic Distribution"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:305
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Up. (Bytes)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:306
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Up. (Pkts.)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:289
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Upload"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:51
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:89
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:128
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Upload (Bytes)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:52
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:90
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:129
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Upload (Packets)"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm:70
+#: applications/luci-app-nlbwmon/luasrc/view/nlbw/display.htm
 msgid "Upload / Application"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:295
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "Vendor: <big id=\"bubble-vendor\">Example Corp.</big>"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:51
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid "Warning"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:165
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Whether to gzip compress archive databases. Compressing the database files "
 "makes accessing old data slightly slower but helps to reduce storage "
 "requirements."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua:159
+#: applications/luci-app-nlbwmon/luasrc/model/cbi/nlbw/config.lua
 msgid ""
 "Whether to preallocate the maximum possible database size in memory. This is "
 "mainly useful for memory constrained systems which might not be able to "
 "satisfy memory allocation after longer uptime periods."
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:88
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "no traffic"
 msgstr ""
 
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:315
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:327
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:332
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:447
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:504
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:517
-#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js:522
+#: applications/luci-app-nlbwmon/htdocs/luci-static/resources/view/nlbw.js
 msgid "other"
 msgstr ""

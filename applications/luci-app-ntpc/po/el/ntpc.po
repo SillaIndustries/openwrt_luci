@@ -14,63 +14,62 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:21
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Clock Adjustment"
 msgstr "Ρύθμιση Ρολογιού"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Count of time measurements"
 msgstr "Πλήθος μετρήσεων ώρας"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:11
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:12
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Current system time"
 msgstr "Τρέχουσα ώρα συστήματος"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:7
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:8
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "General"
 msgstr "Γενικά"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:34
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:23
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Hostname"
 msgstr "Όνομα κεντρικού υπολογιστή"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:25
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Offset frequency"
 msgstr "Συχνότητα offset"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:35
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:24
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Port"
 msgstr "Θύρα"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Synchronizes the system time"
 msgstr "Συγχρονίζει την ώρα του συστήματος"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:18
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Server"
 msgstr "Διακομιστής Ώρας"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:29
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Time Servers"
 msgstr "Διακομιστές Ώρας"
 
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:14
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:17
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Synchronisation"
 msgstr "Συγχρονισμός Ώρας"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:13
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:14
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Update interval (in seconds)"
 msgstr "Περίοδος ενημέρωσης (σε δευτερόλεπτα)"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "empty = infinite"
 msgstr "άδειο = άπειρος"

@@ -10,41 +10,40 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:18
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid ""
 "<b>Please note:</b> For LXC Containers you need a custom OpenWrt image.<br />"
 msgstr ""
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:29
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:47
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Actions"
 msgstr "Actions"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:23
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Available Containers"
 msgstr "Conteneurs disponibles"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:25
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Containers URL"
 msgstr "URL des conteneurs"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:53
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Create"
 msgstr "Créer"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:41
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Create New Container"
 msgstr "Créer un nouveau conteneur"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:133
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Delete"
 msgstr "Effacer"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:31
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Enable SSL"
 msgstr "Activer SSL"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:32
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid ""
 "Enable optional SSL encryption support. This requires additional packages "
 "like 'wget', 'ca-certificates', 'gnupg' and 'gnupg-utils'."
@@ -53,61 +52,60 @@ msgstr ""
 "des packages supplémentaires comme 'wget', 'ca-certificate', 'gnupg' et "
 "'gnupg-utils'."
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:50
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Enter new name"
 msgstr "Entrez un nouveau nom"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:36
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Free Space Threshold"
 msgstr "Seuil d'espace libre"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:42
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Free Temp Threshold"
 msgstr ""
 
-#: applications/luci-app-lxc/luasrc/controller/lxc.lua:31
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:17
+#: applications/luci-app-lxc/luasrc/controller/lxc.lua
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "LXC Containers"
 msgstr "Conteneurs LXC"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:73
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Loading"
 msgstr "Chargement"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:37
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Minimum required free space for LXC Container creation in KB"
 msgstr "Espace libre minimum requis pour la création du conteneur LXC en Ko"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:43
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Minimum required free temp space for LXC Container creation in KB"
 msgstr ""
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:27
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:45
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Name"
 msgstr "Nom"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:22
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Options"
 msgstr "Options"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:131
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Start"
 msgstr "Démarrer"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:28
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Status"
 msgstr "État"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:132
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Stop"
 msgstr "Arrêter"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:46
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Template"
 msgstr "Modèle"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:19
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid ""
 "The image should include at least support for 'kernel cgroups', 'kernel "
 "namespaces' and 'miscellaneous LXC related options' plus 'kmod-veth' for "
