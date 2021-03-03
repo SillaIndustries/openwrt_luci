@@ -661,6 +661,10 @@ msgstr ""
 msgid "Attempt to enable configured mount points for attached devices"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Attention! Restoring factory defaults will delete all your settings!"
+msgstr ""
+
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js
 msgid "Auth Group"
@@ -1387,6 +1391,7 @@ msgstr ""
 msgid "Device unreachable!"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Device unreachable! Still waiting for device..."
 msgstr "Αποτυχία σύνδεσης με συσκευή! Παραμονή για συσκευή..."
@@ -1516,6 +1521,10 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Do you really want to erase all settings?"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Do you really want to reboot your device?"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js
@@ -1853,6 +1862,10 @@ msgstr ""
 msgid "FT protocol"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Factory defaults"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js
 msgid "Failed to change the system password."
 msgstr ""
@@ -1928,6 +1941,10 @@ msgstr "Ρυθμίσεις Τείχους Προστασίας"
 msgid "Firewall Status"
 msgstr "Κατάσταση Τείχους Προστασίας"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Firmware File"
 msgstr ""
@@ -1935,6 +1952,14 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 msgid "Firmware Version"
 msgstr "Έκδοση Υλικολογισμικού"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware operations"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware update"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js
 msgid "Fixed source port for outbound DNS queries"
@@ -2492,6 +2517,7 @@ msgid "Info"
 msgstr "Πληροφορίες"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
+#: modules/luci-mod-network/luasrc/controller/admin/network.lua
 msgid "Information"
 msgstr ""
 
@@ -3872,6 +3898,11 @@ msgstr ""
 msgid "Perfect Forward Secrecy"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Perform factory restore"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Perform reboot"
 msgstr "Εκτέλεση επανεκκίνησης"
@@ -4128,6 +4159,7 @@ msgstr ""
 msgid "Rebind protection"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json
 msgid "Reboot"
@@ -4141,6 +4173,10 @@ msgstr "Επανεκκίνηση…"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Reboots the operating system of your device"
 msgstr "Επανεκκίνηση του λειτουργικού συστήματος της συσκευής σας"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Reboots the operating system of your device."
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js
 msgid "Receive"
@@ -4515,6 +4551,10 @@ msgstr ""
 msgid "Select file…"
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Select…"
+msgstr ""
+
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js
@@ -4781,7 +4821,6 @@ msgstr ""
 msgid "Station inactivity limit"
 msgstr ""
 
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 #: modules/luci-mod-status/luasrc/view/admin_status/index.htm
@@ -4870,7 +4909,6 @@ msgstr ""
 msgid "Sync with browser"
 msgstr ""
 
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json
@@ -4888,6 +4926,10 @@ msgstr "Ιδιότητες Συστήματος"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js
 msgid "System log buffer size"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "System reboot"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js
@@ -5740,6 +5782,7 @@ msgid ""
 "and ad-hoc mode) to be installed."
 msgstr ""
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Waiting for device..."
 msgstr "Αναμονή για συσκευή..."
@@ -5848,6 +5891,11 @@ msgstr ""
 "αλλαγές θα εφαρμοστούν αφού επανεκκινήσετε τη συσκευή.<br /"
 "><strong>Προειδοποίηση: Αν απενεργοποιήσετε απαραίτητα σενάρια εκκίνησης "
 "όπως το \"network\", η συσκευή σας μπορεί να καταστεί μη-προσβάσιμη!</strong>"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid ""
+"You can only upload official Prism firmware supplied by Silla Industries."
+msgstr ""
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm

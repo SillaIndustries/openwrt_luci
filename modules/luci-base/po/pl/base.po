@@ -673,6 +673,10 @@ msgid "Attempt to enable configured mount points for attached devices"
 msgstr ""
 "Próba włączenia skonfigurowanych punktów montowania dla podłączonych urządzeń"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Attention! Restoring factory defaults will delete all your settings!"
+msgstr ""
+
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js
 msgid "Auth Group"
@@ -1424,6 +1428,7 @@ msgstr "Urządzenie jest restartowane…"
 msgid "Device unreachable!"
 msgstr "Urządzenie nieosiągalne!"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Device unreachable! Still waiting for device..."
 msgstr "Urządzenie nieosiągalne! Wciąż czekam na urządzenie..."
@@ -1552,6 +1557,10 @@ msgstr "Czy na pewno chcesz usunąć następujący klucz SSH?"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Do you really want to erase all settings?"
 msgstr "Czy jesteś pewny, że naprawdę chcesz skasować wszystkie ustawienia?"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Do you really want to reboot your device?"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js
 msgid "Do you really want to recursively delete the directory \"%s\" ?"
@@ -1896,6 +1905,10 @@ msgstr "FT over the Air"
 msgid "FT protocol"
 msgstr "Protokół FT"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Factory defaults"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js
 msgid "Failed to change the system password."
 msgstr "Zmiana hasła systemowego nieudana."
@@ -1973,6 +1986,10 @@ msgstr "Ustawienia zapory sieciowej"
 msgid "Firewall Status"
 msgstr "Status zapory sieciowej"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Firmware File"
 msgstr "Plik firmware"
@@ -1980,6 +1997,14 @@ msgstr "Plik firmware"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 msgid "Firmware Version"
 msgstr "Wersja firmware"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware operations"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware update"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js
 msgid "Fixed source port for outbound DNS queries"
@@ -2542,6 +2567,7 @@ msgid "Info"
 msgstr "Informacja"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
+#: modules/luci-mod-network/luasrc/controller/admin/network.lua
 msgid "Information"
 msgstr "Informacje"
 
@@ -3959,6 +3985,11 @@ msgstr "Peery"
 msgid "Perfect Forward Secrecy"
 msgstr "Doskonałe tajne przekazywanie"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Perform factory restore"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Perform reboot"
 msgstr "Wykonaj restart"
@@ -4226,6 +4257,7 @@ msgstr "Termin reasocjacji"
 msgid "Rebind protection"
 msgstr "Przypisz ochronę"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json
 msgid "Reboot"
@@ -4239,6 +4271,10 @@ msgstr "Restartowanie…"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Reboots the operating system of your device"
 msgstr "Uruchamia ponownie system na twoim urządzeniu"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Reboots the operating system of your device."
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js
 msgid "Receive"
@@ -4622,6 +4658,10 @@ msgstr ""
 msgid "Select file…"
 msgstr "Wybierz plik…"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Select…"
+msgstr ""
+
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js
@@ -4908,7 +4948,6 @@ msgstr ""
 msgid "Station inactivity limit"
 msgstr "Granica bezczynności stacji"
 
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 #: modules/luci-mod-status/luasrc/view/admin_status/index.htm
@@ -4998,7 +5037,6 @@ msgstr "Synchronizuj z serwerem NTP"
 msgid "Sync with browser"
 msgstr "Synchronizuj z przeglądarką"
 
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json
@@ -5018,6 +5056,10 @@ msgstr "Właściwości systemu"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js
 msgid "System log buffer size"
 msgstr "Rozmiar bufora logu systemowego"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "System reboot"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js
 msgid "TCP:"
@@ -5929,6 +5971,7 @@ msgstr ""
 "Kodowanie WPA wymaga zainstalowanych modułów wpa_supplicant (tryb klienta) "
 "lub hostapd (tryb AP lub ad-hoc)."
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Waiting for device..."
 msgstr "Oczekiwanie na urządzenie..."
@@ -6044,6 +6087,11 @@ msgstr ""
 "zastosowane po ponownym uruchomieniu urządzenia.<br/><strong>Ostrzeżenie: "
 "Jeśli wyłączysz podstawowe skrypty typu \"network\", urządzenie może stać "
 "się nieosiągalne!</strong>"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid ""
+"You can only upload official Prism firmware supplied by Silla Industries."
+msgstr ""
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm

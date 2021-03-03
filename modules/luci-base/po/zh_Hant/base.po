@@ -655,6 +655,10 @@ msgstr "已連接裝置"
 msgid "Attempt to enable configured mount points for attached devices"
 msgstr "嘗試對連接的裝置啟用可設定的掛載"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Attention! Restoring factory defaults will delete all your settings!"
+msgstr ""
+
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js
 msgid "Auth Group"
@@ -1386,6 +1390,7 @@ msgstr "裝置重啟中…"
 msgid "Device unreachable!"
 msgstr "裝置不可達！"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Device unreachable! Still waiting for device..."
 msgstr "裝置不可達！仍在等待裝置中…"
@@ -1511,6 +1516,10 @@ msgstr "您確定要刪除下列 SSH 金鑰？"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Do you really want to erase all settings?"
 msgstr "您確定要清除所有設定？"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Do you really want to reboot your device?"
+msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js
 msgid "Do you really want to recursively delete the directory \"%s\" ?"
@@ -1841,6 +1850,10 @@ msgstr "FT 透過 空中"
 msgid "FT protocol"
 msgstr "FT 協定"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Factory defaults"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js
 msgid "Failed to change the system password."
 msgstr "更新系統密碼失敗。"
@@ -1916,6 +1929,10 @@ msgstr "防火牆設定"
 msgid "Firewall Status"
 msgstr "防火牆狀況"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Firmware File"
 msgstr "韌體檔案"
@@ -1923,6 +1940,14 @@ msgstr "韌體檔案"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 msgid "Firmware Version"
 msgstr "韌體版本"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware operations"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Firmware update"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js
 msgid "Fixed source port for outbound DNS queries"
@@ -2472,6 +2497,7 @@ msgid "Info"
 msgstr "資訊"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
+#: modules/luci-mod-network/luasrc/controller/admin/network.lua
 msgid "Information"
 msgstr "資訊"
 
@@ -3859,6 +3885,11 @@ msgstr "對等節點群"
 msgid "Perfect Forward Secrecy"
 msgstr "完善的前向保密"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Perform factory restore"
+msgstr ""
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Perform reboot"
 msgstr "執行重開機"
@@ -4117,6 +4148,7 @@ msgstr "重新關聯期限"
 msgid "Rebind protection"
 msgstr "重新綁護"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json
 msgid "Reboot"
@@ -4130,6 +4162,10 @@ msgstr "正在重新啟動中…"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Reboots the operating system of your device"
 msgstr "重啟您設備的作業系統"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Reboots the operating system of your device."
+msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js
 msgid "Receive"
@@ -4507,6 +4543,10 @@ msgstr ""
 msgid "Select file…"
 msgstr "選擇檔案…"
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "Select…"
+msgstr ""
+
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js
@@ -4779,7 +4819,6 @@ msgstr ""
 msgid "Station inactivity limit"
 msgstr "非活動站台限制"
 
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 #: modules/luci-mod-status/luasrc/view/admin_status/index.htm
@@ -4868,7 +4907,6 @@ msgstr "與 NTP 伺服器同步"
 msgid "Sync with browser"
 msgstr "與瀏覽器同步時間"
 
-#: modules/luci-base/root/usr/share/luci/menu.d/luci-base.json
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js
 #: modules/luci-mod-system/root/usr/share/luci/menu.d/luci-mod-system.json
@@ -4887,6 +4925,10 @@ msgstr "系統屬性"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js
 msgid "System log buffer size"
 msgstr "系統日誌緩衝區大小"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid "System reboot"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js
 msgid "TCP:"
@@ -5757,6 +5799,7 @@ msgstr ""
 "WPA-加密需要 wpa_supplican(終端模式)或者hostapd熱點(對AP或者是 ad-hoc模式)已"
 "被安裝."
 
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
 msgid "Waiting for device..."
 msgstr "正在等待裝置中…"
@@ -5865,6 +5908,11 @@ msgid ""
 msgstr ""
 "您可以開啟或關閉初始化指令在這. 修改將會在設備重開後被啟用. <br /><strong>警"
 "告: 假如您關閉必要的初始化腳本像\"網路\", 您的設備將可能無法存取!</strong>"
+
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
+msgid ""
+"You can only upload official Prism firmware supplied by Silla Industries."
+msgstr ""
 
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
