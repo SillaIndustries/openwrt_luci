@@ -1,0 +1,25 @@
+#!/bin/sh
+
+if [ "$PKG_UPGRADE" != 1 ]; then
+	uci get luci.themes.Argon >/dev/null 2>&1 || \
+	uci batch <<-EOF
+		set luci.themes.Argon=/luci-static/argon
+		set luci.main.mediaurlbase=/luci-static/argon
+		commit luci
+	EOF
+
+	[ -e /etc/config/argon ] || touch /etc/config/argon
+	uci -q get argon.@global[0] > /dev/null || uci add argon global > /dev/null
+	uci batch <<-EOF
+		set argon.@global[0].primary='#cc0000'
+		set argon.@global[0].dark_primary='#cc0000'
+		set argon.@global[0].blur='10'
+		set argon.@global[0].blur_dark='10'
+		set argon.@global[0].transparency='0.5'
+		set argon.@global[0].transparency_dark='0.5'
+		set argon.@global[0].mode='light'
+		commit argon
+	EOF
+fi
+
+exit 0

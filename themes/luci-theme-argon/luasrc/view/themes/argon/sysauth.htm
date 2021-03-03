@@ -1,0 +1,180 @@
+<%#
+	Argon is a clean HTML5 theme for LuCI. It is based on luci-theme-bootstrap and MUI and Argon Template
+
+	luci-theme-argon
+	Copyright 2020 Jerryk <jerrykuku@gmail.com>
+
+	Have a bug? Please create an issue here on GitHub!
+	https://github.com/jerrykuku/luci-theme-argon/issues
+
+	luci-theme-bootstrap:
+	Copyright 2008 Steven Barth <steven@midlink.org>
+	Copyright 2008-2016 Jo-Philipp Wich <jow@openwrt.org>
+	Copyright 2012 David Menting <david@nut-bolt.nl>
+
+	MUI:
+	https://github.com/muicss/mui
+
+	Argon Theme
+	https://demos.creative-tim.com/argon-dashboard/index.html
+
+	Licensed to the public under the Apache License 2.0
+-%>
+
+<%+themes/argon/out_header_login%>
+<%
+	local util = require "luci.util"
+	local boardinfo = util.ubus("system", "board")
+	local fs = require "nixio.fs"
+	local nutil = require "nixio.util"
+
+	function glob(...)
+		local iter, code, msg = fs.glob(...)
+		if iter then
+			return nutil.consume(iter)
+		else
+			return nil, code, msg
+		end
+	end
+
+	function getExtension(str)
+		return str:match(".+%.(%w+)$")
+	end
+
+	local bgcount = 0
+	local currentBg = {}
+	local bgs,attr = {}
+	local theme_dir = media .. "/background/"
+	for i, f in ipairs(glob("/www" .. theme_dir .. "*")) do
+		attr = fs.stat(f)
+		if attr then
+			local ext = getExtension(fs.basename(f))
+			if ext == "jpg" or ext == "png" or ext == "gif" or ext == "mp4" then
+				local bg = {}
+				bg.type = ext
+				bg.url = theme_dir .. fs.basename(f)
+				table.insert(bgs,bg)
+				bgcount = bgcount + 1
+			end
+		end
+	end
+
+	if bgcount > 0 then
+		currentBg = bgs[math.random(1,bgcount)]
+	end
+%>
+<div class="login-page">
+	<% if (bgcount > 0 and currentBg.type == "mp4") then %>
+	<div class="video">
+		<video autoplay loop muted id="video">
+			<source src="<%=currentBg.url%>" type="video/mp4">
+		</video>
+	</div>
+	<div class="volume-control mute"></div>
+	<script>
+		$(".volume-control").click(function(){
+			if($(this).hasClass("mute")){
+				$(this).removeClass("mute")
+				$("#video").prop('muted', false);
+			}else{
+				$(this).addClass("mute")
+				$("#video").prop('muted', true);
+			}
+		})
+	</script>
+	<% else %>
+	<div class="main-bg" id="main-bg"
+	<%
+	if (bgcount == 0) then
+		local bg_url = media .. "/img/bg.jpg"
+	%>
+		style="background-image:url(<%=bg_url%>)"
+	<% elseif (bgcount > 0 and currentBg["type"] ~= "mp4") then %>
+		style="background-image:url(<%=currentBg.url%>)"
+	<% end  %>
+	></div>
+
+	<% end %>
+	<div class="login-container">
+		<div class="login-form">
+			<!-- <a class="brand" href="/"><span
+				class="brand-text"><%=striptags( "Prism" .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %></span></a> -->
+			<a class="brand" href="/">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 260 1920 630" xml:space="preserve" fill="currentColor" style="width: 180px;">
+  <g>
+    <path d="M246.7,384.3c98.3,1.5,141.8,62.9,141.8,123.4c0,75.3-69.9,118-137.6,123.4c-30.5,2-60,2-84.9,2.5v158.6H79V384.8
+      L246.7,384.3z M248.2,557.3c31.6-4,50.7-20.8,50.7-48.1c0-29.2-12.4-43.6-48.6-48.1c-25.9-3.5-54.3-4.5-84.3-4.5v104.6
+      C193.4,561.2,222.3,560.2,248.2,557.3z"/>
+    <path d="M624.4,384.3c98.8,1.5,141.8,62.9,141.8,123.4c-0.2,75.3-92.1,110.5-92.1,110.5S776.5,760,796.2,792.7l-119.5-0.5
+      c-20.2-29.2-50.2-101.6-90.6-168c-11.9,0-32.5,0-42.3,0v168h-86.9V384.8L624.4,384.3z M608.9,558.3c37.3-3,67.8-20.8,67.8-49.1
+      c0-29.7-12.4-43.6-48.1-48.1c-25.9-3.5-54.8-4.5-84.9-4.5v104.1C565.4,560.7,587.6,560.2,608.9,558.3z"/>
+    <path d="M934.2,792.2h-86.9V384.3h86.9V792.2z"/>
+    <path d="M1161,447.5c-35.2-0.5-51.6,33.9-52.1,56.2C1112,559,1300,553.5,1300,670c0,4,0.9,16.6-0.2,20.6
+      c-6.2,58.5-73.3,105.8-136.6,105.6c-56.3-1.2-87.1,5.7-156.5-49.4l54.1-54.1c18.1,16.9,54.6,37.8,92.9,37.8
+      c38.8,0,60.3-30.4,60.3-57.2c0-59-190-46-190-170.5c0-60.5,55.1-126.6,138.9-126.6c48.6,0,96,8,136.8,44.9l-52.1,59.2
+      C1224.5,456.4,1191.5,448,1161,447.5z"/>
+    <path d="M1575.6,790.7l-115.1-293.1l3.8,294.6h-82V384.3h130L1609,657l98.3-272.7H1836v407.9h-81.7l-3.1-296.7l-116.1,295.2
+      H1575.6z"/>
+  </g>
+</svg>
+
+			</a>
+
+<form class="form-login" method="post" action="<%=pcdata(luci.http.getenv("REQUEST_URI"))%>">
+	<%- if fuser then %>
+		<div class="errorbox">
+			<%:Invalid username or password!%>
+		</div>
+	<% end -%>
+
+	<div class="input-container">
+		<div class="input-group user-icon">
+			<input class="cbi-input-user" id="cbi-input-user" type="text" name="luci_username" value="<%=fuser or duser%>" autocorrect="off" autocapitalize="off" />
+			<label class="border" for="cbi-input-user"></label>
+		</div>
+		<div class="input-group pass-icon">
+			<input class="cbi-input-password" id="cbi-input-password" type="password" name="luci_password" />
+			<label class="border" for="cbi-input-password"></label>
+		</div>
+	</div>
+
+	<div>
+		<input type="submit" value="<%:Login%>" class="cbi-button cbi-button-apply" />
+	</div>
+</form>
+<script type="text/javascript">//<![CDATA[
+	var input_username = document.getElementsByName('luci_username')[0];
+	var input_password = document.getElementsByName('luci_password')[0];
+	if (input_username && input_password)
+		(input_username.value ? input_password : input_username).focus();
+//]]></script>
+
+<%
+
+local uci = require "luci.model.uci".cursor()
+local fs = require "nixio.fs"
+local https_key = uci:get("uhttpd", "main", "key")
+local https_port = uci:get("uhttpd", "main", "listen_https")
+if type(https_port) == "table" then
+	https_port = https_port[1]
+end
+
+if https_port and fs.access(https_key) then
+	https_port = https_port:match("(%d+)$")
+%>
+
+<script type="text/javascript">//<![CDATA[
+	if (document.location.protocol != 'https:') {
+		var url = 'https://' + window.location.hostname + ':' + '<%=https_port%>' + window.location.pathname;
+		var img = new Image;
+		img.onload = function() { window.location = url };
+		img.src = 'https://' + window.location.hostname + ':' + '<%=https_port%>' + '<%=resource%>/cbi/up.gif?' + Math.random();
+		setTimeout(function() {
+			img.src = '';
+		}, 5000);
+	}
+//]]></script>
+
+<% end %>
+
+<%+themes/argon/out_footer_login%>
