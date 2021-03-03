@@ -4334,7 +4334,7 @@ msgstr "Reboots the operating system of your device"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Reboots the operating system of your device."
-msgstr ""
+msgstr "Reboot the operating system of your device."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js
 msgid "Receive"
@@ -4354,7 +4354,7 @@ msgstr "References"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js
 msgid "Refreshing"
-msgstr ""
+msgstr "Live Data"
 
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js
