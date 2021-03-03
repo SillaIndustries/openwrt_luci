@@ -3180,10 +3180,6 @@ msgstr "MAP / LW4over6"
 msgid "MAP rule is invalid"
 msgstr "無効なMAPルールです"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js
-msgid "MBit/s"
-msgstr "Mbps"
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "MD5"
 msgstr "MD5"
