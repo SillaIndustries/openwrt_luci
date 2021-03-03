@@ -336,21 +336,21 @@ var ValidatorFactory = baseclass.extend({
 				_('valid MAC address'));
 		},
 
-		host: function(ipv4only) {
-			return this.assert(this.apply('hostname') || this.apply(ipv4only == 1 ? 'ip4addr' : 'ipaddr'),
+		host: function(ipv4only, strict) {
+			return this.assert(
+				this.apply('hostname', null, [ strict ]) ||
+				this.apply(ipv4only == 1 ? 'ip4addr' : 'ipaddr', null, [ true ]),
 				_('valid hostname or IP address'));
 		},
 
 		hostname: function(strict) {
-			if (this.value.length <= 253)
-				return this.assert(
-					(this.value.match(/^[a-zA-Z0-9_]+$/) != null ||
-						(this.value.match(/^[a-zA-Z0-9_][a-zA-Z0-9_\-.]*[a-zA-Z0-9]$/) &&
-						 this.value.match(/[^0-9.]/))) &&
-					(!strict || !this.value.match(/^_/)),
-					_('valid hostname'));
-
-			return this.assert(false, _('valid hostname'));
+			return this.assert(
+				this.value.length <= 253 &&
+				(this.value.match(/^[a-zA-Z0-9_]+$/) != null || (
+					this.value.match(/^[a-zA-Z0-9_][a-zA-Z0-9_\-.]*[a-zA-Z0-9]$/) &&
+					this.value.match(/[^0-9.]/))) &&
+				(!strict || !this.value.match(/^_/)),
+				_('valid hostname'));
 		},
 
 		network: function() {
