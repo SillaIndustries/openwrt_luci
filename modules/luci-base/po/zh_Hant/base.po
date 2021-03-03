@@ -2993,10 +2993,6 @@ msgstr "MAP / LW4over6 (IPv6群播技術)"
 msgid "MAP rule is invalid"
 msgstr "MAP 規則無效"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js
-msgid "MBit/s"
-msgstr "百萬位元/每秒"
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "MD5"
 msgstr "MD5"

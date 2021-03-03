@@ -2977,10 +2977,6 @@ msgstr ""
 msgid "MAP rule is invalid"
 msgstr "Pravidlo MAP je neplatné"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/wireless.js
-msgid "MBit/s"
-msgstr "MBit/s"
-
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "MD5"
 msgstr "MD5"
