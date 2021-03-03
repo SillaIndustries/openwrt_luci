@@ -14,103 +14,100 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.11-dev\n"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:23
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Calculate overhead"
 msgstr "ओव्हरहेडची गणना करा"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:33
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification Rules"
 msgstr "वर्गीकरण नियम"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:19
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification group"
 msgstr "वर्गीकरण गट"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:79
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Comment"
 msgstr "टिप्पणी"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:61
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Destination host"
 msgstr "गंतव्य होस्ट"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:27
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Download speed (kbit/s)"
 msgstr "डाउनलोड गती (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:16
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Enable"
 msgstr "सक्षम करा"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:25
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Half-duplex"
 msgstr "अर्धा-डुप्लेक्स"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:12
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Interfaces"
 msgstr "इंटरफेसेस"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:77
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Number of bytes"
 msgstr "बाइट्स संख्या"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:73
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Ports"
 msgstr "पोर्ट"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:66
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Protocol"
 msgstr "प्रोटोकॉल"
 
-#: applications/luci-app-qos/luasrc/controller/qos.lua:13
+#: applications/luci-app-qos/luasrc/controller/qos.lua
 msgid "QoS"
 msgstr "QoS"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:7
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Quality of Service"
 msgstr "सेवेची गुणवत्ता"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:56
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Source host"
 msgstr "स्रोत होस्ट"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:39
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Target"
 msgstr "लक्ष्य"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:30
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Upload speed (kbit/s)"
 msgstr "अपलोड गती (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:8
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid ""
 "With <abbr title=\"Quality of Service\">QoS</abbr> you can prioritize "
 "network traffic selected by addresses, ports or services."
 msgstr ""
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:58
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:63
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:67
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:75
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "all"
 msgstr "सर्व"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:20
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "default"
 msgstr "डीफॉल्ट"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:41
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "express"
 msgstr "एक्सप्रेस"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:43
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "low"
 msgstr "कमी"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:42
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "normal"
 msgstr "सामान्य"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:40
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "priority"
 msgstr "प्राधान्य"

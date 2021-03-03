@@ -16,15 +16,15 @@ msgstr ""
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:47
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Bidirectional mode"
 msgstr "Двунаправленный режим"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:20
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Device"
 msgstr "Устройство"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:10
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid ""
 "First you have to install the packages to get support for USB (kmod-usb-"
 "printer) or parallel port (kmod-lp)."
@@ -32,31 +32,31 @@ msgstr ""
 "Сначала вы должны установить пакеты модулей ядра, чтобы получить поддержку "
 "принтеров с интерфейсом USB (kmod-usb-printer) или LPT (kmod-lp)."
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:22
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Interface"
 msgstr "Интерфейс"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:41
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Port"
 msgstr "Порт"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:14
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Settings"
 msgstr "Настройки"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:22
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Specifies the interface to listen on."
 msgstr "Задать интерфейс для входящих соединений."
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:41
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "TCP listener port."
 msgstr "Порт для входящих соединений TCP."
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:18
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "enable"
 msgstr "включить"
 
-#: applications/luci-app-p910nd/luasrc/controller/p910nd.lua:13
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:9
+#: applications/luci-app-p910nd/luasrc/controller/p910nd.lua
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "p910nd - Printer server"
 msgstr "Сервер печати p910nd"

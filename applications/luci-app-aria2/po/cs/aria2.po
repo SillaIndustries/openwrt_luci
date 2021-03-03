@@ -10,252 +10,250 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:296
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "<abbr title=\"Local Peer Discovery\">LPD</abbr> enabled"
 msgstr "<abbr title=\"Local Peer Discovery\">LPD</abbr> povoleno"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:414
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Additional BT tracker"
 msgstr "Další BT tracker"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:419
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Advanced Options"
 msgstr "Pokročilé nastavení"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:169
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "All proxy"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:228
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Append HEADERs to HTTP request header."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/controller/aria2.lua:18
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:35
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:14
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:45
+#: applications/luci-app-aria2/luasrc/controller/aria2.lua
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Aria2"
 msgstr "Aria2"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:37
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Aria2 is a lightweight multi-protocol &amp; multi-source, cross platform "
 "download utility."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:428
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Auto save interval"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:56
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Basic Options"
 msgstr "Základní nastavení"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:276
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "BitTorrent Options"
 msgstr "BitTorrent nastavení"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:335
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "BitTorrent listen port"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:189
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "CA certificate"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:195
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Certificate"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:182
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Check certificate"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:242
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Close connection if download speed is lower than or equal to this "
 "value(bytes per sec). 0 means has no lowest speed limit."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:49
-#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:29
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
+#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm
 msgid "Collecting data..."
 msgstr "Shromažďování údajů…"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:73
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Config file directory"
 msgstr "Adresář pro uložení konfiguračního souboru"
 
-#: applications/luci-app-aria2/luasrc/controller/aria2.lua:21
+#: applications/luci-app-aria2/luasrc/controller/aria2.lua
 msgid "Configuration"
 msgstr "Nastavení"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:230
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Connect timeout"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:19
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
 msgid "Content of config file: <code>%s</code>"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:29
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
 msgid "Content of session file: <code>%s</code>"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:341
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "DHT Listen port"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:87
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Debug"
 msgstr "Ladění"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:422
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Disable IPv6. This is useful if you have to use broken DNS and want to avoid "
 "terribly slow AAAA record lookup."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:440
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Disk cache"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:259
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Don't split less than 2*SIZE byte range. Possible values: 1M-1024M."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:254
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Download a file using N connections."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:69
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Download directory"
 msgstr "Adresář pro stahované"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:26
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:36
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
 msgid "Empty file."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:280
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable IPv4 DHT functionality. It also enables UDP tracker support."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:290
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable IPv6 DHT functionality."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:298
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable Local Peer Discovery."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:307
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable Peer Exchange extension."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:442
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable disk cache (in bytes), set 0 to disabled."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:77
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable logging"
 msgstr "Zaznamenávat události"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:305
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable peer exchange"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:166
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enable proxy"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:58
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Enabled"
 msgstr "Zapnuto"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:91
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Error"
 msgstr "Chyba"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:44
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Error: Can't find aria2c in PATH, please reinstall aria2."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:482
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Extra Settings"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:39
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Failed to load log data."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:350
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "False"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:447
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "File allocation"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:25
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:35
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
 msgid "File does not exist."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/controller/aria2.lua:24
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:14
+#: applications/luci-app-aria2/luasrc/controller/aria2.lua
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
 msgid "Files"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:348
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Follow torrent"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:38
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "For more information, please visit: %s"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:460
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Force save"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:129
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Generate Randomly"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:210
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "HTTP accept gzip"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:219
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "HTTP no cache"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:164
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "HTTP/FTP/SFTP Options"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:227
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Header"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua:15
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/files.lua
 msgid "Here shows the files used by aria2."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:278
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "IPv4 <abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:288
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "IPv6 <abbr title=\"Distributed Hash Table\">DHT</abbr> enabled"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:421
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "IPv6 disabled"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:379
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "If the whole download speed of every torrent is lower than SPEED, aria2 "
 "temporarily increases the number of peers to try for more download speed. "
@@ -263,292 +261,291 @@ msgid ""
 "download speed in some cases."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:88
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Info"
 msgstr "Informace"
 
-#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:33
+#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm
 msgid "Installed web interface:"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:158
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Json-RPC URL"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:351
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Keep in memory"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:34
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Last 50 lines of log file:"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:36
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Last 50 lines of syslog:"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:62
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Leave blank to use default user."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:415
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "List of additional BitTorrent tracker's announce URI."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:488
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "List of extra settings. Format: option=value, eg. <code>netrc-path=/tmp/."
 "netrc</code>."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:48
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Loading"
 msgstr "Načítání"
 
-#: applications/luci-app-aria2/luasrc/controller/aria2.lua:27
+#: applications/luci-app-aria2/luasrc/controller/aria2.lua
 msgid "Log"
 msgstr "Protokol"
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:45
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Log Data"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:80
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Log file"
 msgstr "Soubor pro záznam událostí"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:85
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Log level"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:240
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Lowest speed limit"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:94
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max concurrent downloads"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:248
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max connection per server"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:475
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max download limit"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:253
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max number of split"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:367
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max open files"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:468
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max overall download limit"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:353
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max overall upload limit"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:372
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max peers"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:262
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max tries"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:360
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Max upload limit"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:258
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Min split size"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:115
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "No Authentication"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:35
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:37
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "No log data."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:454
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "None"
 msgstr "Žádný"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:89
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Notice"
 msgstr "Oznámení"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:99
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Pause"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:99
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Pause download after added."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:105
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Pause downloads created as a result of metadata download."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:104
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Pause metadata"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:64
+#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm
 msgid "Please input token length:"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:393
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Prefix of peer ID"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:203
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Private key"
 msgstr "Soukromý klíč"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:177
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Proxy password"
 msgstr "Heslo proxy"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:174
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Proxy user"
 msgstr "Uživatel proxy"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:97
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC Options"
 msgstr "Volby RPC"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:114
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC authentication method"
 msgstr "Metoda autentizace RPC"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:140
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC certificate"
 msgstr "RPC certifikát"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:122
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC password"
 msgstr "RPC heslo"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:110
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC port"
 msgstr "RPC port"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:149
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC private key"
 msgstr "Soukromý klíč RPC"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:133
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC secure"
 msgstr "RPC secure"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:126
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC token"
 msgstr "RPC token"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:134
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "RPC transport will be encrypted by SSL/TLS. The RPC clients must use https "
 "scheme to access the server. For WebSocket client, use wss scheme."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:119
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "RPC username"
 msgstr "Uživatelské jméno RPC"
 
-#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm:51
+#: applications/luci-app-aria2/luasrc/view/aria2/log_template.htm
 msgid "Refresh every 10 seconds."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:322
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Remove unselected file"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:323
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Removes the unselected files when download is completed in BitTorrent. "
 "Please use this option with care because it will actually remove files from "
 "your disk."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:377
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Request peer speed limit"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:266
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Retry wait"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:61
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Run daemon as user"
 msgstr "Spustit démona pod uživatelskými oprávněními"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:315
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Sava metadata"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:429
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Save a control file(*.aria2) every N seconds. If 0 is given, a control file "
 "is not saved during download."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:461
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Save download to session file even if the download is completed or removed. "
 "This option also saves control file in that situations. This may be useful "
 "to save BitTorrent seeding which is recognized as completed state."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:435
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Save error/unfinished downloads to session file every N seconds. If 0 is "
 "given, file will be saved only when aria2 exits."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:316
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Save meta data as \".torrent\" file. This option has effect only when "
 "BitTorrent Magnet URI is used. The file name is hex encoded info hash with "
 "suffix \".torrent\"."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:434
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Save session interval"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:330
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Seed previously downloaded files without verifying piece hashes."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:401
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Seed ratio"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:408
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Seed time"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:329
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Seed unverified"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:211
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Send <code>Accept: deflate, gzip</code> request header and inflate response "
 "if remote server responds with <code>Content-Encoding: gzip</code> or "
 "<code>Content-Encoding: deflate</code>."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:220
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Send <code>Cache-Control: no-cache</code> and <code>Pragma: no-cache</code> "
 "header to avoid cached content. If disabled, these headers are not sent and "
@@ -556,69 +553,69 @@ msgid ""
 "option."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:336
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Set TCP port number for BitTorrent downloads. Accept format: \"6881,6885\", "
 "\"6881-6999\" and \"6881-6889,6999\". Make sure that the specified ports are "
 "open for incoming TCP traffic."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:342
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Set UDP listening port used by DHT(IPv4, IPv6) and UDP tracker. Make sure "
 "that the specified ports are open for incoming UDP traffic."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:477
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Set max download speed per each download in bytes/sec. 0 means unrestricted."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:470
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Set max overall download speed in bytes/sec. 0 means unrestricted."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:355
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Set max overall upload speed in bytes/sec. 0 means unrestricted."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:362
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Set max upload speed per each torrent in bytes/sec. 0 means unrestricted."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:231
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Set the connect timeout in seconds to establish connection to HTTP/FTP/proxy "
 "server. After the connection is established, this option makes no effect and "
 "\"Timeout\" option is used instead."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:267
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Set the seconds to wait between retries."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:272
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Set user agent for HTTP(S) downloads."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:35
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Settings"
 msgstr "Nastavení"
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:483
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Settings in this section will be added to config file."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:487
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Settings list"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:161
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Show URL"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:448
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Specify file allocation method. If you are using newer file systems such as "
 "ext4 (with extents support), btrfs, xfs or NTFS(MinGW build only), \"falloc"
@@ -629,31 +626,31 @@ msgid ""
 "entirely until allocation finishes."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:368
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Specify maximum number of files to open in multi-file BitTorrent download "
 "globally."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:409
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Specify seeding time in minutes. If \"Seed ratio\" option is specified along "
 "with this option, seeding ends when at least one of the conditions is "
 "satisfied. Specifying 0 disables seeding after download completed."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:402
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Specify share ratio. Seed completed torrents until share ratio reaches "
 "RATIO. You are strongly encouraged to specify equals or more than 1.0 here. "
 "Specify 0.0 if you intend to do seeding regardless of share ratio."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:373
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Specify the maximum number of peers per torrent, 0 means unlimited."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:394
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Specify the prefix of peer ID. The peer ID in BitTorrent is 20 byte length. "
 "If more than 20 bytes are specified, only first 20 bytes are used. If less "
@@ -661,74 +658,71 @@ msgid ""
 "20 bytes."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:388
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Stop BitTorrent download if download speed is 0 in consecutive N seconds. If "
 "0 is given, this feature is disabled."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:387
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Stop timeout"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:48
+#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm
 msgid "The Aria2 service is not running."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm:47
+#: applications/luci-app-aria2/luasrc/view/aria2/settings_header.htm
 msgid "The Aria2 service is running."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:74
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "The directory to store the config file, session file and DHT file."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:70
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "The directory to store the downloaded file. eg. <code>/mnt/sda1</code>"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:81
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "The file name of the log file."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:249
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "The maximum number of connections to one server for each download."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:281
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:291
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:299
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:308
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "This option will be ignored if a private flag is set in a torrent."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:236
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Timeout"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:117
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Token"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:349
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "True"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:156
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Use WebSocket"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:170
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Use a proxy server for all protocols."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:190
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Use the certificate authorities in FILE to verify the peers. The certificate "
 "file must be in PEM format and can contain multiple CA certificates."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:141
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Use the certificate in FILE for RPC server. The certificate must be either "
 "in PKCS12 (.p12, .pfx) or in PEM format.<br/>PKCS12 files must contain the "
@@ -737,7 +731,7 @@ msgid ""
 "you have to specify the \"RPC private key\" as well."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:196
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Use the client certificate in FILE. The certificate must be either in PKCS12 "
 "(.p12, .pfx) or in PEM format.<br/>PKCS12 files must contain the "
@@ -746,53 +740,47 @@ msgid ""
 "you have to specify the \"Private key\" as well."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:150
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Use the private key in FILE for RPC server. The private key must be "
 "decrypted and in PEM format."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:204
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Use the private key in FILE. The private key must be decrypted and in PEM "
 "format. The behavior when encrypted one is given is undefined."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:271
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "User agent"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:116
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Username & Password"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:183
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid ""
 "Verify the peer using certificates specified in \"CA certificate\" option."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:90
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "Warn"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:244
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:356
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:363
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:383
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:443
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:471
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:478
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "You can append K or M."
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:457
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "falloc"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:455
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "prealloc"
 msgstr ""
 
-#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua:456
+#: applications/luci-app-aria2/luasrc/model/cbi/aria2/config.lua
 msgid "trunc"
 msgstr ""

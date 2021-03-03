@@ -14,75 +14,75 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:23
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Calculate overhead"
 msgstr "Calculer la surcharge"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:33
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification Rules"
 msgstr "Règles de classification"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:19
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification group"
 msgstr "Groupe de classification"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:79
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Comment"
 msgstr "Commentaire"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:61
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Destination host"
 msgstr "Hôte destinataire"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:27
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Download speed (kbit/s)"
 msgstr "Vitesse de téléchargement (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:16
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Enable"
 msgstr "Activer"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:25
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Half-duplex"
 msgstr "Demi-duplex"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:12
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Interfaces"
 msgstr "Interfaces"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:77
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Number of bytes"
 msgstr "Nombre d'octets"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:73
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Ports"
 msgstr "Ports"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:66
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Protocol"
 msgstr "Protocole"
 
-#: applications/luci-app-qos/luasrc/controller/qos.lua:13
+#: applications/luci-app-qos/luasrc/controller/qos.lua
 msgid "QoS"
 msgstr "QoS"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:7
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Quality of Service"
 msgstr "Qualité de service"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:56
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Source host"
 msgstr "Hôte source"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:39
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Target"
 msgstr "Cible"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:30
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Upload speed (kbit/s)"
 msgstr "Vitesse de téléversement (kbit/s)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:8
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid ""
 "With <abbr title=\"Quality of Service\">QoS</abbr> you can prioritize "
 "network traffic selected by addresses, ports or services."
@@ -91,29 +91,26 @@ msgstr ""
 "des priorités au trafic réseau en fonction des adresses, des ports ou des "
 "services concernés."
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:58
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:63
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:67
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:75
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "all"
 msgstr "tous"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:20
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "default"
 msgstr "Par défaut"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:41
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "express"
 msgstr "express"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:43
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "low"
 msgstr "lent"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:42
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "normal"
 msgstr "normal"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:40
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "priority"
 msgstr "prioritaire"

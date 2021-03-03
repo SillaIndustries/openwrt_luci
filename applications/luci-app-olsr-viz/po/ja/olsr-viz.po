@@ -10,11 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua:4
+#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua
 msgid "OLSR-Viz"
 msgstr "OLSR-Viz"
 
-#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm:4
+#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm
 msgid "You need to allow javascript in your browser to show this page."
 msgstr ""
 "このページを表示するには、ブラウザで JavaScript を許可する必要があります。"

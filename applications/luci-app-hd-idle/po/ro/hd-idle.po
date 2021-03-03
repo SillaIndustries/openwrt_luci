@@ -16,20 +16,20 @@ msgstr ""
 "20)) ? 1 : 2);;\n"
 "X-Generator: Pootle 2.0.6\n"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:15
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Disk"
 msgstr "Disc"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:13
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Enable"
 msgstr "Activeaza"
 
-#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua:13
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:6
+#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "HDD Idle"
 msgstr "HDD Idle"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:7
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid ""
 "HDD Idle is a utility program for spinning-down external disks after a "
 "period of idle time."
@@ -37,24 +37,24 @@ msgstr ""
 "HDD Idle este un utilitar pentru a oprit din rotatie hard disc-urile externe "
 "dupa o anumita perioada de inactivitate."
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:21
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Idle time"
 msgstr "Timp de inactivitate"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:23
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Idle time unit"
 msgstr "Unitatea de timp pentru masurarea inactivitatii"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:10
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Settings"
 msgstr "Setari"
 
 # Hours
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:26
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "h"
 msgstr "ore"
 
 # Minutes (not minimum)
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:25
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "min"
 msgstr "minute"

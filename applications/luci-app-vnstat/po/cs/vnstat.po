@@ -12,33 +12,31 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.10-dev\n"
 
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:6
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:10
+#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua
 msgid "Configuration"
 msgstr "Nastavení"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:68
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Daily traffic"
 msgstr "Denní přenos"
 
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:5
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:9
+#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua
 msgid "Graphs"
 msgstr "Grafy"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:67
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Hourly traffic"
 msgstr "Hodinový přenos"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:49
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid "Monitor selected interfaces"
 msgstr "Sledovat vybraná zařízení"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:69
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Monthly traffic"
 msgstr "Měsíční přenos"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:97
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid ""
 "No database has been set up yet. Go to the VnStat configuration and enable "
 "monitoring for one or more interfaces."
@@ -46,36 +44,35 @@ msgstr ""
 "Zatím nebyla nastavena žádná databáze. Přejděte na konfiguraci VnStatu a "
 "povolnet sledování jednoho nebo více zařízení."
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:22
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid "Restart VnStat"
 msgstr "Restartovat VnStat"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:65
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Summary display"
 msgstr "Souhrn"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:66
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Top 10 display"
 msgstr "Top 10"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:72
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Update »"
 msgstr "Aktualizovat »"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:19
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid "VnStat"
 msgstr "VnStat"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:60
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "VnStat Graphs"
 msgstr "Grafy VnStat"
 
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:4
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:8
+#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua
 msgid "VnStat Traffic Monitor"
 msgstr "Sledování přenosu VnStat"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:20
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid ""
 "VnStat is a network traffic monitor for Linux that keeps a log of network "
 "traffic for the selected interface(s)."

@@ -14,21 +14,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 1.1.0\n"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:15
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Disk"
 msgstr "Ổ đĩa"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:13
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 #, fuzzy
 msgid "Enable"
 msgstr "Kích hoạt debug"
 
-#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua:13
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:6
+#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "HDD Idle"
 msgstr "HDD Idle"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:7
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid ""
 "HDD Idle is a utility program for spinning-down external disks after a "
 "period of idle time."
@@ -36,26 +36,26 @@ msgstr ""
 "HDD Idle là một chương trình tiện ích để quay các đĩa ngoài sau một khoảng "
 "thời gian idle."
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:21
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 #, fuzzy
 msgid "Idle time"
 msgstr "Thời gian Idle"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:23
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 #, fuzzy
 msgid "Idle time unit"
 msgstr "Đơn vị thời gian Idle"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:10
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Settings"
 msgstr "Sắp đặt"
 
 # Hours
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:26
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "h"
 msgstr ""
 
 # Minutes (not minimum)
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:25
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "min"
 msgstr ""

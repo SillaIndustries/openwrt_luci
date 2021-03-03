@@ -17,75 +17,75 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:23
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Calculate overhead"
 msgstr "计算开销"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:33
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification Rules"
 msgstr "分类规则"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:19
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Classification group"
 msgstr "分类组"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:79
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Comment"
 msgstr "备注"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:61
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Destination host"
 msgstr "目的主机"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:27
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Download speed (kbit/s)"
 msgstr "下载速度（kbit/s）"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:16
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Enable"
 msgstr "启用"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:25
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Half-duplex"
 msgstr "半双工"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:12
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Interfaces"
 msgstr "接口"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:77
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Number of bytes"
 msgstr "字节数"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:73
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Ports"
 msgstr "端口"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:66
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Protocol"
 msgstr "协议"
 
-#: applications/luci-app-qos/luasrc/controller/qos.lua:13
+#: applications/luci-app-qos/luasrc/controller/qos.lua
 msgid "QoS"
 msgstr "服务质量(QoS)"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:7
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Quality of Service"
 msgstr "服务质量（QoS）"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:56
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Source host"
 msgstr "源主机"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:39
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Target"
 msgstr "目标"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:30
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "Upload speed (kbit/s)"
 msgstr "上传速度（kbit/s）"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:8
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid ""
 "With <abbr title=\"Quality of Service\">QoS</abbr> you can prioritize "
 "network traffic selected by addresses, ports or services."
@@ -93,29 +93,26 @@ msgstr ""
 "使用 <abbr title=\"Quality of Service\">QoS</abbr>，根据网络地址、端口或服"
 "务，为流量数据包排序。"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:58
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:63
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:67
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:75
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "all"
 msgstr "全部"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:20
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "default"
 msgstr "默认"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:41
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "express"
 msgstr "高"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:43
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "low"
 msgstr "低"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:42
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "normal"
 msgstr "普通"
 
-#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua:40
+#: applications/luci-app-qos/luasrc/model/cbi/qos/qos.lua
 msgid "priority"
 msgstr "最高"

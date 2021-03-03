@@ -13,7 +13,7 @@ msgstr ""
 "n % 10 == 0) ? 2 : 3));\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:51
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Allow SPA clients to request access to services through an iptables firewall "
 "instead of just to it."
@@ -21,15 +21,15 @@ msgstr ""
 "אפשר ל־SPA clients לבקש גישה לשירותים באמצעות חומת אש של iptables במקום רק "
 "אל השירותים עצמם."
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:52
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Allow SPA clients to request forwarding destination by DNS name."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:22
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Base 64 key"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:33
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Define a set of ports and protocols (tcp or udp) that will be opened if a "
 "valid knock sequence is seen. If this entry is not set, fwknopd will attempt "
@@ -37,7 +37,7 @@ msgid ""
 "matches any “RESTRICT_PORTS” entries). Multiple entries are comma-separated."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:36
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Define the length of time access will be granted by fwknopd through the "
 "firewall after a valid knock sequence from a source IP address. If "
@@ -45,30 +45,29 @@ msgid ""
 "automatically be set."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:18
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:20
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Define the symmetric key used for decrypting an incoming SPA packet that is "
 "encrypted by the fwknop client with Rijndael."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:6
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Enable Uci/Luci control"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:8
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Enable config overwrite"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/controller/fwknopd.lua:13
+#: applications/luci-app-fwknopd/luasrc/controller/fwknopd.lua
 msgid "Firewall Knock Daemon"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:4
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Firewall Knock Operator"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:39
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Force all SPA packets to contain a real IP address within the encrypted "
 "data. This makes it impossible to use the -s command line argument on the "
@@ -77,25 +76,25 @@ msgid ""
 "know the external IP and set it via the -a argument."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:49
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "Maximum age in seconds that an SPA packet will be accepted. defaults to 120 "
 "seconds"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:19
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Normal Key"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:50
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Specify the ethernet interface on which fwknopd will sniff packets."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:28
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "The base64 hmac key"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:43
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "This instructs fwknopd to accept complete commands that are contained within "
 "an authorization packet. Any such command will be executed on the fwknopd "
@@ -103,20 +102,20 @@ msgid ""
 "started fwknopd if that is not set."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:17
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "Use ANY for any source ip"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:8
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid ""
 "When unchecked, the config files in /etc/fwknopd will be used as is, "
 "ignoring any settings here."
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:10
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "access.conf stanzas"
 msgstr ""
 
-#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua:47
+#: applications/luci-app-fwknopd/luasrc/model/cbi/fwknopd.lua
 msgid "fwknopd.conf config options"
 msgstr ""

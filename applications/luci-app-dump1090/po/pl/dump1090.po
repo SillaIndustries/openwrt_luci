@@ -11,226 +11,225 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:123
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Absolute maximum range for position decoding"
 msgstr "Maksymalny zasięg dekodowania pozycji"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:184
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Accuracy of receiver location in json metadata"
 msgstr "Dokładność lokalizacji odbiornika w metadanych JSON"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:112
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Allow forwarding of received mlat results to output ports"
 msgstr "Przekaż odebrane dane mlat na port wyjściowy"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:193
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Apply a 1Hz DC filter to input data"
 msgstr "Zastosuj filtr 1Hz DC do danych wejściowych"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:172
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Base directory for the internal HTTP server"
 msgstr "Katalog podstawowy na wewnętrzny serwer HTTP"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:148
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Collect/show range histogram"
 msgstr "Zbierz/Pokaż histogram zakresu"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:34
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Data file"
 msgstr "Plik danych"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:165
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Debug mode flags"
 msgstr "Flagi trybu debugowego"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:39
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:185
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Default"
 msgstr "Domyślny"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:133
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Disable messages with broken CRC"
 msgstr "Wyłącz wiadomości z uszkodzonym CRC"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:130
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Disable single-bits error correction using CRC"
 msgstr "Wyłącz korekcję pojedynczego bitu CRC"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:142
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Display raw messages in Beast ascii mode"
 msgstr "Wyświetlanie surowych wiadomości w trybie Beast ascii"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:109
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Do not apply CRC corrections to messages we forward"
 msgstr "Nie stosuj poprawek CRC dla przekazywanych wiadomości"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:27
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enable automatic gain control"
 msgstr "Aktywuj automatyczne sterowanie wzmocnieniem"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:52
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enable decoding of SSR Modes 3/A & 3/C"
 msgstr "Dekoduj Mode 3/A & 3/C"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:58
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enable just networking, no RTL device or file used"
 msgstr "Włącz tylko sieć, nie używaj urządzenia RTL ani pliku"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:50
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enable networking"
 msgstr "Aktywuj sieć"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:136
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enable phase enhancement"
 msgstr "Włącz wzmocnienie fazy"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:127
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enable single-bits error correction using CRC"
 msgstr "Aktywuj korekcję pojedynczego bitu CRC"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:10
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Enabled"
 msgstr "Włączone"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:89
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "FlightAware TSV output port"
 msgstr "Port wyjściowy FlightAware TSV"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:30
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Frequency"
 msgstr "Częstotliwość"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:23
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Gain (-10 for auto-gain)"
 msgstr "Wzmocnienie (-10 - automatyczne)"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:65
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "HTTP server port"
 msgstr "Port serwera HTTP"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:61
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "IP address to bind to"
 msgstr "Adres IP do powiązania"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:196
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Measure noise power"
 msgstr "Mierz moc szumów"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:139
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "More CPU for more messages"
 msgstr "Więcej procesora dla większej liczby wiadomości"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:176
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Periodically write json output to a directory"
 msgstr "Okresowo zapisuj wyjście json do katalogu"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:145
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Print stats at exit"
 msgstr "Wyświetl statystyki podczas zamknięcia"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:19
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "RTL device index"
 msgstr "Numer urządzenia RTL"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:115
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Reference/receiver latitude for surface posn"
 msgstr "Szerokość odniesienia/odbiornika dla powierzchni posn"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:119
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Reference/receiver longitude for surface posn"
 msgstr "Podłużna/przesuwna odniesienia/odbiornika dla powierzchni posn"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:16
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Respawn"
 msgstr "Odrodzenie"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:38
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Sample format for data file"
 msgstr "Format plików dla danych"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:168
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Set receiver error in parts per million"
 msgstr "Ustaw błąd częstotliwości odbiornika w ppm"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:151
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Show and reset stats every seconds"
 msgstr "Pokazuj i resetuj statystyki co sekundę"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:155
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Show only ICAO addresses"
 msgstr "Pokazuj tylko adresy ICAO"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:47
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Show only messages hex values"
 msgstr "Pokaż tylko wartości szesnastkowe wiadomości"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:161
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Strip IQ file removing samples"
 msgstr "Usuń próbki z pliku Strip IQ"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:77
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP BaseStation output listen port"
 msgstr "Port nasłuchiwania wyjścia TCP BaseStation"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:81
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP Beast input listen port"
 msgstr "Port nasłuchiwania dla TCP Beast"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:85
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP Beast output listen port"
 msgstr "Port wyjściowy dla TCP Beast"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:105
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP buffer size 64Kb * (2^n)"
 msgstr "Bufor dla TCP 64Kb * (2^n)"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:101
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP heartbeat rate in seconds"
 msgstr "Szybkość pulsu TCP w sekundach"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:69
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP raw input listen port"
 msgstr "Port nasłuchiwania danych pierwotnych TCP"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:55
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP raw output in Beast binary format"
 msgstr "Wyjście RAW TCP w formacie binarnym Beast"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:73
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP raw output listen port"
 msgstr "Port nasłuchiwania wyjściowego TCP RAW"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:97
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP raw output memory flush rate in seconds"
 msgstr "Szybkość opróżniania pamięci wyjściowej TCP w sekundach"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:93
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "TCP raw output minimum size"
 msgstr "Minimalny rozmiar wyjściowego protokołu TCP"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:158
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Use metric units"
 msgstr "Używaj jednostek metrycznych"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:190
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Use the 2.4MHz demodulator"
 msgstr "Używaj próbkowania 2.4MHz"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:44
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "When reading from a file play back in realtime, not at max speed"
 msgstr ""
 "Podczas odczytu z pliku odtwarzane są w czasie rzeczywistym, a nie z "
 "maksymalną prędkością"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:180
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid "Write json output every t seconds"
 msgstr "Zapisuj wyjście jsona co t sekund"
 
-#: applications/luci-app-dump1090/luasrc/controller/dump1090.lua:11
+#: applications/luci-app-dump1090/luasrc/controller/dump1090.lua
 msgid "dump1090"
 msgstr "dump1090"
 
-#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua:4
+#: applications/luci-app-dump1090/luasrc/model/cbi/dump1090.lua
 msgid ""
 "dump1090 is a Mode S decoder specifically designed for RTLSDR devices, here "
 "you can configure the settings."

@@ -12,15 +12,15 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.10\n"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:47
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Bidirectional mode"
 msgstr "Kétirányú mód"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:20
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Device"
 msgstr "Eszköz"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:10
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid ""
 "First you have to install the packages to get support for USB (kmod-usb-"
 "printer) or parallel port (kmod-lp)."
@@ -28,31 +28,31 @@ msgstr ""
 "Először telepítenie kell a csomagokat, hogy támogatást kapjon az USB (kmod-"
 "usb-printer) vagy a párhuzamos port (kmod-lp) használatához."
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:22
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Interface"
 msgstr "Csatoló"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:41
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:14
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Settings"
 msgstr "Beállítások"
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:22
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "Specifies the interface to listen on."
 msgstr "Megadja azt a csatolót, amelyen figyelni kell."
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:41
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "TCP listener port."
 msgstr "TCP figyelési port."
 
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:18
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "enable"
 msgstr "engedélyezés"
 
-#: applications/luci-app-p910nd/luasrc/controller/p910nd.lua:13
-#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua:9
+#: applications/luci-app-p910nd/luasrc/controller/p910nd.lua
+#: applications/luci-app-p910nd/luasrc/model/cbi/p910nd.lua
 msgid "p910nd - Printer server"
 msgstr "p910nd – nyomtatókiszolgáló"

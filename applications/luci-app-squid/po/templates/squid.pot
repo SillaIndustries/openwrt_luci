@@ -1,27 +1,27 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:42
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Advanced Settings"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:38
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Coredump files directory"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:28
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "General Settings"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:30
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Port"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/controller/squid.lua:20
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:21
+#: applications/luci-app-squid/luasrc/controller/squid.lua
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Squid"
 msgstr ""
 
-#: applications/luci-app-squid/luasrc/model/cbi/squid.lua:34
+#: applications/luci-app-squid/luasrc/model/cbi/squid.lua
 msgid "Visible Hostname"
 msgstr ""

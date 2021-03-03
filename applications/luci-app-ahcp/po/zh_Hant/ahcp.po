@@ -15,12 +15,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-ahcp/luasrc/controller/ahcp.lua:11
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
+#: applications/luci-app-ahcp/luasrc/controller/ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "AHCP Server"
 msgstr "AHCP 伺服器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid ""
 "AHCP is an autoconfiguration protocol for IPv6 and dual-stack IPv6/IPv4 "
 "networks designed to be used in place of router discovery or DHCP on "
@@ -31,129 +31,129 @@ msgstr ""
 "IPv4 雙堆疊網路的自動組態協定，其將為路由器提供 IRDP 或 DHCP 服務，因為您可能"
 "難以或無法在網路（例如：無線隨意網路）上配置每個連結層廣播域中所有的伺服器。"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:34
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Active AHCP Leases"
 msgstr "活躍的 AHCP 租約"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:38
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Address"
 msgstr "位址"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:14
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Advanced Settings"
 msgstr "進階設定"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:39
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Age"
 msgstr "有效期限"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:38
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced DNS servers"
 msgstr "發布的 DNS 伺服器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:44
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced NTP servers"
 msgstr "發布的 NTP 伺服器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:32
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced prefixes"
 msgstr "發布的字首"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:42
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Collecting data..."
 msgstr "正在收集資料中…"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:55
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
 msgid "Disable DNS setup"
 msgstr "停用 DNS 設定"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:21
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Forwarder"
 msgstr "轉發器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:13
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "General Setup"
 msgstr "一般設定"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:24
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:61
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv4 and IPv6"
 msgstr "IPv4 和 IPv6"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:25
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:62
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv4 only"
 msgstr "僅 IPv4"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:26
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:63
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv6 only"
 msgstr "僅 IPv6"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:97
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Lease directory"
 msgstr "租約目錄"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:62
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:91
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Lease validity time"
 msgstr "租約有效期限"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:105
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Log file"
 msgstr "日誌檔"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:11
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:50
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Multicast address"
 msgstr "多播位址"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:19
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Operation mode"
 msgstr "作業模式"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:17
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:55
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Port"
 msgstr "通訊埠"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:23
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:60
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Protocol family"
 msgstr "協定族"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:23
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Served interfaces"
 msgstr "服務介面"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:20
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Server"
 msgstr "伺服器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:45
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 NTP servers"
 msgstr "指定發布的 IPv4 與 IPv6 NTP 伺服器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:39
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 name servers"
 msgstr "指定發布的 IPv4 與 IPv6 名稱伺服器"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:33
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 network prefixes in CIDR notation"
 msgstr "指定發布的 IPv4 與 IPv6 網路字首（CIDR 表示法）"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:25
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "The AHCP Service is not running."
 msgstr "AHCP 服務未執行。"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:27
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "The AHCP Service is running with ID %s."
 msgstr "AHCP 服務執行中（服務 ID：%s）。"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:22
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "There are no active leases."
 msgstr "沒有活躍的租約。"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:101
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Unique ID file"
 msgstr "UID 檔案"

@@ -12,12 +12,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.3.2-dev\n"
 
-#: applications/luci-app-ahcp/luasrc/controller/ahcp.lua:11
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
+#: applications/luci-app-ahcp/luasrc/controller/ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "AHCP Server"
 msgstr "AHCP Server"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 #, fuzzy
 msgid ""
 "AHCP is an autoconfiguration protocol for IPv6 and dual-stack IPv6/IPv4 "
@@ -30,129 +30,129 @@ msgstr ""
 "nơi rất khó hoặc không thể cấu hình một máy chủ trong tất cả các lĩnh vực "
 "phát sóng liên kết lớp, ví dụ như mạng Ad-hoc."
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:34
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Active AHCP Leases"
 msgstr "Kích hoạt thuê AHCP"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:38
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Address"
 msgstr "Địa chỉ"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:14
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Advanced Settings"
 msgstr "Cài đặt nâng cao"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:39
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Age"
 msgstr "Thời gian thuê"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:38
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced DNS servers"
 msgstr "Quảng bá máy chủ DNS"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:44
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced NTP servers"
 msgstr "Quảng bá máy chủ NTP"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:32
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced prefixes"
 msgstr "Quảng bá tiền tố"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:42
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Collecting data..."
 msgstr "Đang lấy dữ liệu..."
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:55
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
 msgid "Disable DNS setup"
 msgstr ""
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:21
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Forwarder"
 msgstr "Chuyển tiếp"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:13
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "General Setup"
 msgstr "Thiết lập chung"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:24
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:61
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv4 and IPv6"
 msgstr "IPv4 và IPv6"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:25
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:62
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv4 only"
 msgstr "Chỉ IPv4"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:26
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:63
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv6 only"
 msgstr "Chỉ IPv6"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:97
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Lease directory"
 msgstr "Thư mục cho thuê"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:62
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:91
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Lease validity time"
 msgstr "Thời gian cho thuê"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:105
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Log file"
 msgstr "Tệp nhật ký"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:11
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:50
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Multicast address"
 msgstr "Đa địa chỉ"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:19
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Operation mode"
 msgstr "Chế độ hoạt động"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:17
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:55
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Port"
 msgstr "Cổng"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:23
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:60
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Protocol family"
 msgstr "Giao thức"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:23
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Served interfaces"
 msgstr "Giao diện phục vụ"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:20
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Server"
 msgstr "Máy chủ"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:45
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 NTP servers"
 msgstr "Quy định cụ thể máy chủ IPv4, IPv6 và NTP"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:39
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 name servers"
 msgstr "Quy định cụ thể tên máy chủ IPv4, IPv6 và NTP"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:33
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 network prefixes in CIDR notation"
 msgstr "Định rõ công bố IPv4 và IPv6 mạng tiền tố trong ký hiệu CIDR"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:25
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "The AHCP Service is not running."
 msgstr "Dịch vụ AHCP khộng hoạt động."
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:27
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "The AHCP Service is running with ID %s."
 msgstr "Dịch vụ AHCP đang hoạt động với ID %s."
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:22
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "There are no active leases."
 msgstr "Hiện không có người thuê"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:101
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Unique ID file"
 msgstr "Tệp Unique ID"

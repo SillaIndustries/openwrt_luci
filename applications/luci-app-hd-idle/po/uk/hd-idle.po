@@ -17,20 +17,20 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:15
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Disk"
 msgstr "Диск"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:13
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Enable"
 msgstr "Увімкнути"
 
-#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua:13
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:6
+#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "HDD Idle"
 msgstr "HDD Idle"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:7
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid ""
 "HDD Idle is a utility program for spinning-down external disks after a "
 "period of idle time."
@@ -38,24 +38,24 @@ msgstr ""
 "Засіб HDD Idle дозволяє уповільнювати зовнішні диски після певного часу "
 "бездіяльності."
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:21
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Idle time"
 msgstr "Час простою"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:23
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Idle time unit"
 msgstr "Одиниці часу бездіяльності"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:10
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Settings"
 msgstr "Налаштування"
 
 # Hours
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:26
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "h"
 msgstr ""
 
 # Minutes (not minimum)
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:25
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "min"
 msgstr "хв"

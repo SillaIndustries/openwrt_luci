@@ -4,32 +4,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:159
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Internal services"
 msgstr ""
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:56
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid ""
 "No services can be shown, because olsrd is not running or the olsrd-"
 "nameservice Plugin is not loaded."
 msgstr ""
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:131
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:163
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Protocol"
 msgstr ""
 
-#: applications/luci-app-olsr-services/luasrc/controller/services.lua:13
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:156
+#: applications/luci-app-olsr-services/luasrc/controller/services.lua
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Services"
 msgstr ""
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:132
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:164
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Source"
 msgstr ""
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:130
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:162
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Url"
 msgstr ""

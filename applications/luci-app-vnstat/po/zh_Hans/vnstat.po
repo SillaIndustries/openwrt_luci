@@ -15,68 +15,65 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.4.1-dev\n"
 
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:6
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:10
+#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua
 msgid "Configuration"
 msgstr "配置"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:68
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Daily traffic"
 msgstr "每日流量"
 
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:5
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:9
+#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua
 msgid "Graphs"
 msgstr "图表"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:67
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Hourly traffic"
 msgstr "每小時流量"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:49
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid "Monitor selected interfaces"
 msgstr "监控选择的接口"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:69
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Monthly traffic"
 msgstr "每月流量"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:97
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid ""
 "No database has been set up yet. Go to the VnStat configuration and enable "
 "monitoring for one or more interfaces."
 msgstr "尚未设置数据库。前往 VnStat 进行配置，并启动监控一个或多个接口。"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:22
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid "Restart VnStat"
 msgstr "重启 VnStat"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:65
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Summary display"
 msgstr "摘要显示"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:66
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Top 10 display"
 msgstr "显示前10"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:72
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "Update »"
 msgstr "更新 »"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:19
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid "VnStat"
 msgstr "流量监测"
 
-#: applications/luci-app-vnstat/luasrc/view/vnstat.htm:60
+#: applications/luci-app-vnstat/luasrc/view/vnstat.htm
 msgid "VnStat Graphs"
 msgstr "VnStat 图表"
 
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:4
-#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua:8
+#: applications/luci-app-vnstat/luasrc/controller/vnstat.lua
 msgid "VnStat Traffic Monitor"
 msgstr "VNStat 流量监控"
 
-#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua:20
+#: applications/luci-app-vnstat/luasrc/model/cbi/vnstat.lua
 msgid ""
 "VnStat is a network traffic monitor for Linux that keeps a log of network "
 "traffic for the selected interface(s)."

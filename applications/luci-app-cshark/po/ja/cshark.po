@@ -10,102 +10,99 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:24
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Actions"
 msgstr "操作"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:72
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Capture URL"
 msgstr "キャプチャURL"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:68
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Capture links"
 msgstr "キャプチャリンク"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:73
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Capture time"
 msgstr "キャプチャ時刻"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:284
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Clear list"
 msgstr "一覧をクリア"
 
-#: applications/luci-app-cshark/luasrc/controller/cshark.lua:19
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:17
+#: applications/luci-app-cshark/luasrc/controller/cshark.lua
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "CloudShark"
 msgstr "CloudShark"
 
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:27
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "CloudShark API token"
 msgstr "CloudShark API トークン"
 
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:26
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "CloudShark URL"
 msgstr "CloudShark URL"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:23
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:51
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Filter"
 msgstr "フィルター"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:21
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:28
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Interface"
 msgstr "インターフェース"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:92
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Loading"
 msgstr "読み込み中"
 
-#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua:22
+#: applications/luci-app-cshark/luasrc/model/cbi/admin_network/cshark.lua
 msgid "Options"
 msgstr "オプション"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:54
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:196
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Start capture"
 msgstr "キャプチャ開始"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:17
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Start network capture"
 msgstr "ネットワークキャプチャ開始"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:181
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Stop capture"
 msgstr "キャプチャ停止"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:93
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Waiting for capture to complete..."
 msgstr "キャプチャ完了を待機中..."
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:93
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "Waiting for upload to complete..."
 msgstr "アップロード完了を待機中..."
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:39
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "any"
 msgstr "すべて"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:47
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "bytes"
 msgstr "バイト"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:46
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "packets"
 msgstr "パケット"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:45
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "seconds"
 msgstr "秒"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:22
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "seconds, packets, bytes"
 msgstr "秒、パケット、バイト"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:44
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "timeout, bytes, seconds"
 msgstr "タイムアウト、バイト、秒"
 
-#: applications/luci-app-cshark/luasrc/view/cshark.htm:151
+#: applications/luci-app-cshark/luasrc/view/cshark.htm
 msgid "value for [seconds, packets, bytes] must be Integer"
 msgstr "[秒、パケット、バイト] の値は整数でなければなりません"

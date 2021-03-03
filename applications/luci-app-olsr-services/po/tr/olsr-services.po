@@ -10,11 +10,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:159
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Internal services"
 msgstr "Dahili hizmetler"
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:56
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid ""
 "No services can be shown, because olsrd is not running or the olsrd-"
 "nameservice Plugin is not loaded."
@@ -22,22 +22,19 @@ msgstr ""
 "olsrd çalışmadığı veya olsrd-nameservice eklentisi yüklenmediği için hiçbir "
 "hizmet gösterilemiyor."
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:131
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:163
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Protocol"
 msgstr "Protokol"
 
-#: applications/luci-app-olsr-services/luasrc/controller/services.lua:13
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:156
+#: applications/luci-app-olsr-services/luasrc/controller/services.lua
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Services"
 msgstr "Hizmetler"
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:132
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:164
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Source"
 msgstr "Kaynak"
 
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:130
-#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm:162
+#: applications/luci-app-olsr-services/luasrc/view/freifunk-services/services.htm
 msgid "Url"
 msgstr "URL"

@@ -10,38 +10,38 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:89
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "ASN Overview"
 msgstr "ASN áttekintő"
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:90
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "ASN Prefixes"
 msgstr "ASN előtagok"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:74
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "ASN/Country"
 msgstr "ASN/ország"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:139
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Additional trigger delay in seconds before banIP processing begins."
 msgstr ""
 "További aktiválókésleltetés másodpercben, mielőtt a banIP feldolgozása "
 "elkezdődik."
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:21
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "Advanced"
 msgstr "Speciális"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:24
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Automatic WAN Interface Detection"
 msgstr "Automatikus WAN csatoló felderítés"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:94
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:138
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Backup Directory"
 msgstr "Biztonsági mentés könyvtára"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:115
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Blacklist auto addons are stored temporary in the IPSet and saved "
 "permanently in the local blacklist. Disable this option to prevent the local "
@@ -51,80 +51,80 @@ msgstr ""
 "tárolva, és a helyi feketelistában vannak tartósan mentve. Tiltsa le ezt a "
 "beállítást a helyi mentés megakadályozásához."
 
-#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:45
+#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm
 msgid "Check the current available IPSets."
 msgstr "A jelenleg elérhető IPSetek ellenőrzése."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:11
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Configuration of the banIP package to block ip adresses/subnets via IPSet."
 msgstr ""
 "A banIP csomag beállítása az IP-címek és alhálózatok blokkolásához IPSet "
 "használatával."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:92
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "Country Resources"
 msgstr "Ország erőforrásai"
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:94
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "DNS Chain"
 msgstr "DNS-lánc"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:177
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "DST Target IPv4"
 msgstr "DST cél IPv4"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:209
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "DST Target IPv6"
 msgstr "DST cél IPv6"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:72
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Description"
 msgstr "Leírás"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:134
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Download Options"
 msgstr "Letöltési kapcsolók"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:126
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Download Utility"
 msgstr "Letöltési segédprogram"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:126
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Download Utility, RT Monitor"
 msgstr "Letöltési segédprogram, RT figyelő"
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:22
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "Edit Blacklist"
 msgstr "Feketelista szerkesztése"
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:24
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "Edit Configuration"
 msgstr "Beállítás szerkesztése"
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:23
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "Edit Whitelist"
 msgstr "Fehérlista szerkesztése"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:20
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Enable banIP"
 msgstr "banIP engedélyezése"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:84
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Enable verbose debug logging in case of any processing error."
 msgstr ""
 "Részletes hibakeresési naplózás engedélyezése bármilyen feldolgozási hiba "
 "esetén."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:82
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "Enter IP/CIDR/ASN/ISO"
 msgstr "IP/CIDR/ASN/ISO megadása"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:80
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Extra Options"
 msgstr "További beállítások"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:12
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "For further information <a href=\"%s\" target=\"_blank\">check the online "
 "documentation</a>"
@@ -132,7 +132,7 @@ msgstr ""
 "További információkért <a href=\"%s\" target=\"_blank\">nézze meg a "
 "kézikönyvet az interneten</a>"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:102
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "For further performance improvements you can raise this value, e.g. '8' or "
 "'16' should be safe."
@@ -140,108 +140,108 @@ msgstr ""
 "További teljesítmény-növelésért megemelheti ezt az értéket, például „8” vagy "
 "„16” biztonságos lesz."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:88
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "Geo Location"
 msgstr "Földrajzi helymeghatározás"
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:95
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "IANA Information"
 msgstr "IANA információk"
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:91
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "IP/ASN Mapping"
 msgstr "IP/ASN leképezés"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:132
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "IPSet Information"
 msgstr "IPSet információk"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:56
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "IPSet Sources"
 msgstr "IPSet források"
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:18
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "IPSet-Lookup"
 msgstr "IPSet keresés"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:10
-#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua:9
-#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:10
+#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua
 msgid "Input file not found, please check your configuration."
 msgstr "A bemeneti fájl nem található, ellenőrizze a beállítást."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:166
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "LAN Forward Chain IPv4"
 msgstr "LAN továbbítási lánc IPv4"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:198
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "LAN Forward Chain IPv6"
 msgstr "LAN továbbítási lánc IPv6"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:161
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "LAN Input Chain IPv4"
 msgstr "LAN bemeneti lánc IPv4"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:193
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "LAN Input Chain IPv6"
 msgstr "LAN bemeneti lánc IPv6"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:144
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Last Run"
 msgstr "Utolsó futás"
 
-#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:59
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:97
+#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "Load"
 msgstr "Betöltés"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:81
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Loading"
 msgstr "Betöltés"
 
-#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:27
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:58
+#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "Loading ..."
 msgstr "Betöltés…"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:114
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Local Save Blacklist Addons"
 msgstr "Helyi mentés feketelista kiegészítők"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:119
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Local Save Whitelist Addons"
 msgstr "Helyi mentés fehérlista kiegészítők"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:87
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Low Priority Service"
 msgstr "Alacsony prioritású szolgáltatás"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:28
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Manual WAN Interface Selection"
 msgstr "Kézi WAN csatoló kiválasztás"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:100
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Max. Download Queue"
 msgstr "Legnagyobb letöltési sor"
 
-#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:34
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:65
+#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "No response!"
 msgstr "Nincs válasz!"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:81
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Options for further tweaking in case the defaults are not suitable for you."
 msgstr ""
 "Beállítások a további finomhangoláshoz abban az esetben, ha az "
 "alapértelmezett értékek nem felelnek meg Önnek."
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:17
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "Overview"
 msgstr "Áttekintés"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:32
-#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:32
+#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua
 msgid ""
 "Please add only one IPv4 or IPv6 address per line. IP ranges in CIDR "
 "notation and comments introduced with '#' are allowed."
@@ -249,83 +249,81 @@ msgstr ""
 "Csak egyetlen IPv4 vagy IPv6-címet adjon meg soronként. A CIDR jelölésben "
 "lévő IP-tartományok és a „#” kezdetű megjegyzések engedélyezettek."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:19
-#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua:18
-#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:19
+#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua
 msgid "Please edit this file directly in a terminal session."
 msgstr "Szerkessze ezt a fájlt közvetlenül egy terminál munkamenetben."
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:19
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "RIPE-Lookup"
 msgstr "RIPE keresés"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:18
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:153
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Refresh"
 msgstr "Frissítés"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:151
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Refresh IPSets"
 msgstr "IPSetek frissítése"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:21
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:160
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Reload"
 msgstr "Újratöltés"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:158
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Reload IPSet Sources"
 msgstr "IPSet források újratöltése"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:112
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "Runtime Information"
 msgstr "Futtatókörnyezet-információk"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:171
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "SRC Target IPv4"
 msgstr "SRC cél IPv4"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:203
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "SRC Target IPv6"
 msgstr "SRC cél IPv6"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:65
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "SRC/DST"
 msgstr "SRC/DST"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:107
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "SSH Daemon"
 msgstr "SSH démon"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:43
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "SSH/LuCI RT Monitor"
 msgstr "SSH/LuCI RT figyelő"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:27
-#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua:26
-#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:27
+#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua
 msgid "Save"
 msgstr "Mentés"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:108
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Select the SSH daemon for logfile parsing, to detect break-in events."
 msgstr ""
 "Válassza ki az SSH démont a naplófájl feldolgozásához a betörési események "
 "felismeréséhez."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:145
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Select the used start type during boot."
 msgstr "A rendszerindítás közben használt indítási típus kiválasztása."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:127
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Select your preferred download utility."
 msgstr "Válassza ki az előnyben részesített letöltési segédprogramot."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:29
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Select your preferred interface(s) manually."
 msgstr "Válassza ki az előnyben részesített csatolókat kézzel."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:88
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Set the nice level to 'low priority' and banIP background processing will "
 "take less resources from the system."
@@ -333,13 +331,13 @@ msgstr ""
 "Állítsa a nice szintet „alacsony prioritásra”, és a banIP háttérfeldolgozása "
 "kevesebb erőforrást fog elvenni a rendszertől."
 
-#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm:51
+#: applications/luci-app-banip/luasrc/view/banip/ipsetview.htm
 msgid "Show only set member with packet counter &gt; 0"
 msgstr ""
 "Csak a 0-nál nagyobb csomagszámlálóval rendelkező beállított tag "
 "megjelenítése"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:101
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Size of the download queue to handle downloads &amp; IPset processing in "
 "parallel (default '4')."
@@ -347,18 +345,18 @@ msgstr ""
 "A letöltési sor mérete a letöltések és az IPset feldolgozás párhuzamos "
 "kezeléséhez (alapértelmezetten „4”)."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:135
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Special options for the selected download utility, e.g. '--timeout=20 -O'."
 msgstr ""
 "Különleges kapcsolók a kiválasztott letöltési segédprogramhoz, például „--"
 "timeout=20 -O”."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:144
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Start Type"
 msgstr "Kezdés típusa"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:44
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Starts a small log/banIP monitor in the background to block SSH/LuCI brute "
 "force attacks in realtime."
@@ -366,7 +364,7 @@ msgstr ""
 "Elindít egy kis naplózó/banIP figyelőt a háttérben az SSH/LuCI nyers erő "
 "támadások valós időben történő blokkolásához."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:95
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Target directory for banIP backups. Default is '/tmp', please use preferably "
 "a non-volatile disk if available."
@@ -374,7 +372,7 @@ msgstr ""
 "Célkönyvtár a banIP biztonsági mentéseihez. Alapértelmezetten „/tmp”, "
 "használjon inkább tartósan megmaradó lemezt, ha elérhető."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:77
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "The RIPEstat Data API is the public data interface provided by RIPE NCC, for "
 "details look <a href=\"https://stat.ripe.net/docs/data_api\" target=\"_blank"
@@ -384,33 +382,33 @@ msgstr ""
 "részletekért nézze meg a <a href=\"https://stat.ripe.net/docs/data_api\" "
 "target=\"_blank\" rel=\"noopener noreferrer\">dokumentációt</a>."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:18
-#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua:17
-#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:18
+#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua
 msgid "The file size is too large for online editing in LuCI (&ge; 100 KB)."
 msgstr ""
 "A fájlméret túl nagy a LuCI-ban történő internetes szerkesztéshez (nagyobb "
 "mint 100 KB)."
 
-#: applications/luci-app-banip/luasrc/view/banip/logview.htm:31
+#: applications/luci-app-banip/luasrc/view/banip/logview.htm
 msgid "The syslog output, pre-filtered for banIP related messages only."
 msgstr ""
 "A rendszernapló kimenete, előre szűrve csak a banIP-hez kapcsolódó "
 "üzenetekhez."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:89
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "This change requires a manual service stop/re-start to take effect."
 msgstr ""
 "Ez a változtatás a szolgáltatás kézi leállítását vagy újraindítását igényli "
 "az életbe léptetéshez."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:40
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "This data call gives access to various data sources maintained by IANA."
 msgstr ""
 "Ez az adathívás hozzáférést ad az IANA által kezelt különféle "
 "adatforrásokhoz."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:31
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "This data call lists the Internet resources associated with a country, "
 "including ASNs, IPv4 ranges and IPv4/6 CIDR prefixes."
@@ -419,12 +417,12 @@ msgstr ""
 "erőforrásokat, beleértve az ASN-eket, az IPv4-tartományokat és az IPv4/6 "
 "CIDR előtagokat."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:25
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "This data call returns all announced prefixes for a given ASN."
 msgstr ""
 "Ez az adathívás az összes bejelentett előtagot visszaadja egy adott ASN-nél."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:19
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "This data call returns geolocation information for the given IP space, or "
 "for announced IP prefixes in the case of ASNs."
@@ -432,7 +430,7 @@ msgstr ""
 "Ez az adathívás földrajzi helymeghatározás információkat ad vissza a "
 "megadott IP-térhez vagy a bejelentett IP-előtagokhoz ASN-ek esetén."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:28
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "This data call returns the containing prefix and announcing ASN of a given "
 "IP address."
@@ -440,7 +438,7 @@ msgstr ""
 "Ez az adathívás visszaadja a tartalmazott előtagot és egy adott IP-cím "
 "bejelentett ASN-ét."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:37
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "This data call returns the recursive chain of DNS forward (A/AAAA/CNAME) and "
 "reverse (PTR) records starting form either a hostname or an IP address."
@@ -449,7 +447,7 @@ msgstr ""
 "valamint a fordított (PTR) rekordokat vagy egy gépnévtől, vagy egy IP-címtől "
 "kezdve."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:34
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "This data call returns whois information from the relevant Regional Internet "
 "Registry and Routing Registry."
@@ -457,7 +455,7 @@ msgstr ""
 "Ez az adathívás whois információkat ad vissza a megfelelő helyi "
 "internetregiszterből és az útválasztási regiszterből."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:22
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid ""
 "This data call shows general informations about an ASN like its announcement "
 "status and the name of its holder according to the WHOIS service."
@@ -466,21 +464,21 @@ msgstr ""
 "például a bejelentett állapota és a tulajdonosának neve a WHOIS szolgáltatás "
 "szerint."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua:31
+#: applications/luci-app-banip/luasrc/model/cbi/banip/blacklist_tab.lua
 msgid ""
 "This form allows you to modify the content of the banIP blacklist (%s).<br />"
 msgstr ""
 "Ez az űrlap lehetővé teszi a banIP feketelista tartalmának módosítását (%s)."
 "<br />"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua:31
+#: applications/luci-app-banip/luasrc/model/cbi/banip/whitelist_tab.lua
 msgid ""
 "This form allows you to modify the content of the banIP whitelist (%s).<br />"
 msgstr ""
 "Ez az űrlap lehetővé teszi a banIP fehérlista tartalmának módosítását (%s)."
 "<br />"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua:30
+#: applications/luci-app-banip/luasrc/model/cbi/banip/configuration_tab.lua
 msgid ""
 "This form allows you to modify the content of the main banIP configuration "
 "file (/etc/config/banip)."
@@ -488,35 +486,35 @@ msgstr ""
 "Ez az űrlap lehetővé teszi a fő banIP beállítófájl tartalmának módosítását (/"
 "etc/config/banip)."
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:138
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Trigger Delay"
 msgstr "Aktiváló késleltetése"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:83
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "Verbose Debug Logging"
 msgstr "Részletes hibakeresési naplózás"
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:20
+#: applications/luci-app-banip/luasrc/controller/banip.lua
 msgid "View Logfile"
 msgstr "Naplófájl megtekintése"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:156
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "WAN Forward Chain IPv4"
 msgstr "WAN továbbítási lánc IPv4"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:188
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "WAN Forward Chain IPv6"
 msgstr "WAN továbbítási lánc IPv6"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:151
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "WAN Input Chain IPv4"
 msgstr "WAN bemeneti lánc IPv4"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:183
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "WAN Input Chain IPv6"
 msgstr "WAN bemeneti lánc IPv6"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:120
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid ""
 "Whitelist auto addons are stored temporary in the IPSet and saved "
 "permanently in the local whitelist. Disable this option to prevent the local "
@@ -526,27 +524,27 @@ msgstr ""
 "tárolva, és a helyi fehérlistában vannak tartósan mentve. Tiltsa le ezt a "
 "beállítást a helyi mentés megakadályozásához."
 
-#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm:93
+#: applications/luci-app-banip/luasrc/view/banip/ripeview.htm
 msgid "Whois Information"
 msgstr "Whois információk"
 
-#: applications/luci-app-banip/luasrc/controller/banip.lua:16
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:10
+#: applications/luci-app-banip/luasrc/controller/banip.lua
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "banIP"
 msgstr "banIP"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:114
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "banIP Status"
 msgstr "banIP állapota"
 
-#: applications/luci-app-banip/luasrc/view/banip/runtime.htm:120
+#: applications/luci-app-banip/luasrc/view/banip/runtime.htm
 msgid "banIP Version"
 msgstr "banIP verziója"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:59
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "enable IPv4"
 msgstr "IPv4 engedélyezése"
 
-#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua:62
+#: applications/luci-app-banip/luasrc/model/cbi/banip/overview_tab.lua
 msgid "enable IPv6"
 msgstr "IPv6 engedélyezése"

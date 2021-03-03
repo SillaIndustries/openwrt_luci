@@ -17,63 +17,62 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.5.2-dev\n"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:21
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Clock Adjustment"
 msgstr "Коригування годинника"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Count of time measurements"
 msgstr "Кількість вимірювань часу"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:11
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:12
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Current system time"
 msgstr "Поточний системний час"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:7
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:8
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "General"
 msgstr "Загальне"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:34
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:23
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Hostname"
 msgstr "Назва (ім'я) вузла"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:25
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Offset frequency"
 msgstr "Зсув частоти"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:35
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:24
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Port"
 msgstr "Порт"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Synchronizes the system time"
 msgstr "Синхронізація системного часу"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:18
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Server"
 msgstr "Сервер часу"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:29
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Time Servers"
 msgstr "Сервери часу"
 
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:14
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:17
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Synchronisation"
 msgstr "Синхронізація часу"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:13
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:14
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Update interval (in seconds)"
 msgstr "Інтервал оновлення (в секундах)"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "empty = infinite"
 msgstr "пусто = нескінченно"

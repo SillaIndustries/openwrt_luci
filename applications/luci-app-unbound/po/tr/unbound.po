@@ -10,155 +10,153 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:141
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:53
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "(none)"
 msgstr "(yok)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:96
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "(root)"
 msgstr "(kök)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:202
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid ", and <var>%s</var> entries"
 msgstr "ve <var>%s</var> girişleri"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:172
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid ", and try <var>%s</var>"
 msgstr "ve <var>%s</var> deneyin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:78
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "AXFR"
 msgstr "AXFR"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:67
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Accept queries only from local subnets"
 msgstr "Yalnızca yerel alt ağlardan gelen sorguları kabul et"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:215
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Adblock domain list is too large to display in LuCI."
 msgstr "Adblock alan listesi LuCI'de görüntülenemeyecek kadar büyük."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:46
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Advanced"
 msgstr "Gelişmiş"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:243
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Aggressive"
 msgstr "Agresif"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:34
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Allow open recursion when record not in zone"
 msgstr "Kayıt bölgede değilken açık özyinelemeye izin ver"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:38
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Authoritative (zone file)"
 msgstr "Yetkili (bölge dosyası)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:41
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Basic"
 msgstr "Temel"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:248
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Break down query components for limited added privacy"
 msgstr "Sınırlı ek gizlilik için sorgu bileşenlerinin dökümünü alın"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:77
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Break the loop where DNSSEC needs NTP and NTP needs DNS"
 msgstr "DNSSEC'in NTP'ye ve NTP'nin DNS'ye ihtiyaç duyduğu döngüyü kırın"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:52
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Check for local program to allow forward to localhost"
 msgstr "Localhost'a iletmeye izin vermek için yerel programı kontrol edin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:83
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Choose Unbounds listening port"
 msgstr "Unbound'un dinleme bağlantı noktasını seçin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:219
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Chose the IP versions used upstream and downstream"
 msgstr "Yukarı akış ve aşağı akış yönünde kullanılan IP sürümlerini seçin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:64
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Connect to servers using TLS"
 msgstr "TLS kullanarak sunuculara bağlan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:47
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "DHCP"
 msgstr "DHCP"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:139
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "DHCP Link"
 msgstr "DHCP Bağlantısı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:147
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "DHCPv4 to SLAAC"
 msgstr "DHCPv4'ten SLAAC'a"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:56
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "DNS Cache"
 msgstr "DNS Önbelleği"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:51
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "DNS Plugin"
 msgstr "DNS Eklentisi"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:63
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "DNS over TLS"
 msgstr "TLS üzerinden DNS"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:106
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "DNS64 Prefix"
 msgstr "DNS64 Öneki"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:76
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "DNSSEC NTP Fix"
 msgstr "DNSSEC NTP Düzeltmesi"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:220
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:231
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:241
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Default"
 msgstr "Varsayılan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:162
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Denied (nxdomain)"
 msgstr "Reddedildi (nxdomain)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:22
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Directed Zone"
 msgstr "Yönlendirilmiş Bölge"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:85
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Directory only part of URL"
 msgstr "Dizin URL'nin yalnızca bir kısmı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:114
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Domain Insecure"
 msgstr "Alan Güvensiz"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:80
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Domain name to verify TLS certificate"
 msgstr "TLS sertifikasını doğrulamak için alan adı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:154
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Domain suffix for this router and DHCP clients"
 msgstr "Bu yönlendirici ve DHCP istemcileri için etki alanı son eki"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:260
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "EDNS Size"
 msgstr "EDNS Boyutu"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/manual.lua:15
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/uciedit.lua:14
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/manual.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/uciedit.lua
 msgid "Edit '"
 msgstr "Düzenle '"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua:15
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua
 msgid "Edit 'server:' clause options for 'include:"
 msgstr "'include: için 'server:' cümle seçeneklerini düzenle:"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:23
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid ""
 "Edit a forward, stub, or zone-file-cache zone for Unbound to use instead of "
 "recursion."
@@ -166,295 +164,289 @@ msgstr ""
 "Özyineleme yerine Unbound için yönlendirme, saplama veya bölge dosya "
 "önbellek bölgesini düzenle."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/extended.lua:15
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/extended.lua
 msgid "Edit clauses such as 'forward-zone:' for 'include:"
 msgstr "'forward-zone:' gibi düzenleme cümleleri şunları içerir:"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:85
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Edit: Extended"
 msgstr "Düzenle: Genişletilmiş"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:82
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Edit: Server"
 msgstr "Düzenle: Sunucu"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:70
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Edit: UCI"
 msgstr "Düzenle: UCI"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:77
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Edit: Unbound"
 msgstr "Düzenle: Unbound"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:39
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Enable"
 msgstr "Etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:101
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable DNS64"
 msgstr "DNS64'ü etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:71
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable DNSSEC"
 msgstr "DNSSEC'i etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:53
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable Unbound"
 msgstr "Unbound'u etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:209
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable access for unbound-control"
 msgstr "Sınırsız denetim için unbound-control'u etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:102
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable the DNS64 module"
 msgstr "DNS64 modülünü etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:72
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable the DNSSEC validator module"
 msgstr "DNSSEC doğrulayıcı modülünü etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:54
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Enable the initialization scripts for Unbound"
 msgstr "Unbound için başlatma komut dosyalarını etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:30
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Enable this directed zone"
 msgstr "Bu yönlendirilmiş bölgeyi etkinleştir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:29
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Enabled"
 msgstr "Etkin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:278
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Extended Statistics"
 msgstr "Genişletilmiş İstatistikler"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:279
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Extended statistics are printed from unbound-control"
 msgstr "Genişletilmiş istatistikler, unbound-control'dan yazdırılır"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:194
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Extra DNS"
 msgstr "Ekstra DNS"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:33
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Fall Back"
 msgstr "Geri çekil"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:36
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Fallback"
 msgstr "Geri çekil"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:65
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Files"
 msgstr "Dosyalar"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:98
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Filter Entire Subnet"
 msgstr "Tüm Alt Ağı Filtrele"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:89
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Filter Localhost Rebind"
 msgstr "Localhost Yeniden Bağlamayı Filtrele"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:97
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Filter Private Address"
 msgstr "Özel Adresi Filtrele"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:94
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Filter Private Rebind"
 msgstr "Özel Yeniden Bağlamayı Filtrele"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:71
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Forward"
 msgstr "Yönlendir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:40
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Forward (simple handoff)"
 msgstr "Yönlendir (basit devir)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:68
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Forward TLS"
 msgstr "TLS'yi Yönlendir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:60
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Forward to upstream nameservers (ISP)"
 msgstr "Yukarı akış ad sunucularına (ISP) yönlendirme"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:176
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:188
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Host FQDN, All Addresses"
 msgstr "Ana Bilgisayar FQDN, Tüm Adresler"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:198
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Host Records"
 msgstr "Ana Bilgisayar Kayıtları"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:199
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Host/MX/SRV RR"
 msgstr "Ana Bilgisayar/MX/SRV RR"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:200
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Host/MX/SRV/CNAME RR"
 msgstr "Ana Bilgisayar/MX/SRV/CNAME RR"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:175
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:187
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Hostname, All Addresses"
 msgstr "Ana Bilgisayar Adı, Tüm Adresler"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:174
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:186
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Hostname, Primary Address"
 msgstr "Ana Bilgisayar Adı, Birincil Adres"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:171
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "How to enter the LAN or local network router in DNS"
 msgstr "DNS'de LAN veya yerel ağ yönlendiricisine nasıl girilir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:160
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "How to treat queries of this local domain"
 msgstr "Bu yerel etki alanının sorguları nasıl ele alınır"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:222
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "IP4 All and IP6 Local"
 msgstr "IP4 Tümü ve IP6 Yerel"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:221
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "IP4 Only"
 msgstr "Yalnızca IP4"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:225
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "IP4 and IP6"
 msgstr "IP4 ve IP6"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:223
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "IP6 Only*"
 msgstr "Yalnızca IP6*"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:224
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "IP6 Preferred"
 msgstr "IP6 Tercihli"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:197
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Ignore"
 msgstr "Göz ardı et"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:177
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:189
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Interface FQDN, All Addresses"
 msgstr "Arayüz FQDN, Tüm Adresler"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:170
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "LAN DNS"
 msgstr "LAN DNS"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:235
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Large"
 msgstr "Büyük"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:120
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:285
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Limit days between RFC5011 copies to reduce flash writes"
 msgstr ""
 "Flash yazma sayısını azaltmak için RFC5011 kopyaları arasındaki günleri "
 "sınırla"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:261
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Limit extended DNS packet size"
 msgstr "Genişletilmiş DNS paket boyutunu sınırla"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:140
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Link to supported programs to load DHCP into DNS"
 msgstr "DHCP'yi DNS'ye yüklemek için desteklenen programlara bağlantı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:115
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "List domains to bypass checks of DNSSEC"
 msgstr "DNSSEC denetimlerini atlamak için etki alanlarını listele"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:82
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Listening Port"
 msgstr "Dinleme Bağlantı Noktası"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:50
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Local Data"
 msgstr "Yerel Veriler"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:153
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Domain"
 msgstr "Yerel Alan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:159
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Domain Type"
 msgstr "Yerel Alan Türü"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:213
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Host, Encrypted"
 msgstr "Yerel Ana Bilgisayar, Şifreli"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:212
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Host, No Encryption"
 msgstr "Yerel Ana Bilgisayar, Şifreleme Yok"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:66
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Service"
 msgstr "Yerel servis"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:214
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Subnet, Encrypted"
 msgstr "Yerel Alt Ağ, Şifreli"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:215
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Local Subnet, Static Encryption"
 msgstr "Yerel Alt Ağ, Statik Şifreleme"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:53
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Local Zones"
 msgstr "Yerel Bölgeler"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:41
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Log"
 msgstr "Günlük"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:57
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Manual Conf"
 msgstr "Manuel Konfigürasyon"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:234
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Medium"
 msgstr "Orta"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:229
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Memory Resource"
 msgstr "Bellek Kaynağı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:130
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:295
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Networks that may trigger Unbound to reload (avoid wan6)"
 msgstr ""
 "Unbound'u yeniden yüklemek için tetikleyebilecek ağlar (wan6'dan kaçının)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:173
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "No Entry"
 msgstr "Girdi yok"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:96
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "No Filter"
 msgstr "Filtre yok"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:211
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "No Remote Control"
 msgstr "Uzaktan Kumanda Yok"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:45
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid ""
 "Note: SSL/TLS library is missing an API. Please review syslog. >> logread ..."
 msgstr ""
 "Not: SSL / TLS kitaplığında bir API eksiktir. Lütfen sistem günlüğünü "
 "inceleyin. >> logread ..."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:35
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid ""
 "Note: local DNS is configured to look at odhpcd, but odhpcd UCI lease "
 "trigger is incorrectly set:"
@@ -462,7 +454,7 @@ msgstr ""
 "Not: yerel DNS, odhpcd'ye bakacak şekilde yapılandırıldı, ancak odhpcd UCI "
 "kiralama tetikleyicisi yanlış ayarlandı:"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:16
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid ""
 "Organize directed forward, stub, and authoritative zones <a href=\"%s\" "
 "target=\"_blank\">(help)</a>."
@@ -470,221 +462,215 @@ msgstr ""
 "Yönlendirilmiş ileri, saplama ve yetkili bölgeleri düzenleyin <a href=\"%s\" "
 "target=\"_blank\">(help)</a>."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:183
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Override the WAN side router entry in DNS"
 msgstr "DNS'de WAN tarafı yönlendirici girişini geçersiz kılın"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:242
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Passive"
 msgstr "Pasif"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:68
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:74
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Port servers will receive queries on"
 msgstr "Bağlantı noktası sunucuları sorguları alacak"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:107
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Prefix for generated DNS64 addresses"
 msgstr "Oluşturulan DNS64 adresleri için önek"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:273
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Prevent client query overload; zero is off"
 msgstr "İstemci sorgularının aşırı yüklenmesini önleyin; sıfır kapalı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:267
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Prevent excessively short cache periods"
 msgstr "Aşırı kısa önbellek sürelerini önleyin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:90
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Protect against upstream response of 127.0.0.0/8"
 msgstr "127.0.0.0/8 yukarı akış yanıtına karşı koruma"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:95
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Protect against upstream responses within local subnets"
 msgstr "Yerel alt ağlarda yukarı akış yanıtlarına karşı koruma sağla"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:247
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Query Minimize"
 msgstr "Sorguları azalt"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:272
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Query Rate Limit"
 msgstr "Oran Sınırını Sorgula"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:75
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Recurse"
 msgstr "Yinele"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:218
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Recursion Protocol"
 msgstr "Özyineleme Protokolü"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:239
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Recursion Strength"
 msgstr "Özyineleme Gücü"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:240
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Recursion activity affects memory growth and CPU load"
 msgstr "Özyineleme etkinliği bellek büyümesini ve CPU yükünü etkiler"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:22
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:24
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Recursive DNS"
 msgstr "Yinelemeli DNS"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:163
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Refused"
 msgstr "Reddedildi"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:48
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Resource"
 msgstr "Kaynak"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:119
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:284
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Root DSKEY Age"
 msgstr "Kök DSKEY Yaşı"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/extended.lua:11
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/manual.lua:11
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua:11
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/uciedit.lua:11
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/extended.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/manual.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/server.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/uciedit.lua
 msgid "Save"
 msgstr "Kaydet"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:67
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Server Port"
 msgstr "Sunucu Bağlantı Noktası"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:73
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Server TLS Port"
 msgstr "Sunucu TLS Bağlantı Noktası"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:47
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:33
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Servers"
 msgstr "Sunucular"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:48
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Servers for this zone; see README.md for optional form"
 msgstr "Bu bölge için sunucular; isteğe bağlı form için README.md'ye bakın"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:96
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Show: Adblock"
 msgstr "Göster: Adblock"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:90
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Show: DHCP"
 msgstr "Göster: DHCP"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:73
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Show: Unbound"
 msgstr "Göster: Unbound"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:58
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Skip UCI and use /etc/unbound/unbound.conf"
 msgstr "UCI'yi atlayın ve /etc/unbound/unbound.conf kullanın"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:233
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Small"
 msgstr "Küçük"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:164
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Static (local only)"
 msgstr "Statik (yalnızca yerel)"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:47
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:59
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Statistics"
 msgstr "İstatistikler"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:38
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Status"
 msgstr "Durum"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:254
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Strict Minimize"
 msgstr "Kesinlikle Küçült"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:255
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Strict version of 'query minimize' but it can break DNS"
 msgstr "'query minimize' katı sürümü, ancak DNS'yi kırabilir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:39
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Stub (forced recursion)"
 msgstr "Stub (zorunlu özyineleme)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:79
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "TLS Name Index"
 msgstr "TLS İsim Dizini"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:266
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "TTL Minimum"
 msgstr "TTL Minimum"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:104
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "This could display more statistics with the unbound-control package."
 msgstr "Bu, unbound-control paketiyle daha fazla istatistik görüntüleyebilir."
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:187
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:198
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:223
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "This shows '"
 msgstr "Bu gösterir ki '"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:174
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid ""
 "This shows 'ubound-control dump_cache' for auditing records including DNSSEC."
 msgstr ""
 "Bu, DNSSEC dahil kayıtları denetlemek için 'ubound-control dump_cache' "
 "öğesini gösterir."
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:138
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid ""
 "This shows Unbound 'local-data:' entries from default, .conf, or control."
 msgstr ""
 "Bu, varsayılan, .conf veya kontrolden Unbound 'local-data:' girişlerini "
 "gösterir."
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:150
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid ""
 "This shows Unbound 'local-zone:' entries from default, .conf, or control."
 msgstr ""
 "Bu, varsayılan, .conf veya kontrolden Unbound 'local-zone:' girişlerini "
 "gösterir."
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:126
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "This shows Unbound self reported performance statistics."
 msgstr ""
 "Bu, Unbound tarafından bildirilen performans istatistiklerini gösterir."
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:114
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "This shows syslog filtered for events involving Unbound."
 msgstr ""
 "Bu, Unbound ile ilgili olaylar için filtrelenen sistem günlüğünü gösterir."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:232
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Tiny"
 msgstr "Çok küçük"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:165
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Transparent (local/global)"
 msgstr "Şeffaf (yerel/genel)"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:129
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:294
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Trigger Networks"
 msgstr "Tetik Ağları"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:27
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Type"
 msgstr "Tür"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:26
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Unbound"
 msgstr "Unbound"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:25
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid ""
 "Unbound <a href=\"%s\" target=\"_blank\">(NLnet Labs)</a> is a validating, "
 "recursive, and caching DNS resolver <a href=\"%s\" target=\"_blank\">(help)</"
@@ -694,103 +680,101 @@ msgstr ""
 "özyinelemeli ve önbelleğe alan bir DNS çözümleyicidir <a href=\"%s\" target="
 "\"_blank\">(help)</a>."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:208
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Unbound Control App"
 msgstr "Unbound Control Uygulaması"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:167
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
 msgid "Unbound cache is too large to display in LuCI."
 msgstr "Unbound önbelleği LuCI'de görüntülenemeyecek kadar büyük."
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:81
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Undefined"
 msgstr "Tanımsız"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:59
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Use 'resolv.conf.auto'"
 msgstr "'resolv.conf.auto' kullan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:148
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Use DHCPv4 MAC to discover IP6 hosts SLAAC (EUI64)"
 msgstr "IP6 ana bilgisayar SLAAC (EUI64) keşfetmek için DHCPv4 MAC kullanın"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:185
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Use Upstream"
 msgstr "Yukarı Akışı Kullan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:195
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Use extra DNS entries found in /etc/config/dhcp"
 msgstr "/etc/config/dhcp içinde bulunan fazladan DNS girişlerini kullan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:230
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "Use menu System/Processes to observe any memory growth"
 msgstr ""
 "Herhangi bir bellek büyümesini gözlemlemek için Sistem / İşlemler menüsünü "
 "kullanın"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:182
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "WAN DNS"
 msgstr "WAN DNS'si"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:44
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Zone (Domain) names included in this zone combination"
 msgstr "Bu bölge kombinasyonuna dahil olan Bölge (Alan) adları"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:84
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Zone Download URL"
 msgstr "Bölge İndirme URL'si"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:43
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Zone Names"
 msgstr "Bölge Adları"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua:37
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zone-details.lua
 msgid "Zone Type"
 msgstr "Bölge Tipi"
 
-#: applications/luci-app-unbound/luasrc/controller/unbound.lua:32
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:30
+#: applications/luci-app-unbound/luasrc/controller/unbound.lua
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "Zones"
 msgstr "Bölgeler"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:112
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "accept upstream results for"
 msgstr "için yukarı akış sonuçlarını kabul et"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:123
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:288
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "default"
 msgstr "varsayılan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:175
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "download from <var>%s</var>"
 msgstr "<var>%s</var> adresinden indir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:126
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua:291
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/configure.lua
 msgid "never"
 msgstr "asla"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:118
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "prefetch zone files for"
 msgstr "için bölge dosyalarını önceden getir"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:115
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "select recursion for"
 msgstr "için özyinelemeyi seçin"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:121
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "unknown action for"
 msgstr "bilinmeyen eylem"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:206
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "use <var>%s</var> nameservers"
 msgstr "<var>%s</var> ad sunucularını kullan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:156
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "use nameservers"
 msgstr "ad sunucularını kullan"
 
-#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua:165
+#: applications/luci-app-unbound/luasrc/model/cbi/unbound/zones.lua
 msgid "with default certificate for <var>%s</var>"
 msgstr "<var>%s</var> için varsayılan sertifika ile"

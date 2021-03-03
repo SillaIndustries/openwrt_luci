@@ -16,63 +16,62 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.6-dev\n"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:21
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Clock Adjustment"
 msgstr "Saat Ayarı"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Count of time measurements"
 msgstr "Zaman Ölçüm Sayacı"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:11
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:12
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Current system time"
 msgstr "Mevcut Sistem Saati"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:7
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:8
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "General"
 msgstr "Genel"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:34
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:23
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Hostname"
 msgstr "Sunucu adı"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:25
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Offset frequency"
 msgstr "Denge Frekansı"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:35
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:24
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Port"
 msgstr "Bağlantı noktası"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Synchronizes the system time"
 msgstr "Sistem Saati Senkronizasyonu"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:18
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Server"
 msgstr "Zaman Sunucusu"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:29
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "Time Servers"
 msgstr "Zaman Sunucuları"
 
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:14
-#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua:17
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:5
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:6
+#: applications/luci-app-ntpc/luasrc/controller/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Time Synchronisation"
 msgstr "Saat Senkronizasyonu"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:13
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua:14
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpcmini.lua
 msgid "Update interval (in seconds)"
 msgstr "Güncelleme Aralığı (Saniye)"
 
-#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua:17
+#: applications/luci-app-ntpc/luasrc/model/cbi/ntpc/ntpc.lua
 msgid "empty = infinite"
 msgstr "Boş = Sonsuz"

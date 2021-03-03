@@ -1,71 +1,69 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8"
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:50
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "<a href='%s%s'>%s</a>"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:62
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "<a href='%s?server_root=%s%s'>%s</a>"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:59
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "<a href='%s?server_root=%s'>%s</a>"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:15
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Disable"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:15
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Disable Rosy File Server"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:69
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "Last Modified"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:40
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "Name"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/controller/rosy-file-server/rosy-file-server.lua:24
-#: applications/luci-app-rosy-file-server/luasrc/controller/rosy-file-server/rosy-file-server.lua:32
-#: applications/luci-app-rosy-file-server/luasrc/controller/rosy-file-server/rosy-file-server.lua:35
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:31
+#: applications/luci-app-rosy-file-server/luasrc/controller/rosy-file-server/rosy-file-server.lua
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "Rosy File Server"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:9
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Rosy File Server Settings"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:70
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "Size"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:19
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Specify path to be mapped"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:19
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Target"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:31
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid ""
 "This is rosy file server for luci.<br /><strong>Note: targets will be mapped "
 "at /www/rosyfs-share !</strong>"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:23
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Title"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua:23
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosyfs.lua
 msgid "Title to be shown"
 msgstr ""
 
-#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua:38
+#: applications/luci-app-rosy-file-server/luasrc/model/cbi/rosy-file-server/rosy-file-server.lua
 msgid "Type"
 msgstr ""

@@ -10,41 +10,40 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.3.2-dev\n"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:18
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid ""
 "<b>Please note:</b> For LXC Containers you need a custom OpenWrt image.<br />"
 msgstr ""
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:29
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:47
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Actions"
 msgstr "Akce"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:23
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Available Containers"
 msgstr "Dostupné kontejnery"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:25
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Containers URL"
 msgstr "URL kontejnerů"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:53
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Create"
 msgstr "Vytvořit"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:41
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Create New Container"
 msgstr "Vytvořit nový kontejner"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:133
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Delete"
 msgstr "Odstranit"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:31
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Enable SSL"
 msgstr "Šifrovat spojení (TLS)"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:32
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid ""
 "Enable optional SSL encryption support. This requires additional packages "
 "like 'wget', 'ca-certificates', 'gnupg' and 'gnupg-utils'."
@@ -52,63 +51,62 @@ msgstr ""
 "Povolit volitelnou podporu šifrování SSL. Vyžaduje to dodatečné balíčky jako "
 "'wget', 'ca-certificates', 'gnupg' a 'gnupg-utils'."
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:50
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Enter new name"
 msgstr "Zadat nový název"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:36
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Free Space Threshold"
 msgstr "Prahová hodnota volného místa"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:42
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Free Temp Threshold"
 msgstr "Prahová hodnota místa pro dočasné soubory"
 
-#: applications/luci-app-lxc/luasrc/controller/lxc.lua:31
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:17
+#: applications/luci-app-lxc/luasrc/controller/lxc.lua
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "LXC Containers"
 msgstr "Kontejnery LXC"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:73
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Loading"
 msgstr "Načítání"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:37
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Minimum required free space for LXC Container creation in KB"
 msgstr "Minimální požadované volné místo pro vytvoření LXC kontejneru v KB"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:43
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Minimum required free temp space for LXC Container creation in KB"
 msgstr ""
 "Minimální požadované volné místo dočasných souborů pro vytvoření LXC "
 "kontejneru v KB"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:27
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:45
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Name"
 msgstr "Název"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:22
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid "Options"
 msgstr "Možnosti"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:131
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Start"
 msgstr "Start"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:28
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Status"
 msgstr "Stav"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:132
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Stop"
 msgstr "Zastavit"
 
-#: applications/luci-app-lxc/luasrc/view/lxc.htm:46
+#: applications/luci-app-lxc/luasrc/view/lxc.htm
 msgid "Template"
 msgstr "Šablona"
 
-#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua:19
+#: applications/luci-app-lxc/luasrc/model/cbi/lxc.lua
 msgid ""
 "The image should include at least support for 'kernel cgroups', 'kernel "
 "namespaces' and 'miscellaneous LXC related options' plus 'kmod-veth' for "

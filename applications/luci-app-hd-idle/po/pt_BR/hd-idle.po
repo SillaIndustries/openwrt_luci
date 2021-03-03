@@ -14,20 +14,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.3.2-dev\n"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:15
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Disk"
 msgstr "Disco"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:13
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Enable"
 msgstr "Ativar"
 
-#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua:13
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:6
+#: applications/luci-app-hd-idle/luasrc/controller/hd_idle.lua
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "HDD Idle"
 msgstr "HDD Idle"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:7
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid ""
 "HDD Idle is a utility program for spinning-down external disks after a "
 "period of idle time."
@@ -35,24 +35,24 @@ msgstr ""
 "HDD Idle é um programa utilitário para ativar o modo \"economia de energia"
 "\" (spinning-down) de discos externos após um período de ociosidade."
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:21
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Idle time"
 msgstr "Tempo de ociosidade"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:23
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Idle time unit"
 msgstr "Unidade do tempo da ociosidade"
 
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:10
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "Settings"
 msgstr "Configurações"
 
 # Hours
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:26
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "h"
 msgstr "horas"
 
 # Minutes (not minimum)
-#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua:25
+#: applications/luci-app-hd-idle/luasrc/model/cbi/hd_idle.lua
 msgid "min"
 msgstr "minutos"

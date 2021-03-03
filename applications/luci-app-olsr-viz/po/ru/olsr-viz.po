@@ -11,10 +11,10 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.1-dev\n"
 
-#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua:4
+#: applications/luci-app-olsr-viz/luasrc/controller/olsr-viz.lua
 msgid "OLSR-Viz"
 msgstr "OLSR-Viz"
 
-#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm:4
+#: applications/luci-app-olsr-viz/luasrc/view/olsr-viz/olsr-viz.htm
 msgid "You need to allow javascript in your browser to show this page."
 msgstr "Включите javascript для отображения этой страницы."

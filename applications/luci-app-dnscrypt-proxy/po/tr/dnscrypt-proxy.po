@@ -10,34 +10,33 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:139
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:161
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "-------"
 msgstr "-------"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:17
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "Advanced"
 msgstr "Gelişmiş"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:215
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Alternate Resolver List"
 msgstr "Alternatif Çözümleyici Listesi"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:258
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Apply DNSCrypt-Proxy specific settings to the Dnsmasq configuration.<br />"
 msgstr ""
 "DNSCrypt-Proxy'ye özgü ayarları Dnsmasq yapılandırmasına uygulayın. <br />"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:228
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Blacklist"
 msgstr "Kara Liste"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:233
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Block IPv6"
 msgstr "IPv6'yı engelle"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:169
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "By default the DNSCrypt-Proxy startup will be triggered by ifup events of "
 "'All' available network interfaces.<br />"
@@ -45,11 +44,11 @@ msgstr ""
 "Varsayılan olarak DNSCrypt-Proxy başlangıcı, kullanılabilir 'Tüm' ağ "
 "arayüzlerinin ifup olayları tarafından tetiklenir. <br />"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:59
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Configuration of the DNSCrypt-Proxy package."
 msgstr "DNSCrypt-Proxy paketinin yapılandırması."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:146
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Create '/etc/resolv-crypt.conf' with 'options timeout:1' to reduce DNS "
 "upstream timeouts with multiple DNSCrypt instances.<br />"
@@ -57,80 +56,78 @@ msgstr ""
 "Birden çok DNSCrypt örneğiyle DNS yukarı akış zaman aşımlarını azaltmak için "
 "\"options timeout:1\" ile \"/etc/resolv-crypt.conf\" oluşturun. <br />"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:150
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Create Config File"
 msgstr "Yapılandırma Dosyası Oluştur"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:145
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:158
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Create Custom Config File"
 msgstr "Özel Yapılandırma Dosyası Oluşturun"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:245
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "DNS Query Logfile"
 msgstr "DNS Sorgusu Günlük Dosyası"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:14
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:58
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "DNSCrypt-Proxy"
 msgstr "DNSCrypt-Proxy"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:35
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "DNSCrypt-Proxy Logfile"
 msgstr "DNSCrypt-Proxy Günlük Dosyası"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:26
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "DNSCrypt-Proxy Resolver List"
 msgstr "DNSCrypt-Proxy Çözümleyici Listesi"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:102
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Default Resolver List"
 msgstr "Varsayılan Çözücü Listesi"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:234
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Disable IPv6 to speed up DNSCrypt-Proxy."
 msgstr "DNSCrypt-Proxy'yi hızlandırmak için IPv6'yı devre dışı bırakın."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:254
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Dnsmasq Options"
 msgstr "Dnsmasq Seçenekleri"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:124
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Download the current resolver list from 'github.com/dyne/dnscrypt-proxy'."
 msgstr ""
 "Mevcut çözümleyici listesini 'github.com/dyne/dnscrypt-proxy'den indirin."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:18
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "Edit DNSCrypt-Proxy Configuration"
 msgstr "DNSCrypt-Proxy Yapılandırmasını Düzenle"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:19
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "Edit Dnsmasq Configuration"
 msgstr "Dnsmasq Yapılandırmasını Düzenle"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:20
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "Edit Resolvcrypt Configuration"
 msgstr "Resolvcrypt Yapılandırmasını Düzenle"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:240
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Enable Caching to speed up DNSCcrypt-Proxy."
 msgstr "DNSCcrypt-Proxy'yi hızlandırmak için Önbelleğe Almayı etkinleştirin."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:220
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Ephemeral Keys"
 msgstr "Geçici Anahtarlar"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:114
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "File Checksum"
 msgstr "Dosya Sağlama Toplamı"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:106
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "File Date"
 msgstr "Dosya Tarihi"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:60
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:147
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "For further information <a href=\"%s\" target=\"_blank\">see the wiki "
 "online</a>"
@@ -138,40 +135,40 @@ msgstr ""
 "Daha fazla bilgi için <a href=\"%s\" target=\"_blank\"> çevrimiçi wiki'ye "
 "bakın </a>"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:97
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "General Options"
 msgstr "Genel seçenekler"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:189
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "IP Address"
 msgstr "IP Adresi"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:221
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Improve privacy by using an ephemeral public key for each query."
 msgstr "Her sorgu için geçici bir genel anahtar kullanarak gizliliği artırın."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_dnsmasq_tab.lua:9
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_resolvcrypt_tab.lua:9
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/configuration_tab.lua:9
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_dnsmasq_tab.lua
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_resolvcrypt_tab.lua
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/configuration_tab.lua
 msgid "Input file not found, please check your configuration."
 msgstr "Girdi dosyası bulunamadı, lütfen yapılandırmanızı kontrol edin."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:185
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Instance Options"
 msgstr "Örnek Seçenekleri"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:239
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Local Cache"
 msgstr "Yerel Önbellek"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:229
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Local blacklists allow you to block abuse sites by domains or ip addresses."
 msgstr ""
 "Yerel kara listeler, kötüye kullanım sitelerini etki alanlarına veya ip "
 "adreslerine göre engellemenize olanak tanır."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:246
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Log the received DNS queries to a file, so you can watch in real-time what "
 "is happening on the network."
@@ -179,7 +176,7 @@ msgstr ""
 "Alınan DNS sorgularını bir dosyaya kaydedin, böylece ağda neler olup "
 "bittiğini gerçek zamanlı olarak izleyebilirsiniz."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:201
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Name of the remote DNS service for resolving queries incl. Location, DNSSEC- "
 "and NOLOG-Flag."
@@ -187,23 +184,23 @@ msgstr ""
 "Sorguları çözmek için uzak DNS hizmetinin adı dahil. Konum, DNSSEC- ve NOLOG-"
 "Flag."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:137
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "No SSL support available.<br />"
 msgstr "Kullanılabilir SSL desteği yok. <br />"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:21
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "No default resolver list and no SSL support available.<br />"
 msgstr "Varsayılan çözümleyici listesi ve SSL desteği yok. <br />"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:15
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "Overview"
 msgstr "Genel bakış"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:160
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Please edit the file manually in the 'Advanced' section."
 msgstr "Lütfen dosyayı \"Gelişmiş\" bölümünde manuel olarak düzenleyin."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:138
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Please install a 'libustream-ssl' library to download the current resolver "
 "list from 'github.com/dyne/dnscrypt-proxy'."
@@ -211,7 +208,7 @@ msgstr ""
 "Mevcut çözümleyici listesini 'github.com/dyne/dnscrypt-proxy'den indirmek "
 "için lütfen bir' libustream-ssl 'kitaplığı kurun."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:22
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Please install a resolver list to '/usr/share/dnscrypt-proxy/dnscrypt-"
 "resolvers.csv' to use this package."
@@ -219,7 +216,7 @@ msgstr ""
 "Bu paketi kullanmak için lütfen '/usr/share/dnscrypt-proxy/dnscrypt-"
 "resolvers.csv' ye bir çözümleyici listesi yükleyin."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:259
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "Please note: This may change the values for 'noresolv', 'resolvfile', "
 "'allservers' and the list 'server' settings."
@@ -227,46 +224,45 @@ msgstr ""
 "Lütfen dikkat: Bu, 'noresolv', 'resolvfile', 'allservers' ve liste 'server' "
 "ayarlarının değerlerini değiştirebilir."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:194
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Port"
 msgstr "Bağlantı noktası"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:125
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Refresh List"
 msgstr "Listeyi Yenile"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:123
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:136
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Refresh Resolver List"
 msgstr "Çözümleyici Listesini Yenile"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:200
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Resolver (LOC/SEC/NOLOG)"
 msgstr "Çözümleyici (LOC/SEC/NOLOG)"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_dnsmasq_tab.lua:17
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_resolvcrypt_tab.lua:17
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/configuration_tab.lua:17
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_dnsmasq_tab.lua
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_resolvcrypt_tab.lua
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/configuration_tab.lua
 msgid "Save"
 msgstr "Kaydet"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:216
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Specify a non-default Resolver List."
 msgstr "Varsayılan olmayan bir Çözümleyici Listesi belirtin."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:168
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Startup Trigger"
 msgstr "Başlangıç Tetikleyicisi"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:159
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "The config file '/etc/resolv-crypt.conf' already exist.<br />"
 msgstr "'/etc/resolv-crypt.conf' yapılandırma dosyası zaten mevcut. <br />"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:195
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "The listening port for DNS queries."
 msgstr "DNS sorguları için dinleme bağlantı noktası."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:190
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "The local IPv4 or IPv6 address. The latter one should be specified within "
 "brackets, e.g. '[::1]'."
@@ -274,7 +270,7 @@ msgstr ""
 "Yerel IPv4 veya IPv6 adresi. İkincisi, parantez içinde belirtilmelidir, ör. "
 "'[:: 1]'."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:230
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "The value for this property is the blocklist type and path to the file, e."
 "g.'domains:/path/to/dbl.txt' or 'ips:/path/to/ipbl.txt'."
@@ -282,7 +278,7 @@ msgstr ""
 "Bu özelliğin değeri, engelleme listesi türü ve dosyasının yoludur, ör. "
 "'domains:/path/to/dbl.txt' veya 'ips:/path/to/ipbl.txt'."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/configuration_tab.lua:21
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/configuration_tab.lua
 msgid ""
 "This form allows you to modify the content of the main DNSCrypt-Proxy "
 "configuration file (/etc/config/dnscrypt-proxy)."
@@ -290,7 +286,7 @@ msgstr ""
 "Bu form, ana DNSCrypt-Proxy yapılandırma dosyasının (/etc/config/dnscrypt-"
 "proxy) içeriğini değiştirmenize izin verir."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_dnsmasq_tab.lua:21
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_dnsmasq_tab.lua
 msgid ""
 "This form allows you to modify the content of the main Dnsmasq configuration "
 "file (/etc/config/dhcp)."
@@ -298,7 +294,7 @@ msgstr ""
 "Bu form, ana Dnsmasq yapılandırma dosyasının (/etc/config/dhcp) içeriğini "
 "değiştirmenize izin verir."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_resolvcrypt_tab.lua:21
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/cfg_resolvcrypt_tab.lua
 msgid ""
 "This form allows you to modify the content of the resolv-crypt configuration "
 "file (/etc/resolv-crypt.conf)."
@@ -306,11 +302,11 @@ msgstr ""
 "Bu form, resolv-crypt yapılandırma dosyasının (/etc/resolv-crypt.conf) "
 "içeriğini değiştirmenize izin verir."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/view/dnscrypt-proxy/view_reslist.htm:10
+#: applications/luci-app-dnscrypt-proxy/luasrc/view/dnscrypt-proxy/view_reslist.htm
 msgid "This form shows the content of the current DNSCrypt Resolver List."
 msgstr "Bu form, geçerli DNSCrypt Çözümleyici Listesinin içeriğini gösterir."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/view/dnscrypt-proxy/logread.htm:10
+#: applications/luci-app-dnscrypt-proxy/luasrc/view/dnscrypt-proxy/logread.htm
 msgid ""
 "This form shows the syslog output, pre-filtered for DNSCrypt-Proxy related "
 "messages only."
@@ -318,7 +314,7 @@ msgstr ""
 "Bu form, yalnızca DNSCrypt-Proxy ile ilgili iletiler için önceden "
 "filtrelenmiş syslog çıktısını gösterir."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:222
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "This option requires extra CPU cycles and is useless with most DNSCrypt "
 "server."
@@ -326,7 +322,7 @@ msgstr ""
 "Bu seçenek, fazladan CPU döngüsü gerektirir ve çoğu DNSCrypt sunucusunda işe "
 "yaramaz."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:170
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid ""
 "To restrict the trigger, select only the relevant network interface. Usually "
 "the 'wan' interface should work for most users."
@@ -334,14 +330,14 @@ msgstr ""
 "Tetikleyiciyi kısıtlamak için yalnızca ilgili ağ arayüzünü seçin. Genellikle "
 "'wan' arayüzü çoğu kullanıcı için işe yaramaktadır."
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua:257
+#: applications/luci-app-dnscrypt-proxy/luasrc/model/cbi/dnscrypt-proxy/overview_tab.lua
 msgid "Transfer Options To Dnsmasq"
 msgstr "Seçenekleri Dnsmasq'a Transfer et"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:16
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "View Logfile"
 msgstr "Günlük Dosyasını Görüntüle"
 
-#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua:21
+#: applications/luci-app-dnscrypt-proxy/luasrc/controller/dnscrypt-proxy.lua
 msgid "View Resolver List"
 msgstr "Çözümleyici Listesini Görüntüle"

@@ -12,12 +12,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.4-dev\n"
 
-#: applications/luci-app-ahcp/luasrc/controller/ahcp.lua:11
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
+#: applications/luci-app-ahcp/luasrc/controller/ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "AHCP Server"
 msgstr "AHCP Server"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:4
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 #, fuzzy
 msgid ""
 "AHCP is an autoconfiguration protocol for IPv6 and dual-stack IPv6/IPv4 "
@@ -30,132 +30,132 @@ msgstr ""
 "eller umulig å bruke for hvert link-lags broadcast domene, f.eks. mobile ad-"
 "hoc nettverk."
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:34
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Active AHCP Leases"
 msgstr "Aktive AHCP Leier"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:38
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Address"
 msgstr "Adresse"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:14
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Advanced Settings"
 msgstr "Avanserte innstillinger"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:39
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Age"
 msgstr "Alder"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:38
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced DNS servers"
 msgstr "Annonserte DNS servere"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:44
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced NTP servers"
 msgstr "Annonserte NTP servere"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:32
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Announced prefixes"
 msgstr "Annonserte prefikser"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:42
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "Collecting data..."
 msgstr "Samler inn data…"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:55
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
 msgid "Disable DNS setup"
 msgstr ""
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:21
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 #, fuzzy
 msgid "Forwarder"
 msgstr "Sender"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:13
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "General Setup"
 msgstr "Generelt Oppsett"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:24
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:61
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv4 and IPv6"
 msgstr "IPv4 og IPv6"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:25
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:62
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv4 only"
 msgstr "Kun IPv4"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:26
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:63
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "IPv6 only"
 msgstr "Kun IPv6"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:97
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 #, fuzzy
 msgid "Lease directory"
 msgstr "Leie katalog"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:62
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:91
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Lease validity time"
 msgstr "Gyldig leietid"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:105
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Log file"
 msgstr "Logg fil"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:11
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:50
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Multicast address"
 msgstr "Multicast adresse"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:19
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Operation mode"
 msgstr "Driftsmodus"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:17
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:55
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Port"
 msgstr "Port"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua:23
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:60
+#: applications/luci-app-ahcp/luasrc/model/cbi/admin_network/proto_ahcp.lua
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Protocol family"
 msgstr "Protokoll familie"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:23
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 #, fuzzy
 msgid "Served interfaces"
 msgstr "Utdelte grensesnitt"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:20
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Server"
 msgstr "Server"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:45
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 NTP servers"
 msgstr "Angir annonserte IPv4 og IPv6 NTP-servere"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:39
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 name servers"
 msgstr "Angir annonserte IPv4 og IPv6 navnetjenere"
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:33
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Specifies the announced IPv4 and IPv6 network prefixes in CIDR notation"
 msgstr "Angir annonserte IPv4 og IPv6 nettverk prefikser i CIDR-notasjon"
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:25
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "The AHCP Service is not running."
 msgstr ""
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:27
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "The AHCP Service is running with ID %s."
 msgstr ""
 
-#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm:22
+#: applications/luci-app-ahcp/luasrc/view/ahcp_status.htm
 msgid "There are no active leases."
 msgstr "Det er ingen aktive leieavtaler."
 
-#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua:101
+#: applications/luci-app-ahcp/luasrc/model/cbi/ahcp.lua
 msgid "Unique ID file"
 msgstr "Unik ID fil"

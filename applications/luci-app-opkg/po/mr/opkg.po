@@ -14,19 +14,19 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.3-dev\n"
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:112
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Actions"
 msgstr "क्रिया"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:727
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Automatically remove unused dependencies"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:122
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Available"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:658
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid ""
 "Below is a listing of the various configuration files used by <em>opkg</em>. "
 "Use <em>opkg.conf</em> for global settings and <em>customfeeds.conf</em> for "
@@ -34,291 +34,270 @@ msgid ""
 "changed but is usually not preserved by <em>sysupgrade</em>."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:599
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:644
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:673
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:733
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:812
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Cancel"
 msgstr "रद्द करा"
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:102
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Clear"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:117
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Configure opkg…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:572
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Dependencies"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:578
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:713
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:140
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Description"
 msgstr "वर्णन"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:583
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Details for package <em>%h</em>"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:789
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Dismiss"
 msgstr "डिसमिस करा"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:237
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Displaying %d-%d of %d"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:106
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Download and install package"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:767
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Errors"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:755
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Executing package manager"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:100
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Filter"
 msgstr "फिल्टर करा"
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:93
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Free space"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:606
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:622
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:822
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Install"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:188
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:399
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:123
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Installed"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:628
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:799
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid ""
 "Installing packages from untrusted sources is a potential security risk! "
 "Really attempt to install <em>%h</em>?"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:177
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Install…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:653
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Loading configuration data…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:831
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Loading package information…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:802
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "MD5"
 msgstr "MD5"
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:638
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:798
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Manually install package"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:387
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Needs upgrade"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:131
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Next page"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:250
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "No information available"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:238
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "No packages"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:254
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "No packages matching \"<strong>%h</strong>\"."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:419
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Not available"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:404
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Not installed"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:108
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "OK"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:652
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:684
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:693
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "OPKG Configuration"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:594
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Overwrite files from other package(s)"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:137
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Package name"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:107
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Package name or URL…"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:129
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Previous page"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:635
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Really attempt to install <em>%h</em>?"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:740
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Remove"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:718
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Remove package <em>%h</em>"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:165
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Remove…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:568
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Require approx. %.1024mB size for %d package(s) to install."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:394
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:412
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Require version %h %h, installed %h"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:417
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid ""
 "Required dependency package <em>%h</em> is not available in any repository."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:385
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Requires update to %h %h"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:255
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Reset"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:803
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "SHA256"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:690
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Save"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:685
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Saving configuration data…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:586
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:721
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:801
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Size"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:139
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Size (.ipk)"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/controller/opkg.lua:7
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:89
+#: applications/luci-app-opkg/luasrc/controller/opkg.lua
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Software"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:772
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "The <em>opkg %h</em> command failed with code <code>%d</code>."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:390
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid ""
 "The installed version of package <em>%h</em> is not compatible, require %s "
 "while %s is installed."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:631
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "The package <em>%h</em> is not available in any configured repository."
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:407
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid ""
 "The repository version of package <em>%h</em> is not compatible, require %s "
 "but only %s is available."
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:101
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Type to filter…"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:113
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Update lists…"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:124
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Updates"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:154
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:183
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Upgrade…"
 msgstr ""
 
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:115
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Upload Package…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:585
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:720
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:138
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "Version"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:396
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:414
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Version incompatible"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:757
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "Waiting for the <em>opkg %h</em> command to complete…"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:546
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:709
-#: applications/luci-app-opkg/luasrc/view/opkg.htm:94
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
+#: applications/luci-app-opkg/luasrc/view/opkg.htm
 msgid "unknown"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:544
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:707
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "~%.1024mB compressed"
 msgstr ""
 
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:542
-#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js:705
+#: applications/luci-app-opkg/htdocs/luci-static/resources/view/opkg.js
 msgid "~%.1024mB installed"
 msgstr ""

@@ -17,12 +17,12 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.5-dev\n"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:65
-#: applications/luci-app-splash/luasrc/view/splash_splash/splash.htm:13
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
+#: applications/luci-app-splash/luasrc/view/splash_splash/splash.htm
 msgid "Accept"
 msgstr "接受"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:79
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "Access to the internet might be possible nevertheless, because some "
 "activists of this project share their private internet connections. These "
@@ -33,7 +33,7 @@ msgstr ""
 "互聯網連線。所有使用者之間共享這些連線。這意味著可用頻寬有限，因此我們要求您"
 "不要執行以下任何操作："
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:112
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "Access to the network is not guaranteed. It can be interrupted at any time "
 "without notice for any reason, for certain devices, and/or may be blocked "
@@ -42,15 +42,15 @@ msgstr ""
 "網路訪問沒有任何保證。對於某些裝置，它可以因任何原因隨時中斷而不加以提前通"
 "知，及/或可能被某些使用者阻止。"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:199
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Active Clients"
 msgstr "活動的客戶端"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:70
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Allowed hosts/subnets"
 msgstr "允許的主機/掩碼"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua:36
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua
 msgid ""
 "As an alternative to editing the complete splash text you can also just "
 "include some custom text in the default splash page by entering it here."
@@ -58,7 +58,7 @@ msgstr ""
 "除了編輯完整的 splash 文字，您還可以在此處輸入，向預設啟動頁面加入一些自定義"
 "文字。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:18
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid ""
 "Bandwidth limit for clients is only activated when both up- and download "
 "limit are set. Use a value of 0 here to completely disable this limitation. "
@@ -68,43 +68,42 @@ msgstr ""
 "限制。白名單客戶不受限制。"
 
 # Something wwrong?
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:95
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "Become an active member of this community and help by operating your own node"
 msgstr "成為此社群的活躍成員，並通過操作您自己的節點提供幫助"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:62
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Blacklist"
 msgstr "拉黑"
 
-#: applications/luci-app-splash/luasrc/view/splash/blocked.htm:12
+#: applications/luci-app-splash/luasrc/view/splash/blocked.htm
 msgid "Blocked"
 msgstr "封鎖"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:56
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "By accepting these rules you can use this network for %s hour(s). After this "
 "time you need to accept these rules again."
 msgstr ""
 "接受這些規則，您可以使用此網路 %s 小時。在此之後，您需要再次接受這些規則。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:10
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Clearance time"
 msgstr "清理時間"
 
-#: applications/luci-app-splash/luasrc/controller/splash/splash.lua:8
-#: applications/luci-app-splash/luasrc/controller/splash/splash.lua:20
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:5
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:197
+#: applications/luci-app-splash/luasrc/controller/splash/splash.lua
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Client-Splash"
 msgstr "Client-Splash遠端存取用戶端"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:5
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid ""
 "Client-Splash is a hotspot authentication system for wireless mesh networks."
 msgstr "Client-Splash 是無線網狀網路的一個熱點認證系統。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:11
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid ""
 "Clients are redirected to this page after they have accepted the splash. If "
 "this is left empty they are redirected to the page they had requested."
@@ -112,172 +111,169 @@ msgstr ""
 "客戶端連線到 splash 後將會重定向到此頁面。如果留空，則會重定向到他們請求的頁"
 "面。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:15
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Clients download speed is limited to this value (kbyte/s)"
 msgstr "客戶端下載限速 (kB/s)"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:10
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid ""
 "Clients that have accepted the splash are allowed to use the network for "
 "that many hours."
 msgstr "已接受 splash 的客戶端允許使用這個網路 N 小時。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:14
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Clients upload speed is limited to this value (kbyte/s)"
 msgstr "客戶端上傳限速 (kB/s)"
 
-#: applications/luci-app-splash/luasrc/view/splash/blocked.htm:15
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:54
+#: applications/luci-app-splash/luasrc/view/splash/blocked.htm
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Contact"
 msgstr "聯絡方式"
 
-#: applications/luci-app-splash/luasrc/view/splash_splash/splash.htm:12
+#: applications/luci-app-splash/luasrc/view/splash_splash/splash.htm
 msgid "Decline"
 msgstr "拒絕"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:71
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid ""
 "Destination hosts and networks that are excluded from splashing, i.e. they "
 "are always allowed."
 msgstr "Splashing 將排除的主機和網路，如：始終允許訪問。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:97
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Donate some money to help us keep this project alive."
 msgstr "捐出一些錢來幫助我們維護這個專案。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:15
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Download limit"
 msgstr "下載限制"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua:12
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua
 msgid "Edit the complete splash text"
 msgstr "編輯完整的 splash 文字"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:121
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Fair Use Policy"
 msgstr "合理使用政策"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:29
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Firewall zone"
 msgstr "防火牆區域"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:7
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "General"
 msgstr "一般"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:53
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Get in %s with the operator of this access point."
 msgstr "在 %s 與此訪問點的操作者取得聯絡。"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:205
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Hostname"
 msgstr "主機名稱"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:76
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:206
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "IP Address"
 msgstr "IP 位址"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:98
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "If you operate your own wifi equipment use channels different from ours."
 msgstr "如果您操作您自有的 wifi 裝置，請使用不同的頻道。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:93
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "If you use this network on a regular basis we ask for your support:"
 msgstr "如果您經常使用這個網路，我們需要您的支援："
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua:35
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua
 msgid "Include your own text in the default splash"
 msgstr "在預設的 splash 中包含您自己的文字"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:38
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Intercept client traffic on this Interface"
 msgstr "在這個介面上攔截客戶端通訊流量"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:21
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Interfaces"
 msgstr "介面"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:21
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Interfaces that are used for Splash."
 msgstr "Splash 使用的介面。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:49
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "KB/s (Download/Upload). You may be able to remove this limit by actively "
 "contributing to this project."
 msgstr "KB/s（下載/上傳）。您可以通過積極參與此專案來消除此限制。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:115
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Legally Prohibited Activities"
 msgstr "法律禁止行為"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:118
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Legally Prohibited content"
 msgstr "法律禁止內容"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:59
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:68
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:207
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "MAC Address"
 msgstr "MAC 位址"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:63
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "MAC addresses in this list are blocked."
 msgstr "在本列表中的 MAC 地址將被阻擋。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:54
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid ""
 "MAC addresses of whitelisted clients. These do not need to accept the splash "
 "and are not bandwidth limited."
 msgstr "白名單中的 MAC 地址，可不用接受 splash，同時沒有頻寬限制。"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:77
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Netmask"
 msgstr "子網路遮罩"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:37
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Network"
 msgstr "網路"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:147
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:261
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "No clients connected"
 msgstr "無客戶端連線"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:78
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "Please note that we are not an internet service provider but an experimental "
 "community network."
 msgstr "我們不是 ISP（網際網路執行商），僅僅只是一個實驗性的社群網路。"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:210
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Policy"
 msgstr "政策"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:11
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Redirect target"
 msgstr "重定向目標"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:124
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Safety"
 msgstr "安全"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:182
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:248
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Save"
 msgstr "儲存"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:30
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Splash rules are integrated in this firewall zone"
 msgstr "Splash 規則整合在此防火牆區域中"
 
-#: applications/luci-app-splash/luasrc/controller/splash/splash.lua:9
+#: applications/luci-app-splash/luasrc/controller/splash/splash.lua
 msgid "Splashtext"
 msgstr "閃爍標語"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:125
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "The network, like the Internet, is unencrypted and open. Each participant is "
 "responsible for the safety of their own connections and devices."
@@ -285,7 +281,7 @@ msgstr ""
 "與網際網路一樣，此網路是未加密及開放的。每個參與者都對自己的連線和裝置的安全"
 "負責。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:110
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "The open and free wireless network of volunteers (\"Operators\") provides "
 "the necessary equipment and Internet connections (\"Infrastructure\") at "
@@ -294,7 +290,7 @@ msgstr ""
 "開放和免費無線網路的志願者（“操作者”）自費提供必要的裝置和網際網路連線（“基礎"
 "設施”）。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:128
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "The operator claims no liability for loss of data, unauthorized access/"
 "damage to devices, or financial losses that participants may suffer from the "
@@ -303,19 +299,19 @@ msgstr ""
 "操作者不對資料丟失，對裝置未經授權的訪問/損壞，或參與者因使用網路而可能遭受的"
 "經濟損失承擔任何責任。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:116
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "The participant agrees to not perform any action and refrain from acts which "
 "may violate the law or infringe upon the rights of third parties."
 msgstr "參與者同意不採取及避免任何可能違反法律或侵犯第三方權利的行為。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:119
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "The participant agrees to not transfer content over the network which "
 "violates the law."
 msgstr "參與者同意不通過網路傳播違反法律的內容。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:122
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "The participant agrees to not use the network in any way which will harm the "
 "infrastructure, the network itself, its operators or other participants."
@@ -323,7 +319,7 @@ msgstr ""
 "參與者同意不以任何有損基礎設施、網路本身、操作者或其他參與者的方式使用本網"
 "絡。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:111
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid ""
 "These Terms of Use govern the use of the network by its participants' "
 "computer, PDA, or similar device (\"Devices\") within the network."
@@ -331,41 +327,41 @@ msgstr ""
 "這些使用條款規定了網路中參與者的計算機、PDA 或類似裝置（“裝置”）使用網路的方"
 "式。"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:208
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Time remaining"
 msgstr "剩餘時間"
 
-#: applications/luci-app-splash/luasrc/view/splash/blocked.htm:15
+#: applications/luci-app-splash/luasrc/view/splash/blocked.htm
 msgid ""
 "To ask for the reason why you have been blocked or ask for access again you "
 "can try to contact the owner of this access point:"
 msgstr "要詢問您被封禁的原因，或要求再次訪問，您可以嘗試聯絡此訪問點的所有者："
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:209
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "Traffic in/out"
 msgstr "流量入站/出站"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:14
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Upload limit"
 msgstr "上傳限制"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:108
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Usage Agreement"
 msgstr "使用協議"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:75
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Welcome"
 msgstr "歡迎"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:53
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "Whitelist"
 msgstr "白名單"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:77
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "You are now connected to the free wireless mesh network"
 msgstr "您現在已連線到免費無線網狀網路"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua:13
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splashtext.lua
 msgid ""
 "You can enter your own text that is displayed to clients here.<br />It is "
 "possible to use the following markers: ###COMMUNITY###, ###COMMUNITY_URL###, "
@@ -375,60 +371,52 @@ msgstr ""
 "###COMMUNITY###，###COMMUNITY_URL###，###CONTACTURL###，###LEASETIME###，"
 "###LIMIT### 和 ###ACCEPT###。"
 
-#: applications/luci-app-splash/luasrc/view/splash/blocked.htm:14
+#: applications/luci-app-splash/luasrc/view/splash/blocked.htm
 msgid ""
 "Your access to this network has been blocked, most likely because you did "
 "something that our rules explicitly forbid."
 msgstr "您已被禁止訪問此網路，很可能是因為您執行了規則中明令禁止的操作。"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:48
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "Your bandwidth is limited to"
 msgstr "您的頻寬限制為"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:176
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:178
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:243
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "blacklisted"
 msgstr "黑名單"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:235
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "expired"
 msgstr "已過期"
 
-#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua:77
+#: applications/luci-app-splash/luasrc/model/cbi/splash/splash.lua
 msgid "optional when using host addresses"
 msgstr "使用主機地址時可選"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:85
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "perform any kind of illegal activities"
 msgstr "進行任何形式的非法活動"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:170
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:173
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:242
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "splashed"
 msgstr "splash 通過"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:171
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:245
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "temporarily blocked"
 msgstr "暫時被阻止"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:230
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:231
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "unknown"
 msgstr "未知"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:83
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "use filesharing applications on this network"
 msgstr "在此網路上使用檔案共享應用程式"
 
-#: applications/luci-app-splash/luasrc/view/splash/splash.htm:84
+#: applications/luci-app-splash/luasrc/view/splash/splash.htm
 msgid "waste bandwidth with unnecessary downloads or streams"
 msgstr "用不必要的下載或流媒體浪費頻寬"
 
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:165
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:167
-#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm:241
+#: applications/luci-app-splash/luasrc/view/admin_status/splash.htm
 msgid "whitelisted"
 msgstr "白名單"

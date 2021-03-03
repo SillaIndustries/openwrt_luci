@@ -12,91 +12,91 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.7-dev\n"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:19
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Access Concentrator Name"
 msgstr "Erişim Yoğunlaştırıcı Adı"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:32
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "First remote IP"
 msgstr "İlk uzak IP"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:29
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "IP of listening side"
 msgstr "Dinleme tarafı için olan IP"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:44
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid ""
 "Instead of starting at beginning and going to end, randomize session number"
 msgstr "Baştan başlayıp sona gitmek yerine, oturum numarasını rastgele seçin"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:15
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Interface"
 msgstr "Arayüz"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:15
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Interface on which to listen."
 msgstr "Dinlenecek arayüz."
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:62
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "MSS"
 msgstr "MSS"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:35
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Maximum sessions"
 msgstr "Maksimum oturum"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:25
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Maximum sessions per peer"
 msgstr "Eş başına maksimum oturum"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:52
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Offset"
 msgstr "Ofset"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:40
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Options file"
 msgstr "Seçenekler dosyası"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:52
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPP offset"
 msgstr "PPP ofseti"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:47
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPP unit number"
 msgstr "PPP birim numarası"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:9
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "PPPoE Server Configuration"
 msgstr "PPPoE Sunucu Yapılandırması"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/controller/rp-pppoe-server.lua:11
+#: applications/luci-app-rp-pppoe-server/luasrc/controller/rp-pppoe-server.lua
 msgid "RP PPPoE Server"
 msgstr "RP PPPoE Sunucusu"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:44
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Random session selection"
 msgstr "Rastgele oturum seçimi"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:8
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Roaring Penguin PPPoE Server"
 msgstr "Roaring Penguin PPPoE Sunucusu"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:11
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Server Configuration"
 msgstr "Sunucu Yapılandırması"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:22
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Service Name"
 msgstr "Hizmet adı"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:68
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Sync"
 msgstr "Senkronize et"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:57
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Timeout"
 msgstr "Zaman aşımı"
 
-#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua:47
+#: applications/luci-app-rp-pppoe-server/luasrc/model/cbi/rp-pppoe-server.lua
 msgid "Unit"
 msgstr "Birim"

@@ -10,7 +10,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.0-dev\n"
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:2
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid ""
 "<p/>Note: you need a working PageKite account, or at least, your own running "
 "front end for this form to work. Visit <a href=\"https://pagekite.net/home/"
@@ -19,42 +19,41 @@ msgid ""
 "very very basic uses of pagekite.</em>"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:20
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "Basic HTTP"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:23
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "Basic SSH"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:21
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid ""
 "Enable a tunnel to the local HTTP server (in most cases, this admin site)"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:24
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "Enable a tunnel to the local SSH server"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:13
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "Kite Name"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:14
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "Kite Secret"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/controller/pagekitec.lua:7
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:1
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:10
+#: applications/luci-app-pagekitec/luasrc/controller/pagekitec.lua
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "PageKite"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:16
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid "Static Setup"
 msgstr ""
 
-#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua:17
+#: applications/luci-app-pagekitec/luasrc/model/cbi/pagekitec.lua
 msgid ""
 "Static setup, disable FE failover and DDNS updates, set this if you are "
 "running your own frontend without a pagekite.me account"
