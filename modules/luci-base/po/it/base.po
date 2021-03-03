@@ -633,7 +633,7 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/luci.js
 #: modules/luci-base/htdocs/luci-static/resources/ui.js
 msgid "Apply unchecked"
-msgstr ""
+msgstr "Applica direttamente"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js
 msgid "Applying configuration changes… %ds"
@@ -671,6 +671,8 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Attention! Restoring factory defaults will delete all your settings!"
 msgstr ""
+"Attenzione! Il ripristino delle impostazioni di fabbrica cancella tutte le "
+"configurazioni!"
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js
@@ -1537,7 +1539,7 @@ msgstr "Sei sicuro di voler eliminare le tue impostazioni?"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Do you really want to reboot your device?"
-msgstr ""
+msgstr "Sei sicuro di voler riavviare il tuo dispositivo?"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js
 msgid "Do you really want to recursively delete the directory \"%s\" ?"
@@ -1874,7 +1876,7 @@ msgstr "Protocollo FT"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Factory defaults"
-msgstr ""
+msgstr "Impostazioni di fabbrica"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js
 #, fuzzy
@@ -1966,11 +1968,11 @@ msgstr "Versione Firmware"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Firmware operations"
-msgstr ""
+msgstr "Operazioni sul firmware"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Firmware update"
-msgstr ""
+msgstr "Aggiornamento del firmware"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js
 msgid "Fixed source port for outbound DNS queries"
@@ -2670,7 +2672,7 @@ msgstr "Username e/o password non validi! Per favore riprova."
 
 #: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
 msgid "Invalid username or password!"
-msgstr ""
+msgstr "Username o password non validi!"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 msgid "Isolate Clients"
@@ -3897,7 +3899,7 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js
 msgid "Paused"
-msgstr "Aggiornamento dati sospeso"
+msgstr "Sospeso"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js
@@ -3925,7 +3927,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Perform factory restore"
-msgstr ""
+msgstr "Effettua il ripristino"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/reboot.js
@@ -4200,7 +4202,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Reboots the operating system of your device."
-msgstr ""
+msgstr "Riavvia il sistema operativo del tuo dispositivo."
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js
 msgid "Receive"
@@ -4220,7 +4222,7 @@ msgstr "Riferimenti"
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js
 msgid "Refreshing"
-msgstr "Aggiornamento dati automatico"
+msgstr "Dati Live"
 
 #: modules/luci-compat/luasrc/model/network/proto_relay.lua
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js
@@ -4576,7 +4578,7 @@ msgstr "Seleziona file…"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "Select…"
-msgstr ""
+msgstr "Seleziona…"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/ppp.js
@@ -4965,7 +4967,7 @@ msgstr "Dimensione buffer log di sistema"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js
 msgid "System reboot"
-msgstr ""
+msgstr "Riavvio del sistema"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js
 msgid "TCP:"
@@ -5945,6 +5947,7 @@ msgstr ""
 msgid ""
 "You can only upload official Prism firmware supplied by Silla Industries."
 msgstr ""
+"Puoi caricare solo firmware Prism ufficiale fornito da Silla Industries."
 
 #: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
