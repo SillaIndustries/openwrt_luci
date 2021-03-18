@@ -14,7 +14,7 @@ LUCI_TYPE ?= $(word 2,$(subst -, ,$(LUCI_NAME)))
 LUCI_BASENAME ?= $(patsubst luci-$(LUCI_TYPE)-%,%,$(LUCI_NAME))
 
 # LuCI language package codes (e.g. "it en fr es")
-LUCI_LANGUAGES := $(sort $(filter-out templates,$(notdir $(wildcard ${CURDIR}/po/*))))
+LUCI_LANGUAGES ?= $(sort $(filter-out templates,$(notdir $(wildcard ${CURDIR}/po/*))))
 
 # List of defaults script to execute on package install
 LUCI_DEFAULTS := $(notdir $(wildcard ${CURDIR}/root/etc/uci-defaults/*))
@@ -106,7 +106,8 @@ PKG_INSTALL := $(if $(realpath src/Makefile),1)
 PKG_BUILD_DEPENDS += lua/host luci-base/host LUCI_CSSTIDY:csstidy/host $(LUCI_BUILD_DEPENDS)
 PKG_CONFIG_DEPENDS += CONFIG_LUCI_SRCDIET CONFIG_LUCI_JSMIN CONFIG_LUCI_CSSTIDY
 
-PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
+# Do NOT redefine PKG_BUILD_DIR, the default build_dir/pkg_name-pkg_version is good enough
+#PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
 
@@ -151,7 +152,7 @@ ifeq ($(PKG_NAME),luci-base)
 endif
 
 define Build/Prepare
-	for d in luasrc htdocs root src; do \
+	for d in htdocs luasrc root po src; do \
 	  if [ -d ./$$$$d ]; then \
 	    mkdir -p $(PKG_BUILD_DIR)/$$$$d; \
 	      $(CP) ./$$$$d/* $(PKG_BUILD_DIR)/$$$$d/; \
@@ -269,9 +270,10 @@ define LuciTranslation
 	echo "uci set luci.languages.$(subst -,_,$(1))='$(LUCI_LANG.$(2))'; uci commit luci" \
 		> $$(1)/etc/uci-defaults/luci-i18n-$(LUCI_BASENAME)-$(1)
 	$$(INSTALL_DIR) $$(1)$(LUCI_LIBRARYDIR)/i18n
-	$(foreach po,$(wildcard ${CURDIR}/po/$(2)/*.po), \
-		po2lmo $(po) \
-			$$(1)$(LUCI_LIBRARYDIR)/i18n/$(basename $(notdir $(po))).$(1).lmo;)
+	$$(FIND) $$(PKG_BUILD_DIR)/po/$(2) -type f -name "*.po" | while read pofile; do \
+		po2lmo $$$$$$$$pofile \
+			$$(1)$(LUCI_LIBRARYDIR)/i18n/`basename $$$$$$$$pofile`.$(1).lmo; \
+	done
   endef
 
   define Package/luci-i18n-$(LUCI_BASENAME)-$(1)/postinst
