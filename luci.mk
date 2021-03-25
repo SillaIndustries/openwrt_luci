@@ -4,62 +4,73 @@
 # This is free software, licensed under the Apache License, Version 2.0 .
 #
 
-LUCI_NAME?=$(notdir ${CURDIR})
-LUCI_TYPE?=$(word 2,$(subst -, ,$(LUCI_NAME)))
-LUCI_BASENAME?=$(patsubst luci-$(LUCI_TYPE)-%,%,$(LUCI_NAME))
-LUCI_LANGUAGES:=$(sort $(filter-out templates,$(notdir $(wildcard ${CURDIR}/po/*))))
-LUCI_DEFAULTS:=$(notdir $(wildcard ${CURDIR}/root/etc/uci-defaults/*))
-LUCI_PKGARCH?=$(if $(realpath src/Makefile),,all)
+# LuCI package name (e.g. "luci-app-firewall")
+LUCI_NAME ?= $(notdir ${CURDIR})
+
+# LuCI package type (e.g. "app")
+LUCI_TYPE ?= $(word 2,$(subst -, ,$(LUCI_NAME)))
+
+# LuCI base package name (e.g. "firewall")
+LUCI_BASENAME ?= $(patsubst luci-$(LUCI_TYPE)-%,%,$(LUCI_NAME))
+
+# LuCI language package codes (e.g. "it en fr es")
+LUCI_LANGUAGES := $(sort $(filter-out templates,$(notdir $(wildcard ${CURDIR}/po/*))))
+
+# List of defaults script to execute on package install
+LUCI_DEFAULTS := $(notdir $(wildcard ${CURDIR}/root/etc/uci-defaults/*))
+
+# Default package architecture (either "all" or nothing)
+LUCI_PKGARCH ?= $(if $(realpath src/Makefile),,all)
 
 # Language code titles
-LUCI_LANG.bg=български (Bulgarian)
-LUCI_LANG.ca=Català (Catalan)
-LUCI_LANG.cs=Čeština (Czech)
-LUCI_LANG.de=Deutsch (German)
-LUCI_LANG.el=Ελληνικά (Greek)
-LUCI_LANG.en=English
-LUCI_LANG.es=Español (Spanish)
-LUCI_LANG.fr=Français (French)
-LUCI_LANG.he=עִבְרִית (Hebrew)
-LUCI_LANG.hi=हिंदी (Hindi)
-LUCI_LANG.hu=Magyar (Hungarian)
-LUCI_LANG.it=Italiano (Italian)
-LUCI_LANG.ja=日本語 (Japanese)
-LUCI_LANG.ko=한국어 (Korean)
-LUCI_LANG.mr=मराठी (Marathi)
-LUCI_LANG.ms=Bahasa Melayu (Malay)
-LUCI_LANG.nb_NO=Norsk (Norwegian)
-LUCI_LANG.pl=Polski (Polish)
-LUCI_LANG.pt_BR=Português do Brasil (Brazilian Portuguese)
-LUCI_LANG.pt=Português (Portuguese)
-LUCI_LANG.ro=Română (Romanian)
-LUCI_LANG.ru=Русский (Russian)
-LUCI_LANG.sk=Slovenčina (Slovak)
-LUCI_LANG.sv=Svenska (Swedish)
-LUCI_LANG.tr=Türkçe (Turkish)
-LUCI_LANG.uk=Українська (Ukrainian)
-LUCI_LANG.vi=Tiếng Việt (Vietnamese)
-LUCI_LANG.zh_Hans=中文 (Chinese)
-LUCI_LANG.zh_Hant=臺灣華語 (Taiwanese)
+LUCI_LANG.bg = български (Bulgarian)
+LUCI_LANG.ca = Català (Catalan)
+LUCI_LANG.cs = Čeština (Czech)
+LUCI_LANG.de = Deutsch (German)
+LUCI_LANG.el = Ελληνικά (Greek)
+LUCI_LANG.en = English
+LUCI_LANG.es = Español (Spanish)
+LUCI_LANG.fr = Français (French)
+LUCI_LANG.he = עִבְרִית (Hebrew)
+LUCI_LANG.hi = हिंदी (Hindi)
+LUCI_LANG.hu = Magyar (Hungarian)
+LUCI_LANG.it = Italiano (Italian)
+LUCI_LANG.ja = 日本語 (Japanese)
+LUCI_LANG.ko = 한국어 (Korean)
+LUCI_LANG.mr = मराठी (Marathi)
+LUCI_LANG.ms = Bahasa Melayu (Malay)
+LUCI_LANG.nb_NO = Norsk (Norwegian)
+LUCI_LANG.pl = Polski (Polish)
+LUCI_LANG.pt_BR = Português do Brasil (Brazilian Portuguese)
+LUCI_LANG.pt = Português (Portuguese)
+LUCI_LANG.ro = Română (Romanian)
+LUCI_LANG.ru = Русский (Russian)
+LUCI_LANG.sk = Slovenčina (Slovak)
+LUCI_LANG.sv = Svenska (Swedish)
+LUCI_LANG.tr = Türkçe (Turkish)
+LUCI_LANG.uk = Українська (Ukrainian)
+LUCI_LANG.vi = Tiếng Việt (Vietnamese)
+LUCI_LANG.zh_Hans = 中文 (Chinese)
+LUCI_LANG.zh_Hant = 臺灣華語 (Taiwanese)
 
 # Submenu titles
-LUCI_MENU.col=1. Collections
-LUCI_MENU.mod=2. Modules
-LUCI_MENU.app=3. Applications
-LUCI_MENU.theme=4. Themes
-LUCI_MENU.proto=5. Protocols
-LUCI_MENU.lib=6. Libraries
+LUCI_MENU.col = 1. Collections
+LUCI_MENU.mod = 2. Modules
+LUCI_MENU.app = 3. Applications
+LUCI_MENU.theme = 4. Themes
+LUCI_MENU.proto = 5. Protocols
+LUCI_MENU.lib = 6. Libraries
 
 # Language aliases
-LUCI_LC_ALIAS.nb_NO=no
-LUCI_LC_ALIAS.pt_BR=pt-br
-LUCI_LC_ALIAS.zh_Hans=zh-cn
-LUCI_LC_ALIAS.zh_Hant=zh-tw
+LUCI_LC_ALIAS.nb_NO = no
+LUCI_LC_ALIAS.pt_BR = pt-br
+LUCI_LC_ALIAS.zh_Hans = zh-cn
+LUCI_LC_ALIAS.zh_Hant = zh-tw
 
 
-PKG_NAME?=$(LUCI_NAME)
+PKG_NAME ?= $(LUCI_NAME)
 
-PKG_VERSION?=$(if $(DUMP),x,$(strip $(shell \
+PKG_VERSION ?= $(if $(DUMP),x,$(strip $(shell \
 	if svn info >/dev/null 2>/dev/null; then \
 		revision="svn-r$$(LC_ALL=C svn info | sed -ne 's/^Revision: //p')"; \
 	elif git log -1 >/dev/null 2>/dev/null; then \
@@ -76,7 +87,7 @@ PKG_VERSION?=$(if $(DUMP),x,$(strip $(shell \
 	echo "$$revision" \
 )))
 
-PKG_GITBRANCH?=$(if $(DUMP),x,$(strip $(shell \
+PKG_GITBRANCH ?= $(if $(DUMP),x,$(strip $(shell \
 	variant="LuCI"; \
 	if git log -1 >/dev/null 2>/dev/null; then \
 		branch="$$(git branch --remote --verbose --no-abbrev --contains 2>/dev/null | \
@@ -90,23 +101,23 @@ PKG_GITBRANCH?=$(if $(DUMP),x,$(strip $(shell \
 	echo "$$variant" \
 )))
 
-PKG_RELEASE?=1
-PKG_INSTALL:=$(if $(realpath src/Makefile),1)
+PKG_RELEASE ?= 1
+PKG_INSTALL := $(if $(realpath src/Makefile),1)
 PKG_BUILD_DEPENDS += lua/host luci-base/host LUCI_CSSTIDY:csstidy/host $(LUCI_BUILD_DEPENDS)
 PKG_CONFIG_DEPENDS += CONFIG_LUCI_SRCDIET CONFIG_LUCI_JSMIN CONFIG_LUCI_CSSTIDY
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_NAME)
+PKG_BUILD_DIR := $(BUILD_DIR)/$(PKG_NAME)
 
 include $(INCLUDE_DIR)/package.mk
 
 define Package/$(PKG_NAME)
-  SECTION:=luci
-  CATEGORY:=LuCI
-  SUBMENU:=$(if $(LUCI_MENU.$(LUCI_TYPE)),$(LUCI_MENU.$(LUCI_TYPE)),$(LUCI_MENU.app))
-  TITLE:=$(if $(LUCI_TITLE),$(LUCI_TITLE),LuCI $(LUCI_NAME) $(LUCI_TYPE))
-  DEPENDS:=$(LUCI_DEPENDS)
-  $(if $(LUCI_EXTRA_DEPENDS),EXTRA_DEPENDS:=$(LUCI_EXTRA_DEPENDS))
-  $(if $(LUCI_PKGARCH),PKGARCH:=$(LUCI_PKGARCH))
+  SECTION := luci
+  CATEGORY := LuCI
+  SUBMENU := $(if $(LUCI_MENU.$(LUCI_TYPE)),$(LUCI_MENU.$(LUCI_TYPE)),$(LUCI_MENU.app))
+  TITLE := $(if $(LUCI_TITLE),$(LUCI_TITLE),LuCI $(LUCI_NAME) $(LUCI_TYPE))
+  DEPENDS := $(LUCI_DEPENDS)
+  $(if $(LUCI_EXTRA_DEPENDS),EXTRA_DEPENDS := $(LUCI_EXTRA_DEPENDS))
+  $(if $(LUCI_PKGARCH),PKGARCH := $(LUCI_PKGARCH))
 endef
 
 ifneq ($(LUCI_DESCRIPTION),)
@@ -143,7 +154,7 @@ define Build/Prepare
 	for d in luasrc htdocs root src; do \
 	  if [ -d ./$$$$d ]; then \
 	    mkdir -p $(PKG_BUILD_DIR)/$$$$d; \
-		$(CP) ./$$$$d/* $(PKG_BUILD_DIR)/$$$$d/; \
+	      $(CP) ./$$$$d/* $(PKG_BUILD_DIR)/$$$$d/; \
 	  fi; \
 	done
 	$(call Build/Prepare/Default)
