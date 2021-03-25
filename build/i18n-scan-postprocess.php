@@ -43,6 +43,9 @@ function postprocess_file($file)
           exit("BOGUS LINE: $line\n");
 
         $_pure_file = $regp[1];
+        if (preg_match('{^vendor/(.+)$}', $_pure_file, $regp))
+          $_pure_file = "applications/" . $regp[1];
+
         if (!in_array($_pure_file, $locations))
           $locations[] = $_pure_file;
       }
