@@ -28,46 +28,43 @@
  * @property {string} [stderr] - The stderr produced by the command, if any
  */
 
-var callFileList, callFileStat, callFileRead, callFileWrite, callFileRemove,
-    callFileExec, callFileMD5;
-
-callFileList = rpc.declare({
+var callFileList = rpc.declare({
 	object: 'file',
 	method: 'list',
 	params: [ 'path' ]
 });
 
-callFileStat = rpc.declare({
+var callFileStat = rpc.declare({
 	object: 'file',
 	method: 'stat',
 	params: [ 'path' ]
 });
 
-callFileRead = rpc.declare({
+var callFileRead = rpc.declare({
 	object: 'file',
 	method: 'read',
 	params: [ 'path' ]
 });
 
-callFileWrite = rpc.declare({
+var callFileWrite = rpc.declare({
 	object: 'file',
 	method: 'write',
 	params: [ 'path', 'data', 'mode' ]
 });
 
-callFileRemove = rpc.declare({
+var callFileRemove = rpc.declare({
 	object: 'file',
 	method: 'remove',
 	params: [ 'path' ]
 });
 
-callFileExec = rpc.declare({
+var callFileExec = rpc.declare({
 	object: 'file',
 	method: 'exec',
 	params: [ 'command', 'params', 'env' ]
 });
 
-callFileMD5 = rpc.declare({
+var callFileMD5 = rpc.declare({
 	object: 'file',
 	method: 'md5',
 	params: [ 'path' ]

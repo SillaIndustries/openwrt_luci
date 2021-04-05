@@ -4109,6 +4109,8 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 					}
 
 					var delay = isNaN(duration) ? 0 : Math.max(1000 - duration, 0);
+					if (delay < 100)
+						delay = 100;
 					window.setTimeout(function() {
 						request.request(L.url('admin/uci/confirm'), {
 							method: 'post',
@@ -4161,6 +4163,8 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 				}
 
 				var delay = isNaN(duration) ? 0 : Math.max(1000 - duration, 0);
+				if (delay < 100)
+					delay = 100;
 				window.setTimeout(function() {
 					request.request(L.url('admin/uci/confirm'), {
 						method: 'post',
@@ -4175,7 +4179,7 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 
 				UI.prototype.changes.displayStatus('notice spinning',
 					E('p', _('Applying configuration changes… %ds')
-						.format(Math.max(Math.floor((deadline - Date.now()) / 1000), 0))));
+						.format(Math.max(Math.floor((deadline - now) / 1000), 0))));
 
 				if (now >= deadline)
 					return;
@@ -4187,7 +4191,8 @@ var UI = baseclass.extend(/** @lends LuCI.ui.prototype */ {
 			tick();
 
 			/* wait a few seconds for the settings to become effective */
-			window.setTimeout(call, Math.max(L.env.apply_holdoff * 1000 - ((ts + L.env.apply_rollback * 1000) - deadline), 1));
+			window.setTimeout(call, Math.max(
+				(L.env.apply_holdoff * 1000) - ((ts + L.env.apply_rollback * 1000) - deadline), 1));
 		},
 
 		/**

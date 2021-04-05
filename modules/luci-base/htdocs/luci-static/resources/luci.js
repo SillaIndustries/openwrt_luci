@@ -1077,9 +1077,10 @@
 			if (isNaN(interval) || typeof(fn) != 'function')
 				throw new TypeError('Invalid argument to LuCI.poll.add()');
 
-			for (var i = 0; i < this.queue.length; i++)
+			for (var i = 0; i < this.queue.length; i++) {
 				if (this.queue[i].fn === fn)
 					return false;
+			}
 
 			var e = {
 				r: true,
@@ -1179,6 +1180,7 @@
 				if ((Poll.tick % e.i) != 0)
 					continue;
 
+				// Skip this tick if the previous is not finished
 				if (!e.r)
 					continue;
 
