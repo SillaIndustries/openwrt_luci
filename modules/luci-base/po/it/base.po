@@ -527,6 +527,8 @@ msgid ""
 "Always use 40MHz channels even if the secondary channel overlaps. Using this "
 "option does not comply with IEEE 802.11n-2009!"
 msgstr ""
+"Usa sempre canali da 40MHz anche se il canale secondario si sovrappone. "
+"L’utilizzo di questa opzione non è conforme all’IEEE 802.11-2009!"
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js
 msgid "An error occurred while saving the form:"
@@ -1001,7 +1003,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 msgid "Cipher"
-msgstr "Cifra"
+msgstr "Cifratura"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js
 msgid "Cisco UDP encapsulation"
@@ -2598,23 +2600,23 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Interface is marked for deletion"
-msgstr ""
+msgstr "Interfaccia marcata per cancellazione"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Interface is reconnecting..."
-msgstr "L'interfaccia si sta ricollegando..."
+msgstr "Interfaccia in ricollegamento..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Interface is shutting down..."
-msgstr "L'intefaccia si sta spegnendo..."
+msgstr "Intefaccia in spegnimento..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Interface is starting..."
-msgstr ""
+msgstr "Interfaccia in avvio..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js
 msgid "Interface is stopping..."
-msgstr ""
+msgstr "Fermo interfaccia in corso..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 msgid "Interface name"
@@ -3603,7 +3605,7 @@ msgstr "Opzione cancellata"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js
 msgid "Optional"
-msgstr ""
+msgstr "Opzionale"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js
 msgid ""

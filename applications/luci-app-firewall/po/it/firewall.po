@@ -110,7 +110,7 @@ msgstr ""
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js
 msgid "Action"
-msgstr "Action"
+msgstr "Azione"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js
 msgid ""
@@ -296,7 +296,7 @@ msgstr "Indirizzo IP Esterno"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js
 msgid "External port"
-msgstr "Porta Esterna"
+msgstr "Porta esterna"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js
@@ -326,7 +326,7 @@ msgstr "Firewall - Regole Personalizzate"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js
 msgid "Firewall - NAT Rules"
-msgstr ""
+msgstr "Firewall - Regole NAT"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js
 msgid "Firewall - Port Forwards"
@@ -590,7 +590,7 @@ msgstr "Giorni del Mese"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js
 #: applications/luci-app-firewall/luasrc/controller/firewall.lua
 msgid "NAT Rules"
-msgstr ""
+msgstr "Regole NAT"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js
 msgid ""
@@ -950,7 +950,7 @@ msgstr ""
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js
 msgid "Unnamed NAT"
-msgstr ""
+msgstr "NAT senza nome"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js
 msgid "Unnamed forward"
