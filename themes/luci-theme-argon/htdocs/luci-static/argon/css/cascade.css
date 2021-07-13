@@ -3338,3 +3338,28 @@ pre.command-output {
     border-radius: 0;
   }
 }
+.x-led {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0 0 0 6ex;
+}
+.x-led .x-led-icon {
+  display: inline-block;
+  background-color: #9e9e9e;
+  width: 1.3ex;
+  height: 1.3ex;
+  border-radius: 50%;
+  border: 1px solid #424242;
+}
+.x-led .x-led-text {
+  margin-left: 0.8ex;
+}
+.x-led-status-green .x-led-icon {
+  background-color: #4caf50;
+  border-color: #2e7d32;
+}
+.x-led-status-red .x-led-icon {
+  background-color: #f44336;
+  border-color: #c62828;
+}
