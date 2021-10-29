@@ -950,7 +950,7 @@ msgstr ""
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js
 msgid "Unnamed NAT"
-msgstr ""
+msgstr "NAT senza nome"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/forwards.js
 msgid "Unnamed forward"
