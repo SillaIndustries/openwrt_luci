@@ -1,0 +1,321 @@
+<%#
+	Argon is a clean HTML5 theme for LuCI. It is based on luci-theme-material Argon Template
+
+	luci-theme-argon
+	Copyright 2020 Jerrykuku <jerrykuku@qq.com>
+
+	Have a bug? Please create an issue here on GitHub!
+	https://github.com/jerrykuku/luci-theme-argon/issues
+
+	luci-theme-material:
+	Copyright 2015 Lutty Yang <lutty@wcan.in>
+
+	Argon Theme
+	https://demos.creative-tim.com/argon-dashboard/index.html
+
+	Licensed to the public under the Apache License 2.0
+-%>
+
+<%
+	local sys = require "luci.sys"
+	local util = require "luci.util"
+	local http = require "luci.http"
+	local disp = require "luci.dispatcher"
+
+	local boardinfo = util.ubus("system", "board")
+
+	local node = disp.context.dispatched
+
+	local fs = require "nixio.fs"
+	local nutil = require "nixio.util"
+	local uci = require 'luci.model.uci'.cursor()
+
+	-- send as HTML5
+	http.prepare_content("text/html")
+
+	math.randomseed(os.time())
+
+	-- Custom settings
+	local mode = 'normal'
+	local dark_css = fs.readfile('/www/luci-static/argon/css/dark.css')
+	local bar_color = '#5e72e4'
+	local primary, dark_primary, blur_radius, blur_radius_dark, blur_opacity
+	if fs.access('/etc/config/argon') then
+		primary = uci:get_first('argon', 'global', 'primary')
+		dark_primary = uci:get_first('argon', 'global', 'dark_primary')
+		blur_radius = uci:get_first('argon', 'global', 'blur')
+		blur_radius_dark = uci:get_first('argon', 'global', 'blur_dark')
+		blur_opacity = uci:get_first('argon', 'global', 'transparency')
+		blur_opacity_dark = uci:get_first('argon', 'global', 'transparency_dark')
+		mode = uci:get_first('argon', 'global', 'mode')
+		bar_color = mode == 'dark' and dark_primary or primary
+	end
+
+	-- Brand name
+	local brand_name = "Prism"
+-%>
+<!DOCTYPE html>
+<html lang="<%=luci.i18n.context.lang%>">
+<head>
+    <meta charset="utf-8" />
+    <title><%=striptags((boardinfo.hostname or "?") .. ((node and node.title) and " - " .. translate(node.title) or "")) %> - Admin</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="yes" />
+    <meta name="browsermode" content="application" />
+    <!-- <meta name="msapplication-tap-highlight" content="no" /> -->
+    <!-- <meta name="msapplication-TileColor" content="<%=bar_color%>" /> -->
+    <meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - Admin" />
+    <meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - Admin" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <!-- <link rel="icon" type="image/png" sizes="192x192" href="<%=media%>/icon/android-icon-192x192.png" /> -->
+    <!-- <link rel="icon" type="image/png" sizes="96x96" href="<%=media%>/icon/favicon-96x96.png" /> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="<%=media%>/icon/favicon-32x32.png" /> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="<%=media%>/icon/favicon-16x16.png" /> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
+    <!-- <link rel="apple-touch-icon" sizes="60x60" href="<%=media%>/icon/apple-icon-60x60.png" /> -->
+    <!-- <link rel="apple-touch-icon" sizes="72x72" href="<%=media%>/icon/apple-icon-72x72.png" /> -->
+    <!-- <link rel="apple-touch-icon" sizes="144x144" href="<%=media%>/icon/apple-icon-144x144.png" /> -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
+    <!-- <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" /> -->
+    <link rel="manifest" href="/assets/webmanifest.json" />
+    <!-- <meta name="msapplication-TileColor" content="<%=bar_color%>" /> -->
+    <!-- <meta name="msapplication-TileColor" content="#da532c"> -->
+    <!-- <meta name="msapplication-TileImage" content="<%=media%>/icon/ms-icon-144x144.png" /> -->
+    <meta name="theme-color" content="<%=bar_color%>" />
+    <!-- <meta name="theme-color" content="#ffffff" /> -->
+    <link rel="stylesheet" href="<%=media%>/css/cascade.css" />
+    <style title="text/css">
+        <% if mode == "normal" then %>
+            @media (prefers-color-scheme: dark) {
+                <%=dark_css%>
+            }
+        <% elseif mode == "dark" then %>
+            <%=dark_css%>
+        <% end -%>
+        <% if fs.access("/etc/config/argon") then %>
+        :root {
+            --primary: <%=primary%>;
+            --dark-primary: <%=dark_primary%>;
+            --blur-radius:<%=blur_radius%>px;
+            --blur-opacity:<%=blur_opacity%>;
+            --blur-radius-dark:<%=blur_radius_dark%>px;
+            --blur-opacity-dark:<%=blur_opacity_dark%>;
+        }
+        <% end -%>
+    </style>
+    <% if node and node.css then %>
+    <link rel="stylesheet" href="<%=resource%>/<%=node.css%><%# ?v=PKG_VERSION %>">
+    <% end -%>
+    <% if css then %>
+    <style title="text/css">
+        <%=css %>
+    </style>
+    <% end -%>
+    <script src="<%=url('admin/translations', luci.i18n.context.lang)%><%# ?v=PKG_VERSION %>"></script>
+    <script src="<%=resource%>/cbi.js"></script>
+    <script src="<%=resource%>/luci.js"></script>
+    <script src="<%=media%>/js/jquery.min.js"></script>
+    <script type="text/javascript">//<![CDATA[
+	function EF() { return L.dom.create.apply(L.dom, arguments) }
+		(function() {
+			function get_children(node) {
+				var children = [];
+				for (var k in node.children) {
+					if (!node.children.hasOwnProperty(k))
+						continue;
+					if (!node.children[k].satisfied)
+						continue;
+					if (!node.children[k].hasOwnProperty('title'))
+						continue;
+					children.push(Object.assign(node.children[k], { name: k }));
+				}
+				return children.sort(function(a, b) {
+					return ((a.order || 1000) - (b.order || 1000));
+				});
+			}
+			function render_mainmenu(tree, url, level) {
+				var l = (level || 0) + 1,
+				    ul = EF('ul', { 'class': level ? 'slide-menu' : 'nav' }),
+				    children = get_children(tree);
+				if (children.length == 0 || l > 2)
+					return EF([]);
+				for (var i = 0; i < children.length; i++) {
+					var submenu = render_mainmenu(children[i], url + '/' + children[i].name, l),
+					    hasChildren = submenu.children.length;
+					ul.appendChild(EF('li', { 'class': hasChildren ? 'slide' : null }, [
+						EF('a', {
+							'href': hasChildren ? '#' : L.url(url, children[i].name),
+							'class': hasChildren ? 'menu' : null,
+							'data-title': hasChildren ?  children[i].title.replace(" ", "_") :  children[i].title.replace(" ", "_"),
+						}, [ _(children[i].title) ]),
+						submenu
+					]));
+				}
+				if (l == 1) {
+					var container = document.querySelector('#mainmenu');
+					container.appendChild(ul);
+					container.style.display = '';
+				}
+				return ul;
+			}
+			function render_modemenu(tree) {
+				var ul = document.querySelector('#modemenu'),
+				    children = get_children(tree);
+				for (var i = 0; i < children.length; i++) {
+					var isActive = (L.env.requestpath.length ? children[i].name == L.env.requestpath[0] : i == 0);
+					ul.appendChild(EF('li', {}, [
+						EF('a', {
+							'href': L.url(children[i].name),
+							'class': isActive ? 'active' : null
+						}, [ _(children[i].title) ])
+					]));
+					if (isActive)
+						render_mainmenu(children[i], children[i].name);
+				}
+				if (ul.children.length > 1)
+					ul.style.display = '';
+			}
+			function render_tabmenu(tree, url, level) {
+				var container = document.querySelector('#tabmenu'),
+				    l = (level || 0) + 1,
+				    ul = EF('ul', { 'class': 'tabs' }),
+				    children = get_children(tree),
+				    activeNode = null;
+				if (children.length == 0)
+					return EF([]);
+				for (var i = 0; i < children.length; i++) {
+					var isActive = (L.env.dispatchpath[l + 2] == children[i].name),
+					    activeClass = isActive ? ' active' : '',
+					    className = 'tabmenu-item-%s %s'.format(children[i].name, activeClass);
+					ul.appendChild(EF('li', { 'class': className }, [
+						EF('a', { 'href': L.url(url, children[i].name) }, [ _(children[i].title) ] )
+					]));
+					if (isActive)
+						activeNode = children[i];
+				}
+				container.appendChild(ul);
+				container.style.display = '';
+				if (activeNode)
+					container.appendChild(render_tabmenu(activeNode, url + '/' + activeNode.name, l));
+				return ul;
+			}
+			document.addEventListener('luci-loaded', function(ev) {
+				var tree = <%= luci.http.write_json(luci.dispatcher.menu_json() or {}) %>,
+				    node = tree,
+				    url = '';
+				render_modemenu(tree);
+				if (L.env.dispatchpath.length >= 3) {
+					for (var i = 0; i < 3 && node; i++) {
+						node = node.children[L.env.dispatchpath[i]];
+						url = url + (url ? '/' : '') + L.env.dispatchpath[i];
+					}
+					if (node)
+						render_tabmenu(node, url);
+				}
+			});
+		})();
+	//]]></script>
+</head>
+
+<body
+	class="lang_<%=luci.i18n.context.lang%> <% if node then %><%= striptags( node.title ) %><% end %> <% if luci.dispatcher.context.authsession then %>logged-in<% end %>"
+	data-page="<%= table.concat(disp.context.requestpath, "-") %>">
+
+	<div class="main">
+		<div class="main-left" id="mainmenu" style="display:none">
+			<div class="sidenav-header d-flex align-items-center">
+				<!-- <a class="brand" href="#"><%=brand_name%></a> -->
+				<a class="brand" href="/cgi-bin/luci/admin/prism/dashboard">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 260 1920 630" xml:space="preserve" fill="currentColor" style="width: 130px;">
+  <g>
+    <path d="M246.7,384.3c98.3,1.5,141.8,62.9,141.8,123.4c0,75.3-69.9,118-137.6,123.4c-30.5,2-60,2-84.9,2.5v158.6H79V384.8
+      L246.7,384.3z M248.2,557.3c31.6-4,50.7-20.8,50.7-48.1c0-29.2-12.4-43.6-48.6-48.1c-25.9-3.5-54.3-4.5-84.3-4.5v104.6
+      C193.4,561.2,222.3,560.2,248.2,557.3z"/>
+    <path d="M624.4,384.3c98.8,1.5,141.8,62.9,141.8,123.4c-0.2,75.3-92.1,110.5-92.1,110.5S776.5,760,796.2,792.7l-119.5-0.5
+      c-20.2-29.2-50.2-101.6-90.6-168c-11.9,0-32.5,0-42.3,0v168h-86.9V384.8L624.4,384.3z M608.9,558.3c37.3-3,67.8-20.8,67.8-49.1
+      c0-29.7-12.4-43.6-48.1-48.1c-25.9-3.5-54.8-4.5-84.9-4.5v104.1C565.4,560.7,587.6,560.2,608.9,558.3z"/>
+    <path d="M934.2,792.2h-86.9V384.3h86.9V792.2z"/>
+    <path d="M1161,447.5c-35.2-0.5-51.6,33.9-52.1,56.2C1112,559,1300,553.5,1300,670c0,4,0.9,16.6-0.2,20.6
+      c-6.2,58.5-73.3,105.8-136.6,105.6c-56.3-1.2-87.1,5.7-156.5-49.4l54.1-54.1c18.1,16.9,54.6,37.8,92.9,37.8
+      c38.8,0,60.3-30.4,60.3-57.2c0-59-190-46-190-170.5c0-60.5,55.1-126.6,138.9-126.6c48.6,0,96,8,136.8,44.9l-52.1,59.2
+      C1224.5,456.4,1191.5,448,1161,447.5z"/>
+    <path d="M1575.6,790.7l-115.1-293.1l3.8,294.6h-82V384.3h130L1609,657l98.3-272.7H1836v407.9h-81.7l-3.1-296.7l-116.1,295.2
+      H1575.6z"/>
+  </g>
+</svg>
+				</a>
+
+				<div class="ml-auto">
+					<!-- Sidenav toggler -->
+					<div class="sidenav-toggler d-none d-xl-block active" data-action="sidenav-unpin"
+						data-target="#sidenav-main">
+						<div class="sidenav-toggler-inner">
+							<i class="sidenav-toggler-line"></i>
+							<i class="sidenav-toggler-line"></i>
+							<i class="sidenav-toggler-line"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-right">
+			<header class="bg-primary">
+				<div class="fill">
+					<div class="container">
+						<a class="showSide"></a>
+						<!-- <a class="brand" href="#"><%=brand_name%></a> -->
+						<a class="brand" href="/cgi-bin/luci/admin/prism/dashboard">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 260 1920 630" xml:space="preserve" fill="currentColor" style="width: 95px;">
+  <g>
+    <path d="M246.7,384.3c98.3,1.5,141.8,62.9,141.8,123.4c0,75.3-69.9,118-137.6,123.4c-30.5,2-60,2-84.9,2.5v158.6H79V384.8
+      L246.7,384.3z M248.2,557.3c31.6-4,50.7-20.8,50.7-48.1c0-29.2-12.4-43.6-48.6-48.1c-25.9-3.5-54.3-4.5-84.3-4.5v104.6
+      C193.4,561.2,222.3,560.2,248.2,557.3z"/>
+    <path d="M624.4,384.3c98.8,1.5,141.8,62.9,141.8,123.4c-0.2,75.3-92.1,110.5-92.1,110.5S776.5,760,796.2,792.7l-119.5-0.5
+      c-20.2-29.2-50.2-101.6-90.6-168c-11.9,0-32.5,0-42.3,0v168h-86.9V384.8L624.4,384.3z M608.9,558.3c37.3-3,67.8-20.8,67.8-49.1
+      c0-29.7-12.4-43.6-48.1-48.1c-25.9-3.5-54.8-4.5-84.9-4.5v104.1C565.4,560.7,587.6,560.2,608.9,558.3z"/>
+    <path d="M934.2,792.2h-86.9V384.3h86.9V792.2z"/>
+    <path d="M1161,447.5c-35.2-0.5-51.6,33.9-52.1,56.2C1112,559,1300,553.5,1300,670c0,4,0.9,16.6-0.2,20.6
+      c-6.2,58.5-73.3,105.8-136.6,105.6c-56.3-1.2-87.1,5.7-156.5-49.4l54.1-54.1c18.1,16.9,54.6,37.8,92.9,37.8
+      c38.8,0,60.3-30.4,60.3-57.2c0-59-190-46-190-170.5c0-60.5,55.1-126.6,138.9-126.6c48.6,0,96,8,136.8,44.9l-52.1,59.2
+      C1224.5,456.4,1191.5,448,1161,447.5z"/>
+    <path d="M1575.6,790.7l-115.1-293.1l3.8,294.6h-82V384.3h130L1609,657l98.3-272.7H1836v407.9h-81.7l-3.1-296.7l-116.1,295.2
+      H1575.6z"/>
+  </g>
+</svg>
+						</a>
+
+						<div class="status" id="indicators">
+						<span id="xhr_poll_status" style="display:none" onclick="XHR.running() ? XHR.halt() : XHR.run()">
+							<span class="label success" id="xhr_poll_status_on"><span class="mobile-hide"><%:Auto Refresh%></span> <%:on%></span>
+							<span class="label" id="xhr_poll_status_off" style="display:none"><span class="mobile-hide"><%:Auto Refresh%></span> <%:off%></span>
+						</span>
+					</div>
+					</div>
+				</div>
+			</header>
+			<div class="darkMask"></div>
+			<div id="maincontent">
+				<div class="container">
+					<%- if luci.sys.process.info("uid") == 0 and luci.sys.user.getuser("root") and not luci.sys.user.getpasswd("root") then -%>
+					<div class="alert-message error">
+						<h4><%:No password set!%></h4>
+						<p><%:There is no password set on this router. Please configure a root password to protect the web interface.%>
+						</p>
+						<% if disp.lookup("admin/system/admin") then %>
+						<div class="right"><a class="btn"
+								href="<%=url("admin/system/admin")%>"><%:Go to password configuration...%></a></div>
+						<% end %>
+					</div>
+					<%- end -%>
+
+					<noscript>
+						<div class="alert-message error">
+							<h4><%:JavaScript required!%></h4>
+							<p><%:You must enable JavaScript in your browser or LuCI will not work properly.%></p>
+						</div>
+					</noscript>
+
+					<div id="tabmenu" style="display:none"></div>
