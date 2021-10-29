@@ -707,6 +707,7 @@ msgstr "Hiteles"
 msgid "Authorization Required"
 msgstr "Hitelesítés szükséges"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "Auto Refresh"
 msgstr "Automatikus frissítés"
@@ -2227,6 +2228,7 @@ msgstr "Globális beállítások"
 msgid "Global network options"
 msgstr "Globális hálózati beállítások"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -2810,6 +2812,10 @@ msgstr "Érvénytelen hexadecimális érték"
 msgid "Invalid username and/or password! Please try again."
 msgstr "Érvénytelen felhasználónév és/vagy jelszó! Próbálja újra."
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
+msgid "Invalid username or password!"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 msgid "Isolate Clients"
 msgstr "Ügyfelek elszigetelése"
@@ -2822,6 +2828,7 @@ msgstr ""
 "Úgy tűnik, hogy olyan képfájlt próbál beírni, amely nem fér bele a flash-"
 "memóriába. Ellenőrizze a képfájlt!"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -3188,6 +3195,7 @@ msgid "Logical network to which the tunnel will be added (bridged) (optional)."
 msgstr ""
 
 #: modules/luci-base/luasrc/view/sysauth.htm
+#: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
 msgid "Login"
 msgstr "Bejelentkezés"
 
@@ -3615,6 +3623,7 @@ msgstr "Nincs egyező előtag-delegálás"
 msgid "No negative cache"
 msgstr "Nincs negatív gyorsítótár"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -5626,6 +5635,7 @@ msgstr "Nincsenek aktív bérletek"
 msgid "There are no changes to apply"
 msgstr "Nincsenek alkalmazandó változtatások"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -6395,6 +6405,7 @@ msgid ""
 "You can only upload official Prism firmware supplied by Silla Industries."
 msgstr ""
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -6571,10 +6582,12 @@ msgstr "nincs jelen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "off"
 msgstr "ki"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "on"
 msgstr "be"

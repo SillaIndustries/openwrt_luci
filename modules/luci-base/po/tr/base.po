@@ -698,6 +698,7 @@ msgstr "Yetkili"
 msgid "Authorization Required"
 msgstr "İzin Gerekli"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "Auto Refresh"
 msgstr "Otomatik Yenileme"
@@ -2204,6 +2205,7 @@ msgstr "Genel Ayarlar"
 msgid "Global network options"
 msgstr "Genel ağ seçenekleri"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -2783,6 +2785,10 @@ msgstr "Geçersiz onaltılık değer"
 msgid "Invalid username and/or password! Please try again."
 msgstr "Geçersiz kullanıcı adı ve/veya şifre! Lütfen tekrar deneyin."
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
+msgid "Invalid username or password!"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 msgid "Isolate Clients"
 msgstr "İstemcileri İzole Et"
@@ -2795,6 +2801,7 @@ msgstr ""
 "Flash belleğe sığmayan bir görüntüyü flaş etmeye çalıştığınız anlaşılıyor, "
 "lütfen görüntü dosyasını doğrulayın!"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -3159,6 +3166,7 @@ msgid "Logical network to which the tunnel will be added (bridged) (optional)."
 msgstr "Tünelin ekleneceği mantıksal ağ (köprülü) (isteğe bağlı)."
 
 #: modules/luci-base/luasrc/view/sysauth.htm
+#: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
 msgid "Login"
 msgstr "Oturum Aç"
 
@@ -3586,6 +3594,7 @@ msgstr "Eşleşen önek yetkisi yok"
 msgid "No negative cache"
 msgstr "Negatif önbellek yok"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -5589,6 +5598,7 @@ msgstr "Aktif kira yok"
 msgid "There are no changes to apply"
 msgstr "Uygulanabilecek değişiklik yok"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -6349,6 +6359,7 @@ msgid ""
 "You can only upload official Prism firmware supplied by Silla Industries."
 msgstr ""
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -6525,10 +6536,12 @@ msgstr "mevcut değil"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "off"
 msgstr "kapalı"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "on"
 msgstr "açık"

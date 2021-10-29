@@ -681,6 +681,7 @@ msgstr "Autoritativ"
 msgid "Authorization Required"
 msgstr "Autorisasjon er nødvendig"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "Auto Refresh"
 msgstr "Automatisk oppdatering"
@@ -2157,6 +2158,7 @@ msgstr ""
 msgid "Global network options"
 msgstr ""
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -2723,6 +2725,10 @@ msgstr ""
 msgid "Invalid username and/or password! Please try again."
 msgstr "Ugyldig brukernavn og/eller passord! Vennligst prøv igjen."
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
+msgid "Invalid username or password!"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
 msgid "Isolate Clients"
 msgstr ""
@@ -2736,6 +2742,7 @@ msgstr ""
 "Det virker som du prøver å flashe med en firmware som ikke passer inn i "
 "flash-minnet, vennligst kontroller firmware filen!"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -3089,6 +3096,7 @@ msgid "Logical network to which the tunnel will be added (bridged) (optional)."
 msgstr ""
 
 #: modules/luci-base/luasrc/view/sysauth.htm
+#: themes/luci-theme-argon/luasrc/view/themes/argon/sysauth.htm
 msgid "Login"
 msgstr "Logg inn"
 
@@ -3514,6 +3522,7 @@ msgstr ""
 msgid "No negative cache"
 msgstr "Ingen negative cache"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -5441,6 +5450,7 @@ msgstr ""
 msgid "There are no changes to apply"
 msgstr ""
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -6186,6 +6196,7 @@ msgid ""
 "You can only upload official Prism firmware supplied by Silla Industries."
 msgstr ""
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-bootstrap/luasrc/view/themes/bootstrap/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 #: themes/luci-theme-openwrt/luasrc/view/themes/openwrt.org/header.htm
@@ -6362,10 +6373,12 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "off"
 msgstr "av"
 
+#: themes/luci-theme-argon/luasrc/view/themes/argon/header.htm
 #: themes/luci-theme-material/luasrc/view/themes/material/header.htm
 msgid "on"
 msgstr "på"
