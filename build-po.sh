@@ -28,7 +28,7 @@ lang=${local_path##*/po/}
 poname=${local_file%.po}
 # echo ".. poname = $poname"
 
-build_file="$poname.$lang.lmo"
+build_file="$poname.po.$lang.lmo"
 # echo ".. build_file = $build_file"
 
 mkdir -p .lmobuild
